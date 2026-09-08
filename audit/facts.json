@@ -1,0 +1,6212 @@
+{
+ "actions": [
+  {
+   "audit": true,
+   "borne": true,
+   "file": "src/actions/admin.ts",
+   "guard": true,
+   "line": 19,
+   "lines": 42,
+   "lock": true,
+   "name": "updateOrderStatusAction",
+   "origin": false,
+   "rate": false,
+   "reval": true,
+   "tx": true,
+   "use": true,
+   "write": true,
+   "zod": true
+  },
+  {
+   "audit": false,
+   "borne": true,
+   "file": "src/actions/admin.ts",
+   "guard": true,
+   "line": 60,
+   "lines": 15,
+   "lock": false,
+   "name": "bulkOrderStatusAction",
+   "origin": false,
+   "rate": false,
+   "reval": false,
+   "tx": false,
+   "use": true,
+   "write": false,
+   "zod": false
+  },
+  {
+   "audit": false,
+   "borne": true,
+   "file": "src/actions/admin.ts",
+   "guard": true,
+   "line": 74,
+   "lines": 23,
+   "lock": false,
+   "name": "saveOrderNotesAction",
+   "origin": false,
+   "rate": false,
+   "reval": true,
+   "tx": false,
+   "use": true,
+   "write": true,
+   "zod": true
+  },
+  {
+   "audit": true,
+   "borne": false,
+   "file": "src/actions/admin.ts",
+   "guard": true,
+   "line": 96,
+   "lines": 37,
+   "lock": false,
+   "name": "saveProductAction",
+   "origin": false,
+   "rate": false,
+   "reval": true,
+   "tx": true,
+   "use": true,
+   "write": true,
+   "zod": true
+  },
+  {
+   "audit": true,
+   "borne": false,
+   "file": "src/actions/admin.ts",
+   "guard": true,
+   "line": 132,
+   "lines": 23,
+   "lock": true,
+   "name": "adjustStockAction",
+   "origin": false,
+   "rate": false,
+   "reval": true,
+   "tx": true,
+   "use": true,
+   "write": false,
+   "zod": true
+  },
+  {
+   "audit": true,
+   "borne": false,
+   "file": "src/actions/admin.ts",
+   "guard": true,
+   "line": 154,
+   "lines": 27,
+   "lock": false,
+   "name": "savePromotionAction",
+   "origin": false,
+   "rate": false,
+   "reval": true,
+   "tx": false,
+   "use": true,
+   "write": true,
+   "zod": true
+  },
+  {
+   "audit": true,
+   "borne": false,
+   "file": "src/actions/admin.ts",
+   "guard": true,
+   "line": 180,
+   "lines": 10,
+   "lock": false,
+   "name": "deletePromotionAction",
+   "origin": false,
+   "rate": false,
+   "reval": true,
+   "tx": false,
+   "use": true,
+   "write": true,
+   "zod": false
+  },
+  {
+   "audit": true,
+   "borne": false,
+   "file": "src/actions/admin.ts",
+   "guard": true,
+   "line": 189,
+   "lines": 17,
+   "lock": false,
+   "name": "moderateReviewAction",
+   "origin": false,
+   "rate": false,
+   "reval": true,
+   "tx": true,
+   "use": true,
+   "write": true,
+   "zod": false
+  },
+  {
+   "audit": true,
+   "borne": false,
+   "file": "src/actions/admin.ts",
+   "guard": true,
+   "line": 205,
+   "lines": 11,
+   "lock": false,
+   "name": "replyTicketAction",
+   "origin": false,
+   "rate": false,
+   "reval": true,
+   "tx": false,
+   "use": true,
+   "write": true,
+   "zod": false
+  },
+  {
+   "audit": false,
+   "borne": true,
+   "file": "src/actions/admin.ts",
+   "guard": true,
+   "line": 215,
+   "lines": 17,
+   "lock": false,
+   "name": "saveArticleAction",
+   "origin": false,
+   "rate": false,
+   "reval": true,
+   "tx": false,
+   "use": true,
+   "write": true,
+   "zod": false
+  },
+  {
+   "audit": false,
+   "borne": false,
+   "file": "src/actions/admin.ts",
+   "guard": true,
+   "line": 231,
+   "lines": 18,
+   "lock": false,
+   "name": "saveStoreAction",
+   "origin": false,
+   "rate": false,
+   "reval": true,
+   "tx": false,
+   "use": true,
+   "write": true,
+   "zod": false
+  },
+  {
+   "audit": true,
+   "borne": false,
+   "file": "src/actions/admin.ts",
+   "guard": true,
+   "line": 248,
+   "lines": 16,
+   "lock": false,
+   "name": "updateUserRoleAction",
+   "origin": false,
+   "rate": false,
+   "reval": true,
+   "tx": false,
+   "use": true,
+   "write": true,
+   "zod": true
+  },
+  {
+   "audit": false,
+   "borne": true,
+   "file": "src/actions/admin.ts",
+   "guard": true,
+   "line": 263,
+   "lines": 11,
+   "lock": false,
+   "name": "saveCustomerNoteAction",
+   "origin": false,
+   "rate": false,
+   "reval": true,
+   "tx": false,
+   "use": true,
+   "write": true,
+   "zod": false
+  },
+  {
+   "audit": false,
+   "borne": false,
+   "file": "src/actions/admin.ts",
+   "guard": true,
+   "line": 273,
+   "lines": 5,
+   "lock": false,
+   "name": "recentOrdersForExport",
+   "origin": false,
+   "rate": false,
+   "reval": false,
+   "tx": false,
+   "use": true,
+   "write": false,
+   "zod": false
+  },
+  {
+   "audit": false,
+   "borne": false,
+   "file": "src/actions/auth.ts",
+   "guard": false,
+   "line": 15,
+   "lines": 14,
+   "lock": false,
+   "name": "loginAction",
+   "origin": true,
+   "rate": true,
+   "reval": false,
+   "tx": false,
+   "use": true,
+   "write": false,
+   "zod": true
+  },
+  {
+   "audit": false,
+   "borne": false,
+   "file": "src/actions/auth.ts",
+   "guard": false,
+   "line": 28,
+   "lines": 13,
+   "lock": false,
+   "name": "registerAction",
+   "origin": true,
+   "rate": true,
+   "reval": false,
+   "tx": false,
+   "use": true,
+   "write": true,
+   "zod": true
+  },
+  {
+   "audit": false,
+   "borne": false,
+   "file": "src/actions/auth.ts",
+   "guard": false,
+   "line": 40,
+   "lines": 6,
+   "lock": false,
+   "name": "logoutAction",
+   "origin": false,
+   "rate": false,
+   "reval": false,
+   "tx": false,
+   "use": true,
+   "write": false,
+   "zod": false
+  },
+  {
+   "audit": false,
+   "borne": false,
+   "file": "src/actions/auth.ts",
+   "guard": true,
+   "line": 45,
+   "lines": 11,
+   "lock": false,
+   "name": "updateProfileAction",
+   "origin": false,
+   "rate": false,
+   "reval": true,
+   "tx": false,
+   "use": true,
+   "write": true,
+   "zod": true
+  },
+  {
+   "audit": false,
+   "borne": false,
+   "file": "src/actions/auth.ts",
+   "guard": true,
+   "line": 55,
+   "lines": 19,
+   "lock": false,
+   "name": "changePasswordAction",
+   "origin": false,
+   "rate": false,
+   "reval": false,
+   "tx": true,
+   "use": true,
+   "write": true,
+   "zod": true
+  },
+  {
+   "audit": false,
+   "borne": false,
+   "file": "src/actions/auth.ts",
+   "guard": true,
+   "line": 73,
+   "lines": 28,
+   "lock": false,
+   "name": "saveAddressAction",
+   "origin": false,
+   "rate": false,
+   "reval": true,
+   "tx": true,
+   "use": true,
+   "write": true,
+   "zod": true
+  },
+  {
+   "audit": true,
+   "borne": false,
+   "file": "src/actions/auth.ts",
+   "guard": true,
+   "line": 100,
+   "lines": 9,
+   "lock": false,
+   "name": "deleteAddressAction",
+   "origin": false,
+   "rate": false,
+   "reval": true,
+   "tx": false,
+   "use": true,
+   "write": true,
+   "zod": false
+  },
+  {
+   "audit": false,
+   "borne": false,
+   "file": "src/actions/checkout.ts",
+   "guard": true,
+   "line": 41,
+   "lines": 111,
+   "lock": true,
+   "name": "placeOrderAction",
+   "origin": true,
+   "rate": true,
+   "reval": true,
+   "tx": true,
+   "use": true,
+   "write": true,
+   "zod": true
+  },
+  {
+   "audit": true,
+   "borne": false,
+   "file": "src/actions/checkout.ts",
+   "guard": true,
+   "line": 151,
+   "lines": 29,
+   "lock": true,
+   "name": "cancelOrderAction",
+   "origin": false,
+   "rate": false,
+   "reval": true,
+   "tx": true,
+   "use": true,
+   "write": true,
+   "zod": false
+  },
+  {
+   "audit": true,
+   "borne": true,
+   "file": "src/actions/checkout.ts",
+   "guard": true,
+   "line": 179,
+   "lines": 24,
+   "lock": true,
+   "name": "requestReturnAction",
+   "origin": false,
+   "rate": false,
+   "reval": true,
+   "tx": true,
+   "use": true,
+   "write": false,
+   "zod": false
+  },
+  {
+   "audit": false,
+   "borne": false,
+   "file": "src/actions/shop.ts",
+   "guard": true,
+   "line": 14,
+   "lines": 21,
+   "lock": false,
+   "name": "toggleWishlistAction",
+   "origin": false,
+   "rate": false,
+   "reval": true,
+   "tx": false,
+   "use": true,
+   "write": true,
+   "zod": false
+  },
+  {
+   "audit": false,
+   "borne": false,
+   "file": "src/actions/shop.ts",
+   "guard": true,
+   "line": 34,
+   "lines": 14,
+   "lock": false,
+   "name": "submitReviewAction",
+   "origin": false,
+   "rate": true,
+   "reval": false,
+   "tx": false,
+   "use": true,
+   "write": true,
+   "zod": true
+  },
+  {
+   "audit": false,
+   "borne": false,
+   "file": "src/actions/shop.ts",
+   "guard": true,
+   "line": 47,
+   "lines": 21,
+   "lock": false,
+   "name": "validatePromoAction",
+   "origin": false,
+   "rate": true,
+   "reval": false,
+   "tx": false,
+   "use": true,
+   "write": false,
+   "zod": true
+  },
+  {
+   "audit": false,
+   "borne": false,
+   "file": "src/actions/shop.ts",
+   "guard": false,
+   "line": 67,
+   "lines": 11,
+   "lock": false,
+   "name": "subscribeNewsletterAction",
+   "origin": false,
+   "rate": true,
+   "reval": false,
+   "tx": false,
+   "use": true,
+   "write": true,
+   "zod": true
+  },
+  {
+   "audit": false,
+   "borne": false,
+   "file": "src/actions/shop.ts",
+   "guard": true,
+   "line": 77,
+   "lines": 10,
+   "lock": false,
+   "name": "createTicketAction",
+   "origin": false,
+   "rate": true,
+   "reval": false,
+   "tx": false,
+   "use": true,
+   "write": true,
+   "zod": true
+  },
+  {
+   "audit": false,
+   "borne": true,
+   "file": "src/actions/shop.ts",
+   "guard": true,
+   "line": 86,
+   "lines": 11,
+   "lock": false,
+   "name": "logSearchAction",
+   "origin": false,
+   "rate": true,
+   "reval": false,
+   "tx": false,
+   "use": true,
+   "write": true,
+   "zod": false
+  }
+ ],
+ "apis": [
+  {
+   "file": "src/app/api/admin/export/[kind]/route.ts",
+   "line": 7,
+   "method": "GET",
+   "path": "/api/api/admin/export/:kind"
+  },
+  {
+   "file": "src/app/api/health/route.ts",
+   "line": 6,
+   "method": "GET",
+   "path": "/api/api/health"
+  },
+  {
+   "file": "src/app/api/orders/[number]/invoice/route.ts",
+   "line": 21,
+   "method": "GET",
+   "path": "/api/api/orders/:number/invoice"
+  },
+  {
+   "file": "src/app/api/products/route.ts",
+   "line": 4,
+   "method": "GET",
+   "path": "/api/api/products"
+  },
+  {
+   "file": "src/app/api/search/route.ts",
+   "line": 5,
+   "method": "GET",
+   "path": "/api/api/search"
+  }
+ ],
+ "articles": [
+  {
+   "minutes": 5,
+   "slug": "routine-minimaliste-peau-sensible",
+   "tag": "Visage",
+   "title": "La routine minimaliste pour peau sensible"
+  },
+  {
+   "minutes": 6,
+   "slug": "choisir-sa-protection-solaire-en-tunisie",
+   "tag": "Solaire",
+   "title": "Choisir sa protection solaire en Tunisie"
+  },
+  {
+   "minutes": 4,
+   "slug": "chute-de-cheveux-saisonniere",
+   "tag": "Cheveux",
+   "title": "Chute de cheveux saisonnière : agir sans paniquer"
+  },
+  {
+   "minutes": 3,
+   "slug": "vitamine-d-en-hiver",
+   "tag": "Compléments",
+   "title": "Vitamine D : pourquoi en manquer même au soleil"
+  }
+ ],
+ "besoins": [
+  {
+   "name": "Peau sensible",
+   "slug": "peau-sensible"
+  },
+  {
+   "name": "Peau sèche",
+   "slug": "peau-seche"
+  },
+  {
+   "name": "Imperfections & acné",
+   "slug": "acne"
+  },
+  {
+   "name": "Anti-âge",
+   "slug": "anti-age"
+  },
+  {
+   "name": "Taches pigmentaires",
+   "slug": "taches"
+  },
+  {
+   "name": "Hydratation",
+   "slug": "hydratation"
+  },
+  {
+   "name": "Chute de cheveux",
+   "slug": "chute-de-cheveux"
+  },
+  {
+   "name": "Pellicules",
+   "slug": "pellicules"
+  },
+  {
+   "name": "Protection solaire",
+   "slug": "protection-solaire"
+  },
+  {
+   "name": "Immunité & vitalité",
+   "slug": "immunite"
+  },
+  {
+   "name": "Sommeil & stress",
+   "slug": "sommeil"
+  }
+ ],
+ "boutiques": [
+  {
+   "address": "Avenue Habib Bourguiba, face à la municipalité",
+   "city": "Ezzahra",
+   "hours": "Lun–Sam 8h30–20h30 · Dim 9h–14h",
+   "name": "Cléopâtre Ezzahra",
+   "phone": "71450210",
+   "slug": "ezzahra"
+  },
+  {
+   "address": "Rue de la République, centre-ville",
+   "city": "Hammam-Lif",
+   "hours": "Lun–Sam 8h30–20h · Dim 9h–13h",
+   "name": "Cléopâtre Hammam-Lif",
+   "phone": "71290345",
+   "slug": "hammam-lif"
+  }
+ ],
+ "composants": [
+  {
+   "client": true,
+   "file": "src/components/account/account-nav.tsx",
+   "lines": 49
+  },
+  {
+   "client": true,
+   "file": "src/components/account/auth-forms.tsx",
+   "lines": 50
+  },
+  {
+   "client": false,
+   "file": "src/components/account/auth-shell.tsx",
+   "lines": 49
+  },
+  {
+   "client": true,
+   "file": "src/components/account/order-actions.tsx",
+   "lines": 21
+  },
+  {
+   "client": true,
+   "file": "src/components/account/order-timeline.tsx",
+   "lines": 37
+  },
+  {
+   "client": true,
+   "file": "src/components/account/profile-forms.tsx",
+   "lines": 57
+  },
+  {
+   "client": true,
+   "file": "src/components/admin/admin-nav.tsx",
+   "lines": 102
+  },
+  {
+   "client": true,
+   "file": "src/components/admin/inline-actions.tsx",
+   "lines": 36
+  },
+  {
+   "client": true,
+   "file": "src/components/admin/order-controls.tsx",
+   "lines": 34
+  },
+  {
+   "client": true,
+   "file": "src/components/admin/orders-table.tsx",
+   "lines": 18
+  },
+  {
+   "client": true,
+   "file": "src/components/admin/product-form.tsx",
+   "lines": 42
+  },
+  {
+   "client": true,
+   "file": "src/components/admin/simple-forms.tsx",
+   "lines": 82
+  },
+  {
+   "client": true,
+   "file": "src/components/admin/stock-form.tsx",
+   "lines": 12
+  },
+  {
+   "client": false,
+   "file": "src/components/admin/ui.tsx",
+   "lines": 94
+  },
+  {
+   "client": true,
+   "file": "src/components/cart/cart-provider.tsx",
+   "lines": 85
+  },
+  {
+   "client": true,
+   "file": "src/components/catalog/filters.tsx",
+   "lines": 137
+  },
+  {
+   "client": false,
+   "file": "src/components/catalog/listing.tsx",
+   "lines": 56
+  },
+  {
+   "client": true,
+   "file": "src/components/catalog/product-card.tsx",
+   "lines": 124
+  },
+  {
+   "client": true,
+   "file": "src/components/catalog/recently-viewed.tsx",
+   "lines": 34
+  },
+  {
+   "client": true,
+   "file": "src/components/checkout/cart-page.tsx",
+   "lines": 47
+  },
+  {
+   "client": true,
+   "file": "src/components/checkout/checkout-flow.tsx",
+   "lines": 188
+  },
+  {
+   "client": false,
+   "file": "src/components/icons/index.tsx",
+   "lines": 200
+  },
+  {
+   "client": true,
+   "file": "src/components/motion/magnetic.tsx",
+   "lines": 28
+  },
+  {
+   "client": true,
+   "file": "src/components/motion/reveal.tsx",
+   "lines": 44
+  },
+  {
+   "client": true,
+   "file": "src/components/product/buy-box.tsx",
+   "lines": 67
+  },
+  {
+   "client": true,
+   "file": "src/components/product/review-form.tsx",
+   "lines": 30
+  },
+  {
+   "client": true,
+   "file": "src/components/shell/cart-drawer.tsx",
+   "lines": 130
+  },
+  {
+   "client": true,
+   "file": "src/components/shell/contact-form.tsx",
+   "lines": 20
+  },
+  {
+   "client": true,
+   "file": "src/components/shell/footer.tsx",
+   "lines": 107
+  },
+  {
+   "client": true,
+   "file": "src/components/shell/header.tsx",
+   "lines": 264
+  },
+  {
+   "client": true,
+   "file": "src/components/shell/hero-text.tsx",
+   "lines": 50
+  },
+  {
+   "client": false,
+   "file": "src/components/shell/page-intro.tsx",
+   "lines": 46
+  },
+  {
+   "client": true,
+   "file": "src/components/shell/search-overlay.tsx",
+   "lines": 128
+  },
+  {
+   "client": false,
+   "file": "src/components/ui/primitives.tsx",
+   "lines": 143
+  },
+  {
+   "client": true,
+   "file": "src/components/ui/stars.tsx",
+   "lines": 38
+  },
+  {
+   "client": true,
+   "file": "src/components/ui/toaster.tsx",
+   "lines": 59
+  }
+ ],
+ "derives": {
+  "dirty": "1 file changed, 28 insertions(+)",
+  "en_promo": 17,
+  "faible_stock_simule": 10,
+  "git": [
+   "d089989 Initial commit"
+  ],
+  "images": 81,
+  "labels_statuts": {
+   "cancelled": "Annulée",
+   "confirmed": "Confirmée",
+   "delivered": "Livrée",
+   "pending": "En attente",
+   "preparing": "En préparation",
+   "returned": "Retournée",
+   "shipped": "Expédiée"
+  },
+  "motifs_rejet": [
+   "Aucun article éligible à ce code.",
+   "Ce code a atteint sa limite d'utilisation.",
+   "Ce code a expiré.",
+   "Ce code n'est pas encore actif.",
+   "Ce code n'est pas valide.",
+   "Code requis.",
+   "Vous avez déjà utilisé ce code."
+  ],
+  "nouveautes": 3,
+  "order_flow": [
+   "pending",
+   "confirmed",
+   "preparing",
+   "shipped",
+   "delivered"
+  ],
+  "par_besoin": {
+   "acne": 8,
+   "anti-age": 13,
+   "chute-de-cheveux": 4,
+   "hydratation": 17,
+   "immunite": 5,
+   "peau-seche": 12,
+   "peau-sensible": 24,
+   "pellicules": 2,
+   "protection-solaire": 10,
+   "sommeil": 2,
+   "taches": 4
+  },
+  "par_dossier": {
+   "actions": 683,
+   "app": 2597,
+   "components": 2708,
+   "db": 1015,
+   "lib": 1420
+  },
+  "par_marque": {
+   "arkopharma": 7,
+   "avene": 8,
+   "bioderma": 8,
+   "caudalie": 4,
+   "cerave": 2,
+   "ducray": 4,
+   "eucerin": 3,
+   "filorga": 3,
+   "isdin": 2,
+   "klorane": 3,
+   "la-roche-posay": 15,
+   "mustela": 5,
+   "nuxe": 5,
+   "svr": 2,
+   "uriage": 3,
+   "vichy": 7
+  },
+  "par_univers": {
+   "bebe-maman": 6,
+   "cheveux": 11,
+   "complements": 7,
+   "corps": 13,
+   "hygiene": 6,
+   "solaire": 12,
+   "visage": 26
+  },
+  "prix_max": 249.0,
+  "prix_median": 52.0,
+  "prix_min": 14.9,
+  "prix_moyen": 64.019,
+  "promo_moyenne_pct": 10.7,
+  "ruptures_simulees": 8,
+  "seuls_sans_image": 0,
+  "territoires": [
+   [
+    "Ariana",
+    6,
+    "24–48 h"
+   ],
+   [
+    "Béja",
+    0,
+    "48–72 h"
+   ],
+   [
+    "Ben Arous",
+    10,
+    "24–48 h"
+   ],
+   [
+    "Bizerte",
+    4,
+    "48–72 h"
+   ],
+   [
+    "Gabès",
+    0,
+    "48–72 h"
+   ],
+   [
+    "Gafsa",
+    0,
+    "48–72 h"
+   ],
+   [
+    "Jendouba",
+    0,
+    "48–72 h"
+   ],
+   [
+    "Kairouan",
+    0,
+    "48–72 h"
+   ],
+   [
+    "Kasserine",
+    0,
+    "48–72 h"
+   ],
+   [
+    "Kébili",
+    0,
+    "48–72 h"
+   ],
+   [
+    "Le Kef",
+    0,
+    "48–72 h"
+   ],
+   [
+    "Mahdia",
+    0,
+    "48–72 h"
+   ],
+   [
+    "La Manouba",
+    4,
+    "24–48 h"
+   ],
+   [
+    "Médenine",
+    0,
+    "48–72 h"
+   ],
+   [
+    "Monastir",
+    4,
+    "48–72 h"
+   ],
+   [
+    "Nabeul",
+    6,
+    "48–72 h"
+   ],
+   [
+    "Sfax",
+    4,
+    "48–72 h"
+   ],
+   [
+    "Sidi Bouzid",
+    0,
+    "48–72 h"
+   ],
+   [
+    "Siliana",
+    0,
+    "48–72 h"
+   ],
+   [
+    "Sousse",
+    5,
+    "48–72 h"
+   ],
+   [
+    "Tataouine",
+    0,
+    "48–72 h"
+   ],
+   [
+    "Tozeur",
+    0,
+    "48–72 h"
+   ],
+   [
+    "Tunis",
+    10,
+    "24–48 h"
+   ],
+   [
+    "Zaghouan",
+    0,
+    "48–72 h"
+   ]
+  ],
+  "top_fichiers": [
+   [
+    571,
+    "src/db/schema.ts"
+   ],
+   [
+    339,
+    "src/db/seed.ts"
+   ],
+   [
+    314,
+    "src/app/(site)/page.tsx"
+   ],
+   [
+    277,
+    "src/actions/admin.ts"
+   ],
+   [
+    264,
+    "src/components/shell/header.tsx"
+   ],
+   [
+    233,
+    "src/lib/invoice-pdf.ts"
+   ],
+   [
+    202,
+    "src/actions/checkout.ts"
+   ],
+   [
+    200,
+    "src/components/icons/index.tsx"
+   ]
+  ],
+  "total_pages_120": 0,
+  "transitions_map": {
+   "cancelled": [],
+   "confirmed": [
+    "preparing",
+    "cancelled"
+   ],
+   "delivered": [
+    "returned"
+   ],
+   "pending": [
+    "confirmed",
+    "cancelled"
+   ],
+   "preparing": [
+    "shipped",
+    "cancelled"
+   ],
+   "returned": [],
+   "shipped": [
+    "delivered",
+    "returned"
+   ]
+  },
+  "valeurs": 5185.499999999998,
+  "vedettes": 13
+ },
+ "enums": {
+  "movement_type": {
+   "line": 34,
+   "ts": "movementTypeEnum",
+   "values": [
+    "in",
+    "out",
+    "adjust",
+    "sale",
+    "restock",
+    "return"
+   ]
+  },
+  "order_status": {
+   "line": 20,
+   "ts": "orderStatusEnum",
+   "values": [
+    "pending",
+    "confirmed",
+    "preparing",
+    "shipped",
+    "delivered",
+    "cancelled",
+    "returned"
+   ]
+  },
+  "payment_method": {
+   "line": 29,
+   "ts": "paymentMethodEnum",
+   "values": [
+    "cod",
+    "bank_transfer",
+    "card",
+    "gift_card"
+   ]
+  },
+  "payment_status": {
+   "line": 30,
+   "ts": "paymentStatusEnum",
+   "values": [
+    "pending",
+    "paid",
+    "refunded",
+    "failed"
+   ]
+  },
+  "product_status": {
+   "line": 19,
+   "ts": "productStatusEnum",
+   "values": [
+    "draft",
+    "active",
+    "archived"
+   ]
+  },
+  "promo_type": {
+   "line": 32,
+   "ts": "promoTypeEnum",
+   "values": [
+    "percent",
+    "fixed",
+    "free_shipping"
+   ]
+  },
+  "review_status": {
+   "line": 33,
+   "ts": "reviewStatusEnum",
+   "values": [
+    "pending",
+    "approved",
+    "rejected"
+   ]
+  },
+  "shipping_method": {
+   "line": 31,
+   "ts": "shippingMethodEnum",
+   "values": [
+    "standard",
+    "express",
+    "pickup"
+   ]
+  },
+  "ticket_status": {
+   "line": 35,
+   "ts": "ticketStatusEnum",
+   "values": [
+    "open",
+    "answered",
+    "closed"
+   ]
+  },
+  "user_role": {
+   "line": 18,
+   "ts": "userRoleEnum",
+   "values": [
+    "customer",
+    "support",
+    "admin"
+   ]
+  }
+ },
+ "faits": {
+  "accueil_marques": {
+   "gisement": "src/app/(site)/page.tsx",
+   "valeur": 6
+  },
+  "accueil_promos": {
+   "gisement": "src/app/(site)/page.tsx",
+   "valeur": 4
+  },
+  "accueil_requetes": {
+   "gisement": "src/app/(site)/page.tsx",
+   "valeur": 1
+  },
+  "accueil_vedettes": {
+   "gisement": "src/app/(site)/page.tsx",
+   "valeur": 8
+  },
+  "actions": {
+   "gisement": "src/actions/*.ts",
+   "valeur": 30
+  },
+  "actions_admin": {
+   "gisement": "src/actions/admin.ts",
+   "valeur": 14
+  },
+  "actions_audit": {
+   "gisement": "src/actions/*.ts",
+   "valeur": 11
+  },
+  "actions_borne": {
+   "gisement": "src/actions/*.ts",
+   "valeur": 7
+  },
+  "actions_ecriture": {
+   "gisement": "src/actions/*.ts",
+   "valeur": 23
+  },
+  "actions_ecriture_non_gardees": {
+   "gisement": "src/actions/*.ts",
+   "valeur": 2
+  },
+  "actions_ecriture_sans_garde_ni_limite": {
+   "gisement": "src/actions/*.ts",
+   "valeur": 0
+  },
+  "actions_ecriture_sans_zod": {
+   "gisement": "src/actions/*.ts",
+   "valeur": 10
+  },
+  "actions_ecritures_publiques": {
+   "gisement": "src/actions/*.ts",
+   "valeur": 2
+  },
+  "actions_garde": {
+   "gisement": "src/actions/*.ts",
+   "valeur": 26
+  },
+  "actions_lecture_seule": {
+   "gisement": "src/actions/*.ts",
+   "valeur": 1
+  },
+  "actions_lock": {
+   "gisement": "src/actions/*.ts",
+   "valeur": 5
+  },
+  "actions_origin": {
+   "gisement": "src/actions/*.ts",
+   "valeur": 3
+  },
+  "actions_rate": {
+   "gisement": "src/actions/*.ts",
+   "valeur": 8
+  },
+  "actions_reval": {
+   "gisement": "src/actions/*.ts",
+   "valeur": 19
+  },
+  "actions_tx": {
+   "gisement": "src/actions/*.ts",
+   "valeur": 9
+  },
+  "actions_zod": {
+   "gisement": "src/actions/*.ts",
+   "valeur": 16
+  },
+  "aria_label_total": {
+   "gisement": "src/components/**.tsx",
+   "valeur": 47
+  },
+  "articles": {
+   "gisement": "src/db/seed.ts",
+   "valeur": 4
+  },
+  "besoins": {
+   "gisement": "src/db/seed.ts",
+   "valeur": 11
+  },
+  "bits_session": {
+   "gisement": "src/lib/auth.ts:29",
+   "valeur": 256
+  },
+  "boutiques": {
+   "gisement": "src/db/seed.ts",
+   "valeur": 2
+  },
+  "boutons": {
+   "gisement": "src/components/**.tsx",
+   "valeur": 81
+  },
+  "catalogue_par_page": {
+   "gisement": "src/lib/catalog.ts:100",
+   "valeur": 24
+  },
+  "catalogue_par_page_plafond": {
+   "gisement": "src/lib/catalog.ts:100",
+   "valeur": 48
+  },
+  "categories_total": {
+   "gisement": "src/db/seed.ts:104 (7 univers + 29 sous-catégories)",
+   "valeur": 36
+  },
+  "cle_etrangeres": {
+   "gisement": "src/db/schema.ts",
+   "valeur": 19
+  },
+  "colonnes": {
+   "gisement": "src/db/schema.ts",
+   "valeur": 202
+  },
+  "colonnes_non_null": {
+   "gisement": "src/db/schema.ts",
+   "valeur": 123
+  },
+  "commits": {
+   "gisement": "git log --oneline",
+   "valeur": 1
+  },
+  "composants": {
+   "gisement": "src/components/**/*.tsx",
+   "valeur": 36
+  },
+  "composants_admin": {
+   "gisement": "src/components/admin",
+   "valeur": 8
+  },
+  "composants_client": {
+   "gisement": "src/components/**/*.tsx",
+   "valeur": 30
+  },
+  "composants_dossiers": {
+   "gisement": "src/components",
+   "valeur": 10
+  },
+  "contraintes_check": {
+   "gisement": "src/db/schema.ts",
+   "valeur": 0
+  },
+  "cookie_httponly": {
+   "gisement": "src/lib/auth.ts",
+   "valeur": true
+  },
+  "cookie_nom": {
+   "gisement": "src/lib/auth.ts:11",
+   "valeur": "cleo_session"
+  },
+  "cookie_samesite": {
+   "gisement": "src/lib/auth.ts",
+   "valeur": "lax"
+  },
+  "cookie_secure_prod": {
+   "gisement": "src/lib/auth.ts",
+   "valeur": true
+  },
+  "courbe_ease_exit": {
+   "gisement": "src/lib/motion.ts:5",
+   "valeur": [
+    0.55,
+    0.0,
+    1.0,
+    0.45
+   ]
+  },
+  "courbe_ease_luxe": {
+   "gisement": "src/lib/motion.ts:4",
+   "valeur": [
+    0.22,
+    1.0,
+    0.36,
+    1.0
+   ]
+  },
+  "decimales_monnaie": {
+   "gisement": "src/lib/money.ts:9",
+   "valeur": 3
+  },
+  "defautRECHERCHE": {
+   "gisement": "src/lib/catalog.ts:179",
+   "valeur": 6
+  },
+  "defautRELATED": {
+   "gisement": "src/lib/catalog.ts:137",
+   "valeur": 4
+  },
+  "defautVEDETTES": {
+   "gisement": "src/lib/catalog.ts:145",
+   "valeur": 8
+  },
+  "delais_livraison": {
+   "gisement": "src/lib/tunisia.ts",
+   "valeur": [
+    "Livraison 24–48 h",
+    "Livraison 48–72 h",
+    "Livraison sous 24 h",
+    "Retrait sous 2 h en boutique"
+   ]
+  },
+  "delais_multiples": {
+   "gisement": "src/lib/tunisia.ts",
+   "valeur": 2
+  },
+  "deps": {
+   "gisement": "package.json",
+   "valeur": 11
+  },
+  "deps_dev": {
+   "gisement": "package.json",
+   "valeur": 13
+  },
+  "duree_lente": {
+   "gisement": "src/lib/motion.ts:9",
+   "valeur": 0.9
+  },
+  "endpoints": {
+   "gisement": "src/app/api/**/route.ts",
+   "valeur": 5
+  },
+  "enums": {
+   "gisement": "src/db/schema.ts",
+   "valeur": 10
+  },
+  "etiquettes_statuts": {
+   "gisement": "src/lib/order-constants.ts",
+   "valeur": 1
+  },
+  "facture_format": {
+   "gisement": "src/lib/invoice-pdf.ts:6",
+   "valeur": "PDF 1.4 · A4"
+  },
+  "facture_lignes": {
+   "gisement": "src/lib/invoice-pdf.ts",
+   "valeur": 233
+  },
+  "facture_tables": {
+   "gisement": "src/lib/invoice-pdf.ts",
+   "valeur": 5
+  },
+  "fichiers_ts": {
+   "gisement": "src/**/*.ts*",
+   "valeur": 119
+  },
+  "fonctions_catalog": {
+   "gisement": "src/lib/catalog.ts",
+   "valeur": 17
+  },
+  "fonctions_money": {
+   "gisement": "src/lib/money.ts",
+   "valeur": 6
+  },
+  "fonctions_orders": {
+   "gisement": "src/lib/orders.ts",
+   "valeur": 14
+  },
+  "fonctions_promo": {
+   "gisement": "src/lib/promotions.ts",
+   "valeur": 2
+  },
+  "frais_cadeau": {
+   "gisement": "src/lib/money.ts:7",
+   "valeur": 5000
+  },
+  "frais_express": {
+   "gisement": "src/lib/money.ts:6",
+   "valeur": 12000
+  },
+  "frais_standard": {
+   "gisement": "src/lib/money.ts:5",
+   "valeur": 7000
+  },
+  "garde_min_secret": {
+   "gisement": "src/lib/env.ts",
+   "valeur": 16
+  },
+  "garde_roles": {
+   "gisement": "src/lib/auth.ts",
+   "valeur": 3
+  },
+  "gouvernorats": {
+   "gisement": "src/lib/tunisia.ts",
+   "valeur": 24
+  },
+  "gouvernorats_avec_villes": {
+   "gisement": "src/lib/tunisia.ts",
+   "valeur": 9
+  },
+  "gouvernorats_sans_villes": {
+   "gisement": "src/lib/tunisia.ts",
+   "valeur": 15
+  },
+  "grand_tunis": {
+   "gisement": "src/lib/tunisia.ts",
+   "valeur": 4
+  },
+  "hops_defaut": {
+   "gisement": "src/lib/env.ts",
+   "valeur": 1
+  },
+  "icones": {
+   "gisement": "src/components/icons/index.tsx",
+   "valeur": 53
+  },
+  "index": {
+   "gisement": "src/db/schema.ts",
+   "valeur": 50
+  },
+  "jours_session": {
+   "gisement": "src/lib/auth.ts:12",
+   "valeur": 30
+  },
+  "lignes_checkout": {
+   "gisement": "src/actions/checkout.ts",
+   "valeur": 202
+  },
+  "lignes_commande": {
+   "gisement": "src/lib/orders.ts",
+   "valeur": 178
+  },
+  "lignes_locks": {
+   "gisement": "src/**",
+   "valeur": 4
+  },
+  "lignes_migrations": {
+   "gisement": "drizzle/",
+   "valeur": 0
+  },
+  "lignes_schema": {
+   "gisement": "src/db/schema.ts",
+   "valeur": 571
+  },
+  "lignes_seed": {
+   "gisement": "src/db/seed.ts",
+   "valeur": 339
+  },
+  "lignes_ts": {
+   "gisement": "src/**/*.ts*",
+   "valeur": 8423
+  },
+  "lignes_tsx": {
+   "gisement": "src/**/*.tsx",
+   "valeur": 5170
+  },
+  "locale_monnaie": {
+   "gisement": "src/lib/money.ts:9",
+   "valeur": "fr-TN"
+  },
+  "manifest_approuves": {
+   "gisement": "public/data/product-image-manifest.json",
+   "valeur": 81
+  },
+  "manifest_dimensions": {
+   "gisement": "public/data/product-image-manifest.json",
+   "valeur": {
+    "270x960": 1,
+    "395x960": 1,
+    "513x960": 1,
+    "603x960": 1,
+    "640x960": 5,
+    "686x960": 2,
+    "743x960": 1,
+    "793x960": 1,
+    "847x960": 1,
+    "887x960": 1,
+    "893x960": 1,
+    "960x640": 1,
+    "960x714": 1,
+    "960x840": 1,
+    "960x960": 62
+   }
+  },
+  "manifest_entrees": {
+   "gisement": "public/data/product-image-manifest.json",
+   "valeur": 81
+  },
+  "manifest_qualites": {
+   "gisement": "public/data/product-image-manifest.json",
+   "valeur": {
+    "approved": 81
+   }
+  },
+  "manifest_types_source": {
+   "gisement": "public/data/product-image-manifest.json",
+   "valeur": {
+    "cleopatre": 4,
+    "generated-from-real-reference": 21,
+    "official-brand": 11,
+    "verified-retailer": 45
+   }
+  },
+  "manifest_verifyes": {
+   "gisement": "public/data/product-image-manifest.json",
+   "valeur": 81
+  },
+  "marques": {
+   "gisement": "src/db/seed.ts",
+   "valeur": 16
+  },
+  "millimes": {
+   "gisement": "src/lib/money.ts:1",
+   "valeur": 1000
+  },
+  "money_lignes": {
+   "gisement": "src/lib/money.ts",
+   "valeur": 40
+  },
+  "motifs_rejet_promo": {
+   "gisement": "src/lib/promotions.ts",
+   "valeur": 8
+  },
+  "motion_durees_s": {
+   "gisement": "src/lib/motion.ts",
+   "valeur": [
+    0.28,
+    0.32,
+    0.6,
+    0.9
+   ]
+  },
+  "motion_transition": {
+   "gisement": "src/lib/motion.ts",
+   "valeur": 6
+  },
+  "méthodes_livraison": {
+   "gisement": "src/lib/tunisia.ts",
+   "valeur": 6
+  },
+  "octets_cle_scrypt": {
+   "gisement": "src/lib/auth.ts",
+   "valeur": 64
+  },
+  "octets_sel": {
+   "gisement": "src/lib/auth.ts:15",
+   "valeur": 16
+  },
+  "octets_session": {
+   "gisement": "src/lib/auth.ts:29",
+   "valeur": 32
+  },
+  "origin_refus": {
+   "gisement": "src/lib/origin.ts",
+   "valeur": 1
+  },
+  "paiements_actifs": {
+   "gisement": "src/lib/payments.ts:24",
+   "valeur": 3
+  },
+  "paiements_actifs_liste": {
+   "gisement": "src/lib/payments.ts:24",
+   "valeur": "cod, bank_transfer, gift_card"
+  },
+  "paiements_schema": {
+   "gisement": "src/db/schema.ts",
+   "valeur": 4
+  },
+  "paliers_fidelite": {
+   "gisement": "src/lib/money.ts:37",
+   "valeur": 10000
+  },
+  "pool_max": {
+   "gisement": "src/db/index.ts:12",
+   "valeur": 10
+  },
+  "presets_motion": {
+   "gisement": "src/lib/motion.ts",
+   "valeur": 13
+  },
+  "produits": {
+   "gisement": "src/db/seed.ts",
+   "valeur": 81
+  },
+  "promotions": {
+   "gisement": "src/db/seed.ts",
+   "valeur": 5
+  },
+  "reduction_mouvement_duree_ms": {
+   "gisement": "src/app/globals.css",
+   "valeur": 0.01
+  },
+  "reduction_mouvement_fichiers": {
+   "gisement": "src/**",
+   "valeur": [
+    "src/app/globals.css"
+   ]
+  },
+  "reduction_mouvement_js": {
+   "gisement": "src/**",
+   "valeur": 26
+  },
+  "reduction_mouvement_sites": {
+   "gisement": "src/app/globals.css",
+   "valeur": 1
+  },
+  "requetes_catalog": {
+   "gisement": "src/lib/catalog.ts",
+   "valeur": 8
+  },
+  "ressort_calme": {
+   "gisement": "src/lib/motion.ts:8",
+   "valeur": [
+    180,
+    30
+   ]
+  },
+  "ressort_lent": {
+   "gisement": "src/lib/motion.ts:7",
+   "valeur": [
+    120,
+    26
+   ]
+  },
+  "rl_defaut": {
+   "gisement": "src/lib/rate-limit.ts:44",
+   "valeur": "10 / 60 s"
+  },
+  "rl_plafond_memory": {
+   "gisement": "src/lib/rate-limit.ts:24",
+   "valeur": 5000
+  },
+  "roles": {
+   "gisement": "src/db/schema.ts",
+   "valeur": 3
+  },
+  "routes": {
+   "gisement": "src/app/**/page.tsx",
+   "valeur": 43
+  },
+  "schemas_zod": {
+   "gisement": "src/lib/validation.ts",
+   "valeur": 15
+  },
+  "scripts": {
+   "gisement": "package.json",
+   "valeur": 7
+  },
+  "secrets_interdits": {
+   "gisement": "src/lib/env.ts:8",
+   "valeur": 4
+  },
+  "seed_source": {
+   "gisement": "src/db/seed.ts",
+   "valeur": "tableau littéral du script"
+  },
+  "seed_tableau_produits": {
+   "gisement": "src/db/seed.ts",
+   "valeur": 145
+  },
+  "seuil_franco": {
+   "gisement": "src/lib/money.ts:4",
+   "valeur": 99000
+  },
+  "sous_categories": {
+   "gisement": "src/db/seed.ts",
+   "valeur": 29
+  },
+  "sql_brut": {
+   "gisement": "src/**",
+   "valeur": 45
+  },
+  "statuts_avis": {
+   "gisement": "src/db/schema.ts",
+   "valeur": 3
+  },
+  "statuts_commande": {
+   "gisement": "src/db/schema.ts",
+   "valeur": 7
+  },
+  "statuts_produit": {
+   "gisement": "src/db/schema.ts",
+   "valeur": 3
+  },
+  "statuts_sans_sortie": {
+   "gisement": "src/lib/order-constants.ts",
+   "valeur": 2
+  },
+  "statuts_ticket": {
+   "gisement": "src/db/schema.ts",
+   "valeur": 3
+  },
+  "svg_decoratifs": {
+   "gisement": "src/components/**.tsx",
+   "valeur": 2
+  },
+  "svg_total": {
+   "gisement": "src/components/**.tsx",
+   "valeur": 2
+  },
+  "tables": {
+   "gisement": "src/db/schema.ts",
+   "valeur": 24
+  },
+  "tables_seed": {
+   "gisement": "src/db/seed.ts",
+   "valeur": 15
+  },
+  "territoires": {
+   "gisement": "src/lib/tunisia.ts",
+   "valeur": 24
+  },
+  "tirages_numero": {
+   "gisement": "src/lib/orders.ts:67",
+   "valeur": 5
+  },
+  "transitions": {
+   "gisement": "src/lib/order-constants.ts",
+   "valeur": 9
+  },
+  "tries_catalogue": {
+   "gisement": "src/lib/catalog.ts",
+   "valeur": 6
+  },
+  "types_mouvement": {
+   "gisement": "src/db/schema.ts",
+   "valeur": 6
+  },
+  "univers": {
+   "gisement": "src/db/seed.ts",
+   "valeur": 7
+  },
+  "ver_dotenv": {
+   "gisement": "package.json",
+   "valeur": "17.3.1"
+  },
+  "ver_drizzle_kit": {
+   "gisement": "package.json",
+   "valeur": "0.31.10"
+  },
+  "ver_drizzle_orm": {
+   "gisement": "package.json",
+   "valeur": "0.45.2"
+  },
+  "ver_embedded_postgres": {
+   "gisement": "package.json",
+   "valeur": "18.4.0-beta.17"
+  },
+  "ver_eslint": {
+   "gisement": "package.json",
+   "valeur": "9.39.4"
+  },
+  "ver_framer_motion": {
+   "gisement": "package.json",
+   "valeur": "13.2.0"
+  },
+  "ver_next": {
+   "gisement": "package.json",
+   "valeur": "16.2.6"
+  },
+  "ver_pg": {
+   "gisement": "package.json",
+   "valeur": "8.20.0"
+  },
+  "ver_react": {
+   "gisement": "package.json",
+   "valeur": "19.2.6"
+  },
+  "ver_react_dom": {
+   "gisement": "package.json",
+   "valeur": "19.2.6"
+  },
+  "ver_tailwind": {
+   "gisement": "package.json",
+   "valeur": "4.1.17"
+  },
+  "ver_tailwindcss": {
+   "gisement": "package.json",
+   "valeur": "4.1.17"
+  },
+  "ver_tsx": {
+   "gisement": "package.json",
+   "valeur": "4.23.13"
+  },
+  "ver_typescript": {
+   "gisement": "package.json",
+   "valeur": "5.9.3"
+  },
+  "ver_zod": {
+   "gisement": "package.json",
+   "valeur": "4.5.4"
+  },
+  "verrous_orders": {
+   "gisement": "src/lib/orders.ts",
+   "valeur": 4
+  },
+  "villes": {
+   "gisement": "src/lib/tunisia.ts",
+   "valeur": 53
+  },
+  "villes_par_gouv": {
+   "gisement": "src/lib/tunisia.ts",
+   "valeur": 9
+  }
+ },
+ "marques": [
+  {
+   "country": "France",
+   "featured": true,
+   "name": "La Roche-Posay",
+   "slug": "la-roche-posay"
+  },
+  {
+   "country": "France",
+   "featured": true,
+   "name": "Avène",
+   "slug": "avene"
+  },
+  {
+   "country": "France",
+   "featured": true,
+   "name": "Vichy",
+   "slug": "vichy"
+  },
+  {
+   "country": "France",
+   "featured": true,
+   "name": "Bioderma",
+   "slug": "bioderma"
+  },
+  {
+   "country": "France",
+   "featured": true,
+   "name": "Nuxe",
+   "slug": "nuxe"
+  },
+  {
+   "country": "France",
+   "featured": true,
+   "name": "Caudalie",
+   "slug": "caudalie"
+  },
+  {
+   "country": "France",
+   "featured": false,
+   "name": "Uriage",
+   "slug": "uriage"
+  },
+  {
+   "country": "France",
+   "featured": false,
+   "name": "SVR",
+   "slug": "svr"
+  },
+  {
+   "country": "France",
+   "featured": false,
+   "name": "Mustela",
+   "slug": "mustela"
+  },
+  {
+   "country": "France",
+   "featured": false,
+   "name": "Ducray",
+   "slug": "ducray"
+  },
+  {
+   "country": "Allemagne",
+   "featured": false,
+   "name": "Eucerin",
+   "slug": "eucerin"
+  },
+  {
+   "country": "France",
+   "featured": true,
+   "name": "Filorga",
+   "slug": "filorga"
+  },
+  {
+   "country": "Espagne",
+   "featured": false,
+   "name": "ISDIN",
+   "slug": "isdin"
+  },
+  {
+   "country": "France",
+   "featured": false,
+   "name": "Arkopharma",
+   "slug": "arkopharma"
+  },
+  {
+   "country": "France",
+   "featured": false,
+   "name": "Klorane",
+   "slug": "klorane"
+  },
+  {
+   "country": "États-Unis",
+   "featured": false,
+   "name": "CeraVe",
+   "slug": "cerave"
+  }
+ ],
+ "preuves": {
+  "audit_ne_bloque_pas": {
+   "gisement": "src/lib/orders.ts:111",
+   "ligne": 111
+  },
+  "card_doc": {
+   "gisement": "src/lib/payments.ts:11",
+   "ligne": 11
+  },
+  "card_gate": {
+   "gisement": "src/lib/payments.ts:37",
+   "ligne": 37
+  },
+  "cookie_httpOnly": {
+   "gisement": "src/lib/auth.ts:34",
+   "ligne": 34
+  },
+  "cookie_secure_prod": {
+   "gisement": "src/lib/auth.ts:36",
+   "ligne": 36
+  },
+  "db_url_requis": {
+   "gisement": "src/db/index.ts:6",
+   "ligne": 6
+  },
+  "env_boot_refus": {
+   "gisement": "src/lib/env.ts:51",
+   "ligne": 51
+  },
+  "facture_relit_montants": {
+   "gisement": "src/lib/invoice-pdf.ts:76",
+   "ligne": 76
+  },
+  "for_update_order": {
+   "gisement": "src/lib/orders.ts:91",
+   "ligne": 91
+  },
+  "for_update_prod": {
+   "gisement": "src/lib/orders.ts:81",
+   "ligne": 81
+  },
+  "idempotence_index": {
+   "gisement": "src/actions/checkout.ts:57",
+   "ligne": 57
+  },
+  "idempotence_lock": {
+   "gisement": "src/actions/checkout.ts:66",
+   "ligne": 66
+  },
+  "invoice_writer": {
+   "gisement": "src/lib/invoice-pdf.ts:6",
+   "ligne": 6
+  },
+  "origin_fn": {
+   "gisement": "src/lib/origin.ts:19",
+   "ligne": 19
+  },
+  "origin_key": {
+   "gisement": "src/lib/origin.ts:60",
+   "ligne": 60
+  },
+  "promo_lock": {
+   "gisement": "src/lib/promotions.ts:75",
+   "ligne": 75
+  },
+  "promo_pur": {
+   "gisement": "src/lib/promotions.ts:20",
+   "ligne": 20
+  },
+  "prune_sessions": {
+   "gisement": "src/lib/auth.ts:40",
+   "ligne": 40
+  },
+  "reserve_numero": {
+   "gisement": "src/lib/orders.ts:67",
+   "ligne": 67
+  },
+  "rl_atomic": {
+   "gisement": "src/lib/rate-limit.ts:50",
+   "ligne": 50
+  },
+  "rl_fallback": {
+   "gisement": "src/lib/rate-limit.ts:61",
+   "ligne": 61
+  },
+  "rl_sweep": {
+   "gisement": "src/lib/rate-limit.ts:33",
+   "ligne": 33
+  },
+  "scrypt": {
+   "gisement": "src/lib/auth.ts:16",
+   "ligne": 16
+  },
+  "seed_guard_prod": {
+   "gisement": "src/db/seed.ts:23",
+   "ligne": 23
+  },
+  "seed_scrypt": {
+   "gisement": "src/db/seed.ts:74",
+   "ligne": 74
+  },
+  "seed_truncate": {
+   "gisement": "src/db/seed.ts:63",
+   "ligne": 63
+  },
+  "stock_garde_code": {
+   "gisement": "src/lib/orders.ts:101",
+   "ligne": 101
+  },
+  "stock_invariant": {
+   "gisement": "src/lib/orders.ts:100",
+   "ligne": 100
+  },
+  "timing": {
+   "gisement": "src/lib/auth.ts:2",
+   "ligne": 2
+  },
+  "visibilite_source_unique": {
+   "gisement": "src/lib/catalog.ts:14",
+   "ligne": 14
+  }
+ },
+ "produits": [
+  {
+   "brand": "la-roche-posay",
+   "category": "nettoyants-demaquillants",
+   "compare": 47500,
+   "concerns": [
+    "acne",
+    "peau-sensible"
+   ],
+   "featured": true,
+   "line": 146,
+   "name": "Effaclar Gel Moussant Purifiant",
+   "new": false,
+   "price": 42900,
+   "short": "Nettoie en douceur les peaux grasses à tendance acnéique.",
+   "universe": "visage",
+   "volume": "400 ml"
+  },
+  {
+   "brand": "la-roche-posay",
+   "category": "nettoyants-demaquillants",
+   "compare": null,
+   "concerns": [
+    "peau-sensible"
+   ],
+   "featured": false,
+   "line": 147,
+   "name": "Toleriane Dermo-Nettoyant",
+   "new": false,
+   "price": 49900,
+   "short": "Démaquille et nettoie sans frotter les peaux intolérantes.",
+   "universe": "visage",
+   "volume": "400 ml"
+  },
+  {
+   "brand": "bioderma",
+   "category": "nettoyants-demaquillants",
+   "compare": 44900,
+   "concerns": [
+    "peau-sensible"
+   ],
+   "featured": true,
+   "line": 148,
+   "name": "Sensibio H2O Eau Micellaire",
+   "new": false,
+   "price": 38500,
+   "short": "L'originale. Démaquille et apaise en un seul geste.",
+   "universe": "visage",
+   "volume": "500 ml"
+  },
+  {
+   "brand": "bioderma",
+   "category": "nettoyants-demaquillants",
+   "compare": null,
+   "concerns": [
+    "acne"
+   ],
+   "featured": false,
+   "line": 149,
+   "name": "Sébium Gel Moussant",
+   "new": false,
+   "price": 34900,
+   "short": "Purifie sans dessécher les peaux mixtes à grasses.",
+   "universe": "visage",
+   "volume": "500 ml"
+  },
+  {
+   "brand": "caudalie",
+   "category": "nettoyants-demaquillants",
+   "compare": null,
+   "concerns": [
+    "hydratation"
+   ],
+   "featured": false,
+   "line": 150,
+   "name": "Vinoclean Mousse Nettoyante",
+   "new": false,
+   "price": 52000,
+   "short": "Mousse onctueuse à la sève de vigne, pour un teint frais.",
+   "universe": "visage",
+   "volume": "150 ml"
+  },
+  {
+   "brand": "la-roche-posay",
+   "category": "serums",
+   "compare": 145000,
+   "concerns": [
+    "anti-age",
+    "hydratation"
+   ],
+   "featured": true,
+   "line": 151,
+   "name": "Hyalu B5 Sérum",
+   "new": false,
+   "price": 129000,
+   "short": "Repulpe et répare avec deux acides hyaluroniques et vitamine B5.",
+   "universe": "visage",
+   "volume": "30 ml"
+  },
+  {
+   "brand": "vichy",
+   "category": "serums",
+   "compare": null,
+   "concerns": [
+    "hydratation"
+   ],
+   "featured": true,
+   "line": 152,
+   "name": "Minéral 89 Booster Quotidien",
+   "new": false,
+   "price": 89900,
+   "short": "89 % d'eau volcanique et acide hyaluronique pour fortifier la peau.",
+   "universe": "visage",
+   "volume": "50 ml"
+  },
+  {
+   "brand": "caudalie",
+   "category": "serums",
+   "compare": null,
+   "concerns": [
+    "taches",
+    "anti-age"
+   ],
+   "featured": false,
+   "line": 153,
+   "name": "Vinoperfect Sérum Éclat",
+   "new": false,
+   "price": 158000,
+   "short": "62 fois plus efficace que la vitamine C sur les taches. Sans parfum.",
+   "universe": "visage",
+   "volume": "30 ml"
+  },
+  {
+   "brand": "la-roche-posay",
+   "category": "serums",
+   "compare": null,
+   "concerns": [
+    "anti-age",
+    "taches"
+   ],
+   "featured": false,
+   "line": 154,
+   "name": "Pure Vitamin C10 Sérum",
+   "new": false,
+   "price": 119000,
+   "short": "Vitamine C pure à 10 % pour un éclat renouvelé et des rides lissées.",
+   "universe": "visage",
+   "volume": "30 ml"
+  },
+  {
+   "brand": "svr",
+   "category": "serums",
+   "compare": 112000,
+   "concerns": [
+    "anti-age"
+   ],
+   "featured": false,
+   "line": 155,
+   "name": "Ampoules Concentrées C+",
+   "new": false,
+   "price": 98000,
+   "short": "Vitamine C stabilisée pour illuminer et protéger la peau.",
+   "universe": "visage",
+   "volume": "30 ml"
+  },
+  {
+   "brand": "filorga",
+   "category": "anti-age",
+   "compare": null,
+   "concerns": [
+    "anti-age"
+   ],
+   "featured": true,
+   "line": 156,
+   "name": "NCEF-Reverse Crème Suprême",
+   "new": false,
+   "price": 249000,
+   "short": "Régénération cellulaire multi-corrective inspirée de la médecine esthétique.",
+   "universe": "visage",
+   "volume": "50 ml"
+  },
+  {
+   "brand": "filorga",
+   "category": "anti-age",
+   "compare": 215000,
+   "concerns": [
+    "anti-age"
+   ],
+   "featured": false,
+   "line": 157,
+   "name": "Time-Filler Crème Anti-rides",
+   "new": false,
+   "price": 189000,
+   "short": "Corrige tous les types de rides, même celles d'expression.",
+   "universe": "visage",
+   "volume": "50 ml"
+  },
+  {
+   "brand": "vichy",
+   "category": "anti-age",
+   "compare": null,
+   "concerns": [
+    "anti-age"
+   ],
+   "featured": false,
+   "line": 158,
+   "name": "Liftactiv Collagen Specialist",
+   "new": false,
+   "price": 135000,
+   "short": "Peptides et vitamine C pour relancer la production de collagène.",
+   "universe": "visage",
+   "volume": "50 ml"
+  },
+  {
+   "brand": "caudalie",
+   "category": "anti-age",
+   "compare": null,
+   "concerns": [
+    "anti-age"
+   ],
+   "featured": false,
+   "line": 159,
+   "name": "Resveratrol-Lift Crème Cachemire",
+   "new": false,
+   "price": 149000,
+   "short": "Texture cachemire, resvératrol de vigne et acide hyaluronique.",
+   "universe": "visage",
+   "volume": "50 ml"
+  },
+  {
+   "brand": "avene",
+   "category": "hydratants",
+   "compare": null,
+   "concerns": [
+    "hydratation",
+    "peau-sensible"
+   ],
+   "featured": false,
+   "line": 160,
+   "name": "Hydrance Aqua-Gel",
+   "new": false,
+   "price": 69900,
+   "short": "Hydratation légère 3-en-1 : crème, masque de nuit et base éclat.",
+   "universe": "visage",
+   "volume": "50 ml"
+  },
+  {
+   "brand": "la-roche-posay",
+   "category": "hydratants",
+   "compare": null,
+   "concerns": [
+    "peau-sensible",
+    "hydratation"
+   ],
+   "featured": false,
+   "line": 161,
+   "name": "Toleriane Sensitive Crème",
+   "new": false,
+   "price": 59900,
+   "short": "Hydratant prébiotique pour peaux sensibles, sans parfum.",
+   "universe": "visage",
+   "volume": "40 ml"
+  },
+  {
+   "brand": "cerave",
+   "category": "hydratants",
+   "compare": 54000,
+   "concerns": [
+    "peau-seche",
+    "hydratation"
+   ],
+   "featured": false,
+   "line": 162,
+   "name": "Crème Hydratante Visage",
+   "new": true,
+   "price": 47900,
+   "short": "Trois céramides essentiels et acide hyaluronique. Non comédogène.",
+   "universe": "visage",
+   "volume": "52 ml"
+  },
+  {
+   "brand": "nuxe",
+   "category": "hydratants",
+   "compare": null,
+   "concerns": [
+    "hydratation"
+   ],
+   "featured": false,
+   "line": 163,
+   "name": "Crème Prodigieuse Boost Gel-Baume",
+   "new": false,
+   "price": 84000,
+   "short": "Repulpe et lisse avec la fleur de jasmin, parfum délicat.",
+   "universe": "visage",
+   "volume": "40 ml"
+  },
+  {
+   "brand": "eucerin",
+   "category": "hydratants",
+   "compare": null,
+   "concerns": [
+    "peau-seche"
+   ],
+   "featured": false,
+   "line": 164,
+   "name": "Aquaphor Baume Réparateur",
+   "new": false,
+   "price": 39900,
+   "short": "Répare les peaux très sèches, gercées ou irritées.",
+   "universe": "visage",
+   "volume": "45 ml"
+  },
+  {
+   "brand": "avene",
+   "category": "contour-des-yeux",
+   "compare": null,
+   "concerns": [
+    "anti-age"
+   ],
+   "featured": false,
+   "line": 165,
+   "name": "Physiolift Yeux",
+   "new": false,
+   "price": 79000,
+   "short": "Défroisse, décongestionne et illumine le regard.",
+   "universe": "visage",
+   "volume": "15 ml"
+  },
+  {
+   "brand": "la-roche-posay",
+   "category": "contour-des-yeux",
+   "compare": null,
+   "concerns": [
+    "anti-age",
+    "hydratation"
+   ],
+   "featured": false,
+   "line": 166,
+   "name": "Hyalu B5 Yeux",
+   "new": false,
+   "price": 92000,
+   "short": "Repulpe le contour des yeux et atténue les cernes.",
+   "universe": "visage",
+   "volume": "15 ml"
+  },
+  {
+   "brand": "la-roche-posay",
+   "category": "peaux-a-imperfections",
+   "compare": 69900,
+   "concerns": [
+    "acne"
+   ],
+   "featured": true,
+   "line": 167,
+   "name": "Effaclar Duo+ M",
+   "new": false,
+   "price": 62900,
+   "short": "Soin anti-imperfections corrigeant, désincrustant et anti-marques.",
+   "universe": "visage",
+   "volume": "40 ml"
+  },
+  {
+   "brand": "bioderma",
+   "category": "peaux-a-imperfections",
+   "compare": null,
+   "concerns": [
+    "acne"
+   ],
+   "featured": false,
+   "line": 168,
+   "name": "Sébium Global",
+   "new": false,
+   "price": 58000,
+   "short": "Soin intensif purifiant pour peaux à imperfections sévères.",
+   "universe": "visage",
+   "volume": "30 ml"
+  },
+  {
+   "brand": "avene",
+   "category": "peaux-a-imperfections",
+   "compare": null,
+   "concerns": [
+    "acne",
+    "peau-sensible"
+   ],
+   "featured": false,
+   "line": 169,
+   "name": "Cleanance Comedomed",
+   "new": false,
+   "price": 61000,
+   "short": "Concentré anti-imperfections au Comedoclastin™.",
+   "universe": "visage",
+   "volume": "30 ml"
+  },
+  {
+   "brand": "vichy",
+   "category": "peaux-a-imperfections",
+   "compare": null,
+   "concerns": [
+    "acne",
+    "hydratation"
+   ],
+   "featured": false,
+   "line": 170,
+   "name": "Normaderm Phytosolution",
+   "new": false,
+   "price": 64900,
+   "short": "Double correction : imperfections et barrière cutanée.",
+   "universe": "visage",
+   "volume": "50 ml"
+  },
+  {
+   "brand": "svr",
+   "category": "peaux-a-imperfections",
+   "compare": null,
+   "concerns": [
+    "acne",
+    "taches"
+   ],
+   "featured": false,
+   "line": 171,
+   "name": "Sebiaclear Sérum",
+   "new": false,
+   "price": 71000,
+   "short": "Réduit les imperfections et les marques en 7 jours.",
+   "universe": "visage",
+   "volume": "30 ml"
+  },
+  {
+   "brand": "la-roche-posay",
+   "category": "hydratants-corps",
+   "compare": 89000,
+   "concerns": [
+    "peau-seche",
+    "peau-sensible"
+   ],
+   "featured": true,
+   "line": 173,
+   "name": "Lipikar Baume AP+M",
+   "new": false,
+   "price": 79900,
+   "short": "Baume relipidant triple action pour peaux très sèches, à tendance atopique.",
+   "universe": "corps",
+   "volume": "400 ml"
+  },
+  {
+   "brand": "avene",
+   "category": "hydratants-corps",
+   "compare": null,
+   "concerns": [
+    "peau-seche"
+   ],
+   "featured": false,
+   "line": 174,
+   "name": "XeraCalm A.D Crème Relipidante",
+   "new": false,
+   "price": 74000,
+   "short": "Apaise les démangeaisons et nourrit durablement.",
+   "universe": "corps",
+   "volume": "400 ml"
+  },
+  {
+   "brand": "bioderma",
+   "category": "hydratants-corps",
+   "compare": null,
+   "concerns": [
+    "peau-seche"
+   ],
+   "featured": false,
+   "line": 175,
+   "name": "Atoderm Intensive Baume",
+   "new": false,
+   "price": 69500,
+   "short": "Anti-démangeaisons, ultra-apaisant, 24 h de confort.",
+   "universe": "corps",
+   "volume": "500 ml"
+  },
+  {
+   "brand": "nuxe",
+   "category": "hydratants-corps",
+   "compare": null,
+   "concerns": [
+    "hydratation"
+   ],
+   "featured": true,
+   "line": 176,
+   "name": "Huile Prodigieuse",
+   "new": false,
+   "price": 92000,
+   "short": "L'huile sèche culte, multi-usages visage, corps et cheveux.",
+   "universe": "corps",
+   "volume": "100 ml"
+  },
+  {
+   "brand": "cerave",
+   "category": "hydratants-corps",
+   "compare": null,
+   "concerns": [
+    "peau-seche"
+   ],
+   "featured": false,
+   "line": 177,
+   "name": "Lotion Hydratante Corps",
+   "new": false,
+   "price": 49900,
+   "short": "Texture légère, céramides et acide hyaluronique, 24 h.",
+   "universe": "corps",
+   "volume": "473 ml"
+  },
+  {
+   "brand": "uriage",
+   "category": "hydratants-corps",
+   "compare": null,
+   "concerns": [
+    "peau-sensible"
+   ],
+   "featured": false,
+   "line": 178,
+   "name": "Bariéderm Cica-Crème",
+   "new": false,
+   "price": 32000,
+   "short": "Répare, assainit et apaise les peaux abîmées.",
+   "universe": "corps",
+   "volume": "100 ml"
+  },
+  {
+   "brand": "la-roche-posay",
+   "category": "douche-bain",
+   "compare": null,
+   "concerns": [
+    "peau-seche",
+    "peau-sensible"
+   ],
+   "featured": false,
+   "line": 179,
+   "name": "Lipikar Syndet AP+",
+   "new": false,
+   "price": 44900,
+   "short": "Crème lavante relipidante anti-irritations.",
+   "universe": "corps",
+   "volume": "400 ml"
+  },
+  {
+   "brand": "bioderma",
+   "category": "douche-bain",
+   "compare": 58000,
+   "concerns": [
+    "peau-seche"
+   ],
+   "featured": false,
+   "line": 180,
+   "name": "Atoderm Huile de Douche",
+   "new": false,
+   "price": 52000,
+   "short": "Huile ultra-nourrissante, mousse fine, sans savon.",
+   "universe": "corps",
+   "volume": "1 L"
+  },
+  {
+   "brand": "nuxe",
+   "category": "douche-bain",
+   "compare": null,
+   "concerns": [
+    "hydratation"
+   ],
+   "featured": false,
+   "line": 181,
+   "name": "Rêve de Miel Gel Douche Ultra-Riche",
+   "new": false,
+   "price": 38000,
+   "short": "Nettoie en douceur, parfum miel et fleurs délicat.",
+   "universe": "corps",
+   "volume": "400 ml"
+  },
+  {
+   "brand": "la-roche-posay",
+   "category": "mains-pieds",
+   "compare": null,
+   "concerns": [
+    "peau-seche"
+   ],
+   "featured": false,
+   "line": 182,
+   "name": "Crème Mains Cicaplast",
+   "new": false,
+   "price": 22900,
+   "short": "Barrière réparatrice mains abîmées. Tenue jusqu'à 6 lavages.",
+   "universe": "corps",
+   "volume": "100 ml"
+  },
+  {
+   "brand": "nuxe",
+   "category": "mains-pieds",
+   "compare": null,
+   "concerns": [
+    "peau-seche"
+   ],
+   "featured": false,
+   "line": 183,
+   "name": "Crème Mains Rêve de Miel",
+   "new": false,
+   "price": 24500,
+   "short": "Nourrit et répare les mains et ongles fragilisés.",
+   "universe": "corps",
+   "volume": "50 ml"
+  },
+  {
+   "brand": "eucerin",
+   "category": "mains-pieds",
+   "compare": null,
+   "concerns": [
+    "peau-seche"
+   ],
+   "featured": false,
+   "line": 184,
+   "name": "Crème Pieds Réparatrice Urea 10%",
+   "new": false,
+   "price": 34000,
+   "short": "Hydratation intense pour pieds secs et calleux.",
+   "universe": "corps",
+   "volume": "100 ml"
+  },
+  {
+   "brand": "mustela",
+   "category": "vergetures-fermete",
+   "compare": null,
+   "concerns": [
+    "hydratation"
+   ],
+   "featured": false,
+   "line": 185,
+   "name": "Huile Vergetures Bio",
+   "new": false,
+   "price": 64000,
+   "short": "Prévient l'apparition des vergetures, 99 % d'origine naturelle.",
+   "universe": "corps",
+   "volume": "105 ml"
+  },
+  {
+   "brand": "klorane",
+   "category": "shampooings",
+   "compare": null,
+   "concerns": [
+    "peau-sensible"
+   ],
+   "featured": true,
+   "line": 187,
+   "name": "Shampooing à l'Avoine",
+   "new": false,
+   "price": 29900,
+   "short": "Ultra-doux, usage fréquent, toute la famille.",
+   "universe": "cheveux",
+   "volume": "400 ml"
+  },
+  {
+   "brand": "ducray",
+   "category": "shampooings",
+   "compare": 45500,
+   "concerns": [
+    "chute-de-cheveux"
+   ],
+   "featured": false,
+   "line": 188,
+   "name": "Anaphase+ Shampooing",
+   "new": false,
+   "price": 41000,
+   "short": "Shampooing complément anti-chute, redonne force et volume.",
+   "universe": "cheveux",
+   "volume": "400 ml"
+  },
+  {
+   "brand": "vichy",
+   "category": "shampooings",
+   "compare": null,
+   "concerns": [
+    "pellicules"
+   ],
+   "featured": false,
+   "line": 189,
+   "name": "Dercos Anti-Pelliculaire DS",
+   "new": false,
+   "price": 44900,
+   "short": "Élimine les pellicules et apaise le cuir chevelu.",
+   "universe": "cheveux",
+   "volume": "390 ml"
+  },
+  {
+   "brand": "ducray",
+   "category": "shampooings",
+   "compare": null,
+   "concerns": [
+    "pellicules"
+   ],
+   "featured": false,
+   "line": 190,
+   "name": "Kelual DS Shampooing",
+   "new": false,
+   "price": 39000,
+   "short": "Traitant états pelliculaires sévères et démangeaisons.",
+   "universe": "cheveux",
+   "volume": "100 ml"
+  },
+  {
+   "brand": "klorane",
+   "category": "shampooings",
+   "compare": null,
+   "concerns": [
+    "hydratation"
+   ],
+   "featured": false,
+   "line": 191,
+   "name": "Shampooing au Lait de Papyrus",
+   "new": false,
+   "price": 31500,
+   "short": "Nourrit et discipline les cheveux secs et ondulés.",
+   "universe": "cheveux",
+   "volume": "400 ml"
+  },
+  {
+   "brand": "klorane",
+   "category": "apres-shampooings-masques",
+   "compare": null,
+   "concerns": [
+    "hydratation"
+   ],
+   "featured": false,
+   "line": 192,
+   "name": "Baume Après-Shampooing à la Mangue",
+   "new": false,
+   "price": 34900,
+   "short": "Nourrit et démêle les cheveux secs sans alourdir.",
+   "universe": "cheveux",
+   "volume": "200 ml"
+  },
+  {
+   "brand": "nuxe",
+   "category": "apres-shampooings-masques",
+   "compare": 64000,
+   "concerns": [
+    "hydratation"
+   ],
+   "featured": false,
+   "line": 193,
+   "name": "Masque Nutri-Réparateur",
+   "new": false,
+   "price": 58000,
+   "short": "Répare et sublime les cheveux abîmés, parfum floral.",
+   "universe": "cheveux",
+   "volume": "125 ml"
+  },
+  {
+   "brand": "vichy",
+   "category": "anti-chute",
+   "compare": 210000,
+   "concerns": [
+    "chute-de-cheveux"
+   ],
+   "featured": true,
+   "line": 194,
+   "name": "Dercos Aminexil Clinical 5 Femme",
+   "new": false,
+   "price": 189000,
+   "short": "Traitement anti-chute cliniquement prouvé en 6 semaines.",
+   "universe": "cheveux",
+   "volume": "21 monodoses"
+  },
+  {
+   "brand": "ducray",
+   "category": "anti-chute",
+   "compare": null,
+   "concerns": [
+    "chute-de-cheveux"
+   ],
+   "featured": false,
+   "line": 195,
+   "name": "Neoptide Expert Sérum",
+   "new": false,
+   "price": 165000,
+   "short": "Sérum densifiant anti-chute, résultats visibles en 3 mois.",
+   "universe": "cheveux",
+   "volume": "2 × 50 ml"
+  },
+  {
+   "brand": "arkopharma",
+   "category": "anti-chute",
+   "compare": null,
+   "concerns": [
+    "chute-de-cheveux"
+   ],
+   "featured": false,
+   "line": 196,
+   "name": "Forcapil Cheveux & Ongles",
+   "new": false,
+   "price": 59000,
+   "short": "Vitamines B, zinc et biotine pour des cheveux fortifiés.",
+   "universe": "cheveux",
+   "volume": "180 gélules"
+  },
+  {
+   "brand": "ducray",
+   "category": "cuir-chevelu-sensible",
+   "compare": null,
+   "concerns": [
+    "peau-sensible"
+   ],
+   "featured": false,
+   "line": 197,
+   "name": "Sensinol Shampooing Physioprotecteur",
+   "new": false,
+   "price": 36000,
+   "short": "Apaise immédiatement les démangeaisons du cuir chevelu.",
+   "universe": "cheveux",
+   "volume": "200 ml"
+  },
+  {
+   "brand": "la-roche-posay",
+   "category": "protection-visage",
+   "compare": 76000,
+   "concerns": [
+    "protection-solaire",
+    "taches"
+   ],
+   "featured": true,
+   "line": 199,
+   "name": "Anthelios UVMune 400 Fluide Invisible SPF50+",
+   "new": false,
+   "price": 68900,
+   "short": "Protection ultra-large contre les UV ultra-longs. Fini invisible.",
+   "universe": "solaire",
+   "volume": "50 ml"
+  },
+  {
+   "brand": "isdin",
+   "category": "protection-visage",
+   "compare": null,
+   "concerns": [
+    "protection-solaire"
+   ],
+   "featured": false,
+   "line": 200,
+   "name": "Fotoprotector Fusion Water SPF50",
+   "new": true,
+   "price": 74000,
+   "short": "Texture ultra-légère, absorption immédiate, sans traces.",
+   "universe": "solaire",
+   "volume": "50 ml"
+  },
+  {
+   "brand": "bioderma",
+   "category": "protection-visage",
+   "compare": null,
+   "concerns": [
+    "protection-solaire",
+    "acne"
+   ],
+   "featured": false,
+   "line": 201,
+   "name": "Photoderm Nude Touch SPF50+",
+   "new": false,
+   "price": 62000,
+   "short": "Effet peau nue, matifiant, teinte universelle.",
+   "universe": "solaire",
+   "volume": "40 ml"
+  },
+  {
+   "brand": "vichy",
+   "category": "protection-visage",
+   "compare": null,
+   "concerns": [
+    "protection-solaire",
+    "anti-age"
+   ],
+   "featured": false,
+   "line": 202,
+   "name": "Capital Soleil UV-Age Daily SPF50+",
+   "new": false,
+   "price": 66500,
+   "short": "Fluide anti-photovieillissement, hydratant et léger.",
+   "universe": "solaire",
+   "volume": "40 ml"
+  },
+  {
+   "brand": "caudalie",
+   "category": "protection-visage",
+   "compare": null,
+   "concerns": [
+    "protection-solaire",
+    "anti-age"
+   ],
+   "featured": false,
+   "line": 203,
+   "name": "Vinosun Crème Protectrice SPF50",
+   "new": false,
+   "price": 79000,
+   "short": "Filtres résistants à l'eau, antioxydante, respectueuse des océans.",
+   "universe": "solaire",
+   "volume": "50 ml"
+  },
+  {
+   "brand": "la-roche-posay",
+   "category": "protection-corps",
+   "compare": 92000,
+   "concerns": [
+    "protection-solaire"
+   ],
+   "featured": false,
+   "line": 204,
+   "name": "Anthelios Lait Hydratant SPF50+",
+   "new": false,
+   "price": 82000,
+   "short": "Très haute protection corps, résistant à l'eau et au sable.",
+   "universe": "solaire",
+   "volume": "250 ml"
+  },
+  {
+   "brand": "avene",
+   "category": "protection-corps",
+   "compare": null,
+   "concerns": [
+    "protection-solaire",
+    "peau-sensible"
+   ],
+   "featured": false,
+   "line": 205,
+   "name": "Fluide Minéral Corps SPF50+",
+   "new": false,
+   "price": 76000,
+   "short": "100 % filtres minéraux pour peaux intolérantes.",
+   "universe": "solaire",
+   "volume": "100 ml"
+  },
+  {
+   "brand": "bioderma",
+   "category": "protection-corps",
+   "compare": null,
+   "concerns": [
+    "protection-solaire"
+   ],
+   "featured": false,
+   "line": 206,
+   "name": "Photoderm Spray SPF50+",
+   "new": false,
+   "price": 69000,
+   "short": "Spray invisible, application facile, toute la famille.",
+   "universe": "solaire",
+   "volume": "200 ml"
+  },
+  {
+   "brand": "la-roche-posay",
+   "category": "apres-soleil",
+   "compare": null,
+   "concerns": [
+    "hydratation"
+   ],
+   "featured": false,
+   "line": 207,
+   "name": "Posthelios Gel-Crème Après-Soleil",
+   "new": false,
+   "price": 42000,
+   "short": "Répare, apaise et prolonge le bronzage.",
+   "universe": "solaire",
+   "volume": "200 ml"
+  },
+  {
+   "brand": "avene",
+   "category": "apres-soleil",
+   "compare": null,
+   "concerns": [
+    "peau-sensible"
+   ],
+   "featured": false,
+   "line": 208,
+   "name": "Lait Après-Soleil Réparateur",
+   "new": false,
+   "price": 39900,
+   "short": "Apaise immédiatement les peaux échauffées.",
+   "universe": "solaire",
+   "volume": "200 ml"
+  },
+  {
+   "brand": "la-roche-posay",
+   "category": "enfants",
+   "compare": null,
+   "concerns": [
+    "protection-solaire"
+   ],
+   "featured": false,
+   "line": 209,
+   "name": "Anthelios Dermo-Pediatrics Lait SPF50+",
+   "new": false,
+   "price": 84000,
+   "short": "Très haute protection dès 3 ans, hypoallergénique.",
+   "universe": "solaire",
+   "volume": "250 ml"
+  },
+  {
+   "brand": "isdin",
+   "category": "enfants",
+   "compare": null,
+   "concerns": [
+    "protection-solaire"
+   ],
+   "featured": false,
+   "line": 210,
+   "name": "Pediatrics Fusion Water SPF50",
+   "new": false,
+   "price": 72000,
+   "short": "Formule pédiatrique testée sous contrôle, sans picotements.",
+   "universe": "solaire",
+   "volume": "50 ml"
+  },
+  {
+   "brand": "mustela",
+   "category": "toilette-bebe",
+   "compare": 35500,
+   "concerns": [
+    "peau-sensible"
+   ],
+   "featured": true,
+   "line": 212,
+   "name": "Gel Lavant Doux",
+   "new": false,
+   "price": 31900,
+   "short": "Corps et cheveux, dès la naissance, 90 % d'origine naturelle.",
+   "universe": "bebe-maman",
+   "volume": "500 ml"
+  },
+  {
+   "brand": "mustela",
+   "category": "toilette-bebe",
+   "compare": null,
+   "concerns": [
+    "peau-sensible"
+   ],
+   "featured": false,
+   "line": 213,
+   "name": "Eau Nettoyante Sans Rinçage",
+   "new": false,
+   "price": 28500,
+   "short": "Nettoie et adoucit visage, corps et siège sans rinçage.",
+   "universe": "bebe-maman",
+   "volume": "300 ml"
+  },
+  {
+   "brand": "bioderma",
+   "category": "toilette-bebe",
+   "compare": null,
+   "concerns": [
+    "peau-sensible"
+   ],
+   "featured": false,
+   "line": 214,
+   "name": "ABCDerm Moussant",
+   "new": false,
+   "price": 33000,
+   "short": "Nettoyant ultra-doux corps et cheveux, sans savon.",
+   "universe": "bebe-maman",
+   "volume": "1 L"
+  },
+  {
+   "brand": "mustela",
+   "category": "change",
+   "compare": null,
+   "concerns": [
+    "peau-sensible"
+   ],
+   "featured": false,
+   "line": 215,
+   "name": "Crème Change 1-2-3",
+   "new": false,
+   "price": 24900,
+   "short": "Prévient, apaise et répare les rougeurs du siège.",
+   "universe": "bebe-maman",
+   "volume": "100 ml"
+  },
+  {
+   "brand": "avene",
+   "category": "change",
+   "compare": null,
+   "concerns": [
+    "peau-sensible"
+   ],
+   "featured": false,
+   "line": 216,
+   "name": "Cicalfate+ Crème Réparatrice",
+   "new": false,
+   "price": 27000,
+   "short": "Répare et assainit les irritations. Toute la famille.",
+   "universe": "bebe-maman",
+   "volume": "100 ml"
+  },
+  {
+   "brand": "mustela",
+   "category": "soins-maman",
+   "compare": null,
+   "concerns": [
+    "hydratation"
+   ],
+   "featured": false,
+   "line": 217,
+   "name": "Baume Corps Maternité",
+   "new": false,
+   "price": 58000,
+   "short": "Nourrit intensément, améliore élasticité et confort.",
+   "universe": "bebe-maman",
+   "volume": "200 ml"
+  },
+  {
+   "brand": "arkopharma",
+   "category": "vitalite-immunite",
+   "compare": null,
+   "concerns": [
+    "immunite"
+   ],
+   "featured": false,
+   "line": 219,
+   "name": "Arkovital Pure Energy",
+   "new": false,
+   "price": 38000,
+   "short": "Multivitamines 100 % d'origine végétale.",
+   "universe": "complements",
+   "volume": "30 comprimés"
+  },
+  {
+   "brand": "arkopharma",
+   "category": "vitalite-immunite",
+   "compare": null,
+   "concerns": [
+    "immunite"
+   ],
+   "featured": false,
+   "line": 220,
+   "name": "Vitamine D3 2000 UI",
+   "new": false,
+   "price": 27500,
+   "short": "Soutient l'immunité et le capital osseux.",
+   "universe": "complements",
+   "volume": "60 capsules"
+  },
+  {
+   "brand": "arkopharma",
+   "category": "vitalite-immunite",
+   "compare": 36000,
+   "concerns": [
+    "immunite"
+   ],
+   "featured": false,
+   "line": 221,
+   "name": "Arkogélules Ginseng Bio",
+   "new": false,
+   "price": 32000,
+   "short": "Tonus physique et intellectuel en période de fatigue.",
+   "universe": "complements",
+   "volume": "45 gélules"
+  },
+  {
+   "brand": "arkopharma",
+   "category": "sommeil-stress",
+   "compare": null,
+   "concerns": [
+    "sommeil"
+   ],
+   "featured": false,
+   "line": 222,
+   "name": "Arkorelax Sommeil Fort 8h",
+   "new": true,
+   "price": 44000,
+   "short": "Mélatonine à libération prolongée pour une nuit complète.",
+   "universe": "complements",
+   "volume": "15 comprimés"
+  },
+  {
+   "brand": "arkopharma",
+   "category": "sommeil-stress",
+   "compare": null,
+   "concerns": [
+    "sommeil",
+    "immunite"
+   ],
+   "featured": false,
+   "line": 223,
+   "name": "Arkogélules Magnésium Marin",
+   "new": false,
+   "price": 29900,
+   "short": "Réduit la fatigue et soutient le système nerveux.",
+   "universe": "complements",
+   "volume": "60 gélules"
+  },
+  {
+   "brand": "filorga",
+   "category": "beaute-in-out",
+   "compare": null,
+   "concerns": [
+    "anti-age"
+   ],
+   "featured": false,
+   "line": 224,
+   "name": "Skin Booster Collagène",
+   "new": false,
+   "price": 79000,
+   "short": "Collagène marin et acide hyaluronique pour une peau repulpée.",
+   "universe": "complements",
+   "volume": "30 sticks"
+  },
+  {
+   "brand": "arkopharma",
+   "category": "digestion",
+   "compare": null,
+   "concerns": [
+    "immunite"
+   ],
+   "featured": false,
+   "line": 225,
+   "name": "Arkogélules Charbon Végétal",
+   "new": false,
+   "price": 24000,
+   "short": "Confort digestif et ventre plat.",
+   "universe": "complements",
+   "volume": "45 gélules"
+  },
+  {
+   "brand": "eucerin",
+   "category": "bucco-dentaire",
+   "compare": null,
+   "concerns": [
+    "peau-sensible"
+   ],
+   "featured": false,
+   "line": 227,
+   "name": "Dentifrice Sensibilité",
+   "new": false,
+   "price": 14900,
+   "short": "Protection des dents sensibles au quotidien.",
+   "universe": "hygiene",
+   "volume": "75 ml"
+  },
+  {
+   "brand": "uriage",
+   "category": "hygiene-intime",
+   "compare": null,
+   "concerns": [
+    "peau-sensible"
+   ],
+   "featured": false,
+   "line": 228,
+   "name": "Gyn-Phy Gel Intime",
+   "new": false,
+   "price": 26000,
+   "short": "Toilette intime quotidienne, pH physiologique.",
+   "universe": "hygiene",
+   "volume": "500 ml"
+  },
+  {
+   "brand": "vichy",
+   "category": "deodorants",
+   "compare": 34900,
+   "concerns": [
+    "peau-sensible"
+   ],
+   "featured": false,
+   "line": 229,
+   "name": "Déodorant 48h Anti-Traces",
+   "new": false,
+   "price": 31500,
+   "short": "Anti-transpirant efficace, sans traces blanches.",
+   "universe": "hygiene",
+   "volume": "50 ml"
+  },
+  {
+   "brand": "avene",
+   "category": "deodorants",
+   "compare": null,
+   "concerns": [
+    "peau-sensible"
+   ],
+   "featured": false,
+   "line": 230,
+   "name": "Déodorant Roll-on Douceur",
+   "new": false,
+   "price": 27900,
+   "short": "Sans sels d'aluminium, pour peaux sensibles.",
+   "universe": "hygiene",
+   "volume": "50 ml"
+  },
+  {
+   "brand": "la-roche-posay",
+   "category": "premiers-soins",
+   "compare": null,
+   "concerns": [
+    "peau-sensible",
+    "peau-seche"
+   ],
+   "featured": true,
+   "line": 231,
+   "name": "Cicaplast Baume B5+",
+   "new": false,
+   "price": 32900,
+   "short": "Baume réparateur apaisant multi-usages, toute la famille.",
+   "universe": "hygiene",
+   "volume": "100 ml"
+  },
+  {
+   "brand": "uriage",
+   "category": "premiers-soins",
+   "compare": null,
+   "concerns": [
+    "peau-sensible"
+   ],
+   "featured": false,
+   "line": 232,
+   "name": "Bariéderm Cica Spray",
+   "new": false,
+   "price": 29000,
+   "short": "Assainit et répare les zones abîmées, sans contact.",
+   "universe": "hygiene",
+   "volume": "100 ml"
+  }
+ ],
+ "promotions": [
+  {
+   "active": true,
+   "code": "BIENVENUE10",
+   "label": "-10 % sur votre première commande",
+   "min": 50000,
+   "type": "percent",
+   "value": 10
+  },
+  {
+   "active": true,
+   "code": "SOLAIRE15",
+   "label": "-15 % sur l'univers Solaire",
+   "min": 0,
+   "type": "percent",
+   "value": 15
+  },
+  {
+   "active": true,
+   "code": "LIVRAISON",
+   "label": "Livraison offerte",
+   "min": 40000,
+   "type": "free_shipping",
+   "value": 0
+  },
+  {
+   "active": true,
+   "code": "CLEO20",
+   "label": "20 DT offerts dès 150 DT",
+   "min": 150000,
+   "type": "fixed",
+   "value": 20000
+  },
+  {
+   "active": false,
+   "code": "ETE2024",
+   "label": "Offre expirée",
+   "min": 0,
+   "type": "percent",
+   "value": 20
+  }
+ ],
+ "routes": [
+  {
+   "dyn": false,
+   "file": "src/app/(site)/aide/page.tsx",
+   "line": 1,
+   "lines": 53,
+   "route": "/aide"
+  },
+  {
+   "dyn": true,
+   "file": "src/app/(site)/besoin/[slug]/page.tsx",
+   "line": 1,
+   "lines": 59,
+   "route": "/besoin/:slug"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/(site)/boutique/page.tsx",
+   "line": 1,
+   "lines": 44,
+   "route": "/boutique"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/(site)/boutiques/page.tsx",
+   "line": 1,
+   "lines": 94,
+   "route": "/boutiques"
+  },
+  {
+   "dyn": true,
+   "file": "src/app/(site)/categorie/[slug]/page.tsx",
+   "line": 1,
+   "lines": 53,
+   "route": "/categorie/:slug"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/(site)/cgv/page.tsx",
+   "line": 1,
+   "lines": 17,
+   "route": "/cgv"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/(site)/commande/confirmation/[number]/page.tsx",
+   "line": 1,
+   "lines": 85,
+   "route": "/commande/confirmation/:number"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/(site)/commande/page.tsx",
+   "line": 1,
+   "lines": 21,
+   "route": "/commande"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/(site)/compte/commandes/[number]/page.tsx",
+   "line": 1,
+   "lines": 45,
+   "route": "/compte/commandes/:number"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/(site)/compte/commandes/page.tsx",
+   "line": 1,
+   "lines": 25,
+   "route": "/compte/commandes"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/(site)/compte/favoris/page.tsx",
+   "line": 1,
+   "lines": 21,
+   "route": "/compte/favoris"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/(site)/compte/page.tsx",
+   "line": 1,
+   "lines": 153,
+   "route": "/compte"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/(site)/compte/profil/page.tsx",
+   "line": 1,
+   "lines": 22,
+   "route": "/compte/profil"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/(site)/confidentialite/page.tsx",
+   "line": 1,
+   "lines": 14,
+   "route": "/confidentialite"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/(site)/connexion/page.tsx",
+   "line": 1,
+   "lines": 16,
+   "route": "/connexion"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/(site)/inscription/page.tsx",
+   "line": 1,
+   "lines": 15,
+   "route": "/inscription"
+  },
+  {
+   "dyn": true,
+   "file": "src/app/(site)/journal/[slug]/page.tsx",
+   "line": 1,
+   "lines": 80,
+   "route": "/journal/:slug"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/(site)/journal/page.tsx",
+   "line": 1,
+   "lines": 64,
+   "route": "/journal"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/(site)/livraison/page.tsx",
+   "line": 1,
+   "lines": 21,
+   "route": "/livraison"
+  },
+  {
+   "dyn": true,
+   "file": "src/app/(site)/marque/[slug]/page.tsx",
+   "line": 1,
+   "lines": 41,
+   "route": "/marque/:slug"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/(site)/marques/page.tsx",
+   "line": 1,
+   "lines": 70,
+   "route": "/marques"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/(site)/page.tsx",
+   "line": 1,
+   "lines": 314,
+   "route": ""
+  },
+  {
+   "dyn": false,
+   "file": "src/app/(site)/panier/page.tsx",
+   "line": 1,
+   "lines": 18,
+   "route": "/panier"
+  },
+  {
+   "dyn": true,
+   "file": "src/app/(site)/produit/[slug]/page.tsx",
+   "line": 1,
+   "lines": 179,
+   "route": "/produit/:slug"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/(site)/promotions/page.tsx",
+   "line": 1,
+   "lines": 63,
+   "route": "/promotions"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/(site)/recherche/page.tsx",
+   "line": 1,
+   "lines": 44,
+   "route": "/recherche"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/(site)/suivi/page.tsx",
+   "line": 1,
+   "lines": 129,
+   "route": "/suivi"
+  },
+  {
+   "dyn": true,
+   "file": "src/app/(site)/univers/[slug]/page.tsx",
+   "line": 1,
+   "lines": 69,
+   "route": "/univers/:slug"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/admin/audit/page.tsx",
+   "line": 1,
+   "lines": 14,
+   "route": "/admin/audit"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/admin/avis/page.tsx",
+   "line": 1,
+   "lines": 17,
+   "route": "/admin/avis"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/admin/boutiques/page.tsx",
+   "line": 1,
+   "lines": 13,
+   "route": "/admin/boutiques"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/admin/clients/[id]/page.tsx",
+   "line": 1,
+   "lines": 29,
+   "route": "/admin/clients/:id"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/admin/clients/page.tsx",
+   "line": 1,
+   "lines": 24,
+   "route": "/admin/clients"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/admin/commandes/[id]/page.tsx",
+   "line": 1,
+   "lines": 36,
+   "route": "/admin/commandes/:id"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/admin/commandes/page.tsx",
+   "line": 1,
+   "lines": 25,
+   "route": "/admin/commandes"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/admin/journal/page.tsx",
+   "line": 1,
+   "lines": 14,
+   "route": "/admin/journal"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/admin/page.tsx",
+   "line": 1,
+   "lines": 121,
+   "route": "/admin"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/admin/produits/[id]/page.tsx",
+   "line": 1,
+   "lines": 22,
+   "route": "/admin/produits/:id"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/admin/produits/page.tsx",
+   "line": 1,
+   "lines": 26,
+   "route": "/admin/produits"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/admin/promotions/page.tsx",
+   "line": 1,
+   "lines": 14,
+   "route": "/admin/promotions"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/admin/recherches/page.tsx",
+   "line": 1,
+   "lines": 20,
+   "route": "/admin/recherches"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/admin/stock/page.tsx",
+   "line": 1,
+   "lines": 24,
+   "route": "/admin/stock"
+  },
+  {
+   "dyn": false,
+   "file": "src/app/admin/support/page.tsx",
+   "line": 1,
+   "lines": 16,
+   "route": "/admin/support"
+  }
+ ],
+ "tables": [
+  {
+   "cols": [
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "PK"
+     ],
+     "kind": "serial",
+     "note": "",
+     "sql": "id",
+     "ts": "id"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 255",
+     "sql": "email",
+     "ts": "email"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "text",
+     "note": "",
+     "sql": "password_hash",
+     "ts": "passwordHash"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 80",
+     "sql": "first_name",
+     "ts": "firstName"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 80",
+     "sql": "last_name",
+     "ts": "lastName"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "varchar",
+     "note": "len 20",
+     "sql": "phone",
+     "ts": "phone"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "userRoleEnum",
+     "note": "défaut customer",
+     "sql": "role",
+     "ts": "role"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "défaut 0",
+     "sql": "loyalty_points",
+     "ts": "loyaltyPoints"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "text",
+     "note": "",
+     "sql": "notes",
+     "ts": "notes"
+    }
+   ],
+   "indexes": [
+    "uniqueIndex users_email_idx",
+    "index users_role_idx"
+   ],
+   "line": 43,
+   "sql": "users",
+   "ts": "users"
+  },
+  {
+   "cols": [
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "PK"
+     ],
+     "kind": "varchar",
+     "note": "len 64",
+     "sql": "id",
+     "ts": "id"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "user_id",
+     "ts": "userId"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "timestamp",
+     "note": "",
+     "sql": "expires_at",
+     "ts": "expiresAt"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "text",
+     "note": "",
+     "sql": "user_agent",
+     "ts": "userAgent"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL",
+      "now()"
+     ],
+     "kind": "timestamp",
+     "note": "",
+     "sql": "created_at",
+     "ts": "createdAt"
+    }
+   ],
+   "indexes": [
+    "index sessions_user_idx",
+    "index sessions_expires_idx"
+   ],
+   "line": 60,
+   "sql": "sessions",
+   "ts": "sessions"
+  },
+  {
+   "cols": [
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "PK"
+     ],
+     "kind": "serial",
+     "note": "",
+     "sql": "id",
+     "ts": "id"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "user_id",
+     "ts": "userId"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "défaut Domicile; len 60",
+     "sql": "label",
+     "ts": "label"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 160",
+     "sql": "full_name",
+     "ts": "fullName"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 20",
+     "sql": "phone",
+     "ts": "phone"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 200",
+     "sql": "line1",
+     "ts": "line1"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "varchar",
+     "note": "len 200",
+     "sql": "line2",
+     "ts": "line2"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 100",
+     "sql": "city",
+     "ts": "city"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 60",
+     "sql": "governorate",
+     "ts": "governorate"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "varchar",
+     "note": "len 10",
+     "sql": "postal_code",
+     "ts": "postalCode"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "boolean",
+     "note": "défaut false",
+     "sql": "is_default",
+     "ts": "isDefault"
+    }
+   ],
+   "indexes": [
+    "index addresses_user_idx",
+    "uniqueIndex addresses_one_default_idx"
+   ],
+   "line": 74,
+   "sql": "addresses",
+   "ts": "addresses"
+  },
+  {
+   "cols": [
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "PK"
+     ],
+     "kind": "serial",
+     "note": "",
+     "sql": "id",
+     "ts": "id"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 120",
+     "sql": "slug",
+     "ts": "slug"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 120",
+     "sql": "name",
+     "ts": "name"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "varchar",
+     "note": "len 60",
+     "sql": "country",
+     "ts": "country"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "text",
+     "note": "",
+     "sql": "story",
+     "ts": "story"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "boolean",
+     "note": "défaut false",
+     "sql": "is_featured",
+     "ts": "isFeatured"
+    }
+   ],
+   "indexes": [
+    "uniqueIndex brands_slug_idx"
+   ],
+   "line": 104,
+   "sql": "brands",
+   "ts": "brands"
+  },
+  {
+   "cols": [
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "PK"
+     ],
+     "kind": "serial",
+     "note": "",
+     "sql": "id",
+     "ts": "id"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 120",
+     "sql": "slug",
+     "ts": "slug"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 120",
+     "sql": "name",
+     "ts": "name"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "text",
+     "note": "",
+     "sql": "description",
+     "ts": "description"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "text",
+     "note": "",
+     "sql": "story",
+     "ts": "story"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "varchar",
+     "note": "len 255",
+     "sql": "image",
+     "ts": "image"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "boolean",
+     "note": "défaut false",
+     "sql": "is_universe",
+     "ts": "isUniverse"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "parent_id",
+     "ts": "parentId"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "défaut 0",
+     "sql": "sort_order",
+     "ts": "sortOrder"
+    }
+   ],
+   "indexes": [
+    "uniqueIndex categories_slug_idx",
+    "index categories_parent_idx",
+    "index categories_universe_idx"
+   ],
+   "line": 118,
+   "sql": "categories",
+   "ts": "categories"
+  },
+  {
+   "cols": [
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "PK"
+     ],
+     "kind": "serial",
+     "note": "",
+     "sql": "id",
+     "ts": "id"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 120",
+     "sql": "slug",
+     "ts": "slug"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 120",
+     "sql": "name",
+     "ts": "name"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "text",
+     "note": "",
+     "sql": "intro",
+     "ts": "intro"
+    }
+   ],
+   "indexes": [
+    "uniqueIndex concerns_slug_idx"
+   ],
+   "line": 139,
+   "sql": "concerns",
+   "ts": "concerns"
+  },
+  {
+   "cols": [
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "PK"
+     ],
+     "kind": "serial",
+     "note": "",
+     "sql": "id",
+     "ts": "id"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 160",
+     "sql": "slug",
+     "ts": "slug"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 40",
+     "sql": "sku",
+     "ts": "sku"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 200",
+     "sql": "name",
+     "ts": "name"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "varchar",
+     "note": "len 300",
+     "sql": "short_description",
+     "ts": "shortDescription"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "text",
+     "note": "",
+     "sql": "description",
+     "ts": "description"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "text",
+     "note": "",
+     "sql": "ingredients",
+     "ts": "ingredients"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "text",
+     "note": "",
+     "sql": "how_to_use",
+     "ts": "howToUse"
+    },
+    {
+     "enum": null,
+     "fk": "brands.id",
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "brand_id",
+     "ts": "brandId"
+    },
+    {
+     "enum": null,
+     "fk": "categories.id",
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "category_id",
+     "ts": "categoryId"
+    },
+    {
+     "enum": null,
+     "fk": "categories.id",
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "universe_id",
+     "ts": "universeId"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "",
+     "sql": "price_millimes",
+     "ts": "priceMillimes"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "compare_at_millimes",
+     "ts": "compareAtMillimes"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "défaut 0",
+     "sql": "stock",
+     "ts": "stock"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "défaut 5",
+     "sql": "low_stock_threshold",
+     "ts": "lowStockThreshold"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "varchar",
+     "note": "len 255",
+     "sql": "image",
+     "ts": "image"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "jsonb",
+     "note": "défaut []",
+     "sql": "images",
+     "ts": "images"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "varchar",
+     "note": "len 40",
+     "sql": "volume",
+     "ts": "volume"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "productStatusEnum",
+     "note": "défaut active",
+     "sql": "status",
+     "ts": "status"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "boolean",
+     "note": "défaut false",
+     "sql": "is_featured",
+     "ts": "isFeatured"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "boolean",
+     "note": "défaut false",
+     "sql": "is_new",
+     "ts": "isNew"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "défaut 0",
+     "sql": "rating_avg",
+     "ts": "ratingAvg"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "défaut 0",
+     "sql": "rating_count",
+     "ts": "ratingCount"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "défaut 0",
+     "sql": "sales_count",
+     "ts": "salesCount"
+    }
+   ],
+   "indexes": [
+    "uniqueIndex products_slug_idx",
+    "uniqueIndex products_sku_idx",
+    "index products_brand_idx",
+    "index products_category_idx",
+    "index products_universe_idx",
+    "index products_status_idx",
+    "index products_price_idx",
+    "index products_featured_idx"
+   ],
+   "line": 151,
+   "sql": "products",
+   "ts": "products"
+  },
+  {
+   "cols": [
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "product_id",
+     "ts": "productId"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "concern_id",
+     "ts": "concernId"
+    }
+   ],
+   "indexes": [
+    "index pc_concern_idx"
+   ],
+   "line": 192,
+   "sql": "product_concerns",
+   "ts": "productConcerns"
+  },
+  {
+   "cols": [
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "PK"
+     ],
+     "kind": "serial",
+     "note": "",
+     "sql": "id",
+     "ts": "id"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "product_id",
+     "ts": "productId"
+    },
+    {
+     "enum": null,
+     "fk": "users.id",
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "user_id",
+     "ts": "userId"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 120",
+     "sql": "author_name",
+     "ts": "authorName"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "",
+     "sql": "rating",
+     "ts": "rating"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "varchar",
+     "note": "len 160",
+     "sql": "title",
+     "ts": "title"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "text",
+     "note": "",
+     "sql": "body",
+     "ts": "body"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "reviewStatusEnum",
+     "note": "défaut pending",
+     "sql": "status",
+     "ts": "status"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "text",
+     "note": "",
+     "sql": "reply",
+     "ts": "reply"
+    }
+   ],
+   "indexes": [
+    "index reviews_product_idx",
+    "index reviews_status_idx"
+   ],
+   "line": 205,
+   "sql": "reviews",
+   "ts": "reviews"
+  },
+  {
+   "cols": [
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "PK"
+     ],
+     "kind": "serial",
+     "note": "",
+     "sql": "id",
+     "ts": "id"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "product_id",
+     "ts": "productId"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "movementTypeEnum",
+     "note": "",
+     "sql": "type",
+     "ts": "type"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "",
+     "sql": "quantity",
+     "ts": "quantity"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "",
+     "sql": "stock_after",
+     "ts": "stockAfter"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "varchar",
+     "note": "len 200",
+     "sql": "reason",
+     "ts": "reason"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "order_id",
+     "ts": "orderId"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "user_id",
+     "ts": "userId"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL",
+      "now()"
+     ],
+     "kind": "timestamp",
+     "note": "",
+     "sql": "created_at",
+     "ts": "createdAt"
+    }
+   ],
+   "indexes": [
+    "index inv_product_idx",
+    "index inv_created_idx"
+   ],
+   "line": 224,
+   "sql": "inventory_movements",
+   "ts": "inventoryMovements"
+  },
+  {
+   "cols": [
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "PK"
+     ],
+     "kind": "serial",
+     "note": "",
+     "sql": "id",
+     "ts": "id"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 40",
+     "sql": "code",
+     "ts": "code"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 160",
+     "sql": "label",
+     "ts": "label"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "promoTypeEnum",
+     "note": "",
+     "sql": "type",
+     "ts": "type"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "défaut 0",
+     "sql": "value",
+     "ts": "value"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "défaut 0",
+     "sql": "min_subtotal_millimes",
+     "ts": "minSubtotalMillimes"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "max_discount_millimes",
+     "ts": "maxDiscountMillimes"
+    },
+    {
+     "enum": null,
+     "fk": "categories.id",
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "universe_id",
+     "ts": "universeId"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "usage_limit",
+     "ts": "usageLimit"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "défaut 0",
+     "sql": "usage_count",
+     "ts": "usageCount"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "défaut 1",
+     "sql": "per_user_limit",
+     "ts": "perUserLimit"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "timestamp",
+     "note": "",
+     "sql": "starts_at",
+     "ts": "startsAt"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "timestamp",
+     "note": "",
+     "sql": "ends_at",
+     "ts": "endsAt"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "boolean",
+     "note": "défaut true",
+     "sql": "is_active",
+     "ts": "isActive"
+    }
+   ],
+   "indexes": [
+    "uniqueIndex promotions_code_idx",
+    "index promotions_active_idx"
+   ],
+   "line": 242,
+   "sql": "promotions",
+   "ts": "promotions"
+  },
+  {
+   "cols": [
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "PK"
+     ],
+     "kind": "serial",
+     "note": "",
+     "sql": "id",
+     "ts": "id"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 24",
+     "sql": "number",
+     "ts": "number"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "varchar",
+     "note": "len 64",
+     "sql": "idempotency_key",
+     "ts": "idempotencyKey"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "varchar",
+     "note": "len 64",
+     "sql": "access_key",
+     "ts": "accessKey"
+    },
+    {
+     "enum": null,
+     "fk": "users.id",
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "user_id",
+     "ts": "userId"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 255",
+     "sql": "email",
+     "ts": "email"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 20",
+     "sql": "phone",
+     "ts": "phone"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "orderStatusEnum",
+     "note": "défaut pending",
+     "sql": "status",
+     "ts": "status"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "paymentMethodEnum",
+     "note": "",
+     "sql": "payment_method",
+     "ts": "paymentMethod"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "paymentStatusEnum",
+     "note": "défaut pending",
+     "sql": "payment_status",
+     "ts": "paymentStatus"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "shippingMethodEnum",
+     "note": "",
+     "sql": "shipping_method",
+     "ts": "shippingMethod"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "jsonb",
+     "note": "",
+     "sql": "shipping_address",
+     "ts": "shippingAddress"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "store_id",
+     "ts": "storeId"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "",
+     "sql": "subtotal_millimes",
+     "ts": "subtotalMillimes"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "défaut 0",
+     "sql": "discount_millimes",
+     "ts": "discountMillimes"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "défaut 0",
+     "sql": "shipping_millimes",
+     "ts": "shippingMillimes"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "défaut 0",
+     "sql": "gift_wrap_millimes",
+     "ts": "giftWrapMillimes"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "",
+     "sql": "total_millimes",
+     "ts": "totalMillimes"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "varchar",
+     "note": "len 40",
+     "sql": "promo_code",
+     "ts": "promoCode"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "boolean",
+     "note": "défaut false",
+     "sql": "gift_wrap",
+     "ts": "giftWrap"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "varchar",
+     "note": "len 300",
+     "sql": "gift_message",
+     "ts": "giftMessage"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "text",
+     "note": "",
+     "sql": "customer_note",
+     "ts": "customerNote"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "text",
+     "note": "",
+     "sql": "internal_note",
+     "ts": "internalNote"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "varchar",
+     "note": "len 80",
+     "sql": "tracking_code",
+     "ts": "trackingCode"
+    }
+   ],
+   "indexes": [
+    "uniqueIndex orders_number_idx",
+    "uniqueIndex orders_idem_idx",
+    "uniqueIndex orders_access_key_idx",
+    "index orders_user_idx",
+    "index orders_status_idx",
+    "index orders_created_idx",
+    "index orders_email_idx"
+   ],
+   "line": 265,
+   "sql": "orders",
+   "ts": "orders"
+  },
+  {
+   "cols": [
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "PK"
+     ],
+     "kind": "serial",
+     "note": "",
+     "sql": "id",
+     "ts": "id"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "order_id",
+     "ts": "orderId"
+    },
+    {
+     "enum": null,
+     "fk": "products.id",
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "product_id",
+     "ts": "productId"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 200",
+     "sql": "name",
+     "ts": "name"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 40",
+     "sql": "sku",
+     "ts": "sku"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "varchar",
+     "note": "len 120",
+     "sql": "brand_name",
+     "ts": "brandName"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "varchar",
+     "note": "len 255",
+     "sql": "image",
+     "ts": "image"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "",
+     "sql": "unit_price_millimes",
+     "ts": "unitPriceMillimes"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "",
+     "sql": "quantity",
+     "ts": "quantity"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "",
+     "sql": "line_total_millimes",
+     "ts": "lineTotalMillimes"
+    }
+   ],
+   "indexes": [
+    "index order_items_order_idx",
+    "index order_items_product_idx"
+   ],
+   "line": 322,
+   "sql": "order_items",
+   "ts": "orderItems"
+  },
+  {
+   "cols": [
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "PK"
+     ],
+     "kind": "serial",
+     "note": "",
+     "sql": "id",
+     "ts": "id"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "order_id",
+     "ts": "orderId"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "orderStatusEnum",
+     "note": "",
+     "sql": "status",
+     "ts": "status"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "varchar",
+     "note": "len 300",
+     "sql": "message",
+     "ts": "message"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "actor_id",
+     "ts": "actorId"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL",
+      "now()"
+     ],
+     "kind": "timestamp",
+     "note": "",
+     "sql": "created_at",
+     "ts": "createdAt"
+    }
+   ],
+   "indexes": [
+    "index order_events_order_idx"
+   ],
+   "line": 342,
+   "sql": "order_events",
+   "ts": "orderEvents"
+  },
+  {
+   "cols": [
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "user_id",
+     "ts": "userId"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "product_id",
+     "ts": "productId"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL",
+      "now()"
+     ],
+     "kind": "timestamp",
+     "note": "",
+     "sql": "created_at",
+     "ts": "createdAt"
+    }
+   ],
+   "indexes": [],
+   "line": 357,
+   "sql": "wishlist_items",
+   "ts": "wishlistItems"
+  },
+  {
+   "cols": [
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "PK"
+     ],
+     "kind": "serial",
+     "note": "",
+     "sql": "id",
+     "ts": "id"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 160",
+     "sql": "slug",
+     "ts": "slug"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 200",
+     "sql": "title",
+     "ts": "title"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "varchar",
+     "note": "len 400",
+     "sql": "excerpt",
+     "ts": "excerpt"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "text",
+     "note": "",
+     "sql": "body",
+     "ts": "body"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "varchar",
+     "note": "len 255",
+     "sql": "image",
+     "ts": "image"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "varchar",
+     "note": "len 60",
+     "sql": "tag",
+     "ts": "tag"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "défaut 4",
+     "sql": "read_minutes",
+     "ts": "readMinutes"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "boolean",
+     "note": "défaut true",
+     "sql": "is_published",
+     "ts": "isPublished"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL",
+      "now()"
+     ],
+     "kind": "timestamp",
+     "note": "",
+     "sql": "published_at",
+     "ts": "publishedAt"
+    }
+   ],
+   "indexes": [
+    "uniqueIndex articles_slug_idx",
+    "index articles_published_idx"
+   ],
+   "line": 372,
+   "sql": "articles",
+   "ts": "articles"
+  },
+  {
+   "cols": [
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "PK"
+     ],
+     "kind": "serial",
+     "note": "",
+     "sql": "id",
+     "ts": "id"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL",
+      "UNIQUE"
+     ],
+     "kind": "varchar",
+     "note": "len 80",
+     "sql": "slug",
+     "ts": "slug"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 120",
+     "sql": "name",
+     "ts": "name"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 240",
+     "sql": "address",
+     "ts": "address"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 80",
+     "sql": "city",
+     "ts": "city"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 20",
+     "sql": "phone",
+     "ts": "phone"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 160",
+     "sql": "hours",
+     "ts": "hours"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "varchar",
+     "note": "len 300",
+     "sql": "maps_url",
+     "ts": "mapsUrl"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "boolean",
+     "note": "défaut true",
+     "sql": "is_active",
+     "ts": "isActive"
+    }
+   ],
+   "indexes": [],
+   "line": 390,
+   "sql": "stores",
+   "ts": "stores"
+  },
+  {
+   "cols": [
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "PK"
+     ],
+     "kind": "serial",
+     "note": "",
+     "sql": "id",
+     "ts": "id"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 200",
+     "sql": "query",
+     "ts": "query"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "",
+     "sql": "results_count",
+     "ts": "resultsCount"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "user_id",
+     "ts": "userId"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL",
+      "now()"
+     ],
+     "kind": "timestamp",
+     "note": "",
+     "sql": "created_at",
+     "ts": "createdAt"
+    }
+   ],
+   "indexes": [
+    "index search_query_idx",
+    "index search_created_idx"
+   ],
+   "line": 404,
+   "sql": "search_events",
+   "ts": "searchEvents"
+  },
+  {
+   "cols": [
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "PK"
+     ],
+     "kind": "serial",
+     "note": "",
+     "sql": "id",
+     "ts": "id"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 80",
+     "sql": "name",
+     "ts": "name"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "jsonb",
+     "note": "défaut {}",
+     "sql": "payload",
+     "ts": "payload"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "user_id",
+     "ts": "userId"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL",
+      "now()"
+     ],
+     "kind": "timestamp",
+     "note": "",
+     "sql": "created_at",
+     "ts": "createdAt"
+    }
+   ],
+   "indexes": [
+    "index analytics_name_idx",
+    "index analytics_created_idx"
+   ],
+   "line": 416,
+   "sql": "analytics_events",
+   "ts": "analyticsEvents"
+  },
+  {
+   "cols": [
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "PK"
+     ],
+     "kind": "serial",
+     "note": "",
+     "sql": "id",
+     "ts": "id"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "actor_id",
+     "ts": "actorId"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 80",
+     "sql": "action",
+     "ts": "action"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 60",
+     "sql": "entity",
+     "ts": "entity"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "varchar",
+     "note": "len 60",
+     "sql": "entity_id",
+     "ts": "entityId"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "jsonb",
+     "note": "défaut {}",
+     "sql": "details",
+     "ts": "details"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL",
+      "now()"
+     ],
+     "kind": "timestamp",
+     "note": "",
+     "sql": "created_at",
+     "ts": "createdAt"
+    }
+   ],
+   "indexes": [
+    "index audit_entity_idx",
+    "index audit_created_idx"
+   ],
+   "line": 428,
+   "sql": "audit_logs",
+   "ts": "auditLogs"
+  },
+  {
+   "cols": [
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "PK"
+     ],
+     "kind": "serial",
+     "note": "",
+     "sql": "id",
+     "ts": "id"
+    },
+    {
+     "enum": null,
+     "fk": "users.id",
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "user_id",
+     "ts": "userId"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 255",
+     "sql": "email",
+     "ts": "email"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 160",
+     "sql": "name",
+     "ts": "name"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 200",
+     "sql": "subject",
+     "ts": "subject"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "text",
+     "note": "",
+     "sql": "message",
+     "ts": "message"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "text",
+     "note": "",
+     "sql": "reply",
+     "ts": "reply"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "ticketStatusEnum",
+     "note": "défaut open",
+     "sql": "status",
+     "ts": "status"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "varchar",
+     "note": "len 24",
+     "sql": "order_number",
+     "ts": "orderNumber"
+    }
+   ],
+   "indexes": [
+    "index tickets_status_idx"
+   ],
+   "line": 442,
+   "sql": "support_tickets",
+   "ts": "supportTickets"
+  },
+  {
+   "cols": [
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "PK"
+     ],
+     "kind": "serial",
+     "note": "",
+     "sql": "id",
+     "ts": "id"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "user_id",
+     "ts": "userId"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "",
+     "sql": "points",
+     "ts": "points"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "varchar",
+     "note": "len 160",
+     "sql": "reason",
+     "ts": "reason"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [],
+     "kind": "integer",
+     "note": "",
+     "sql": "order_id",
+     "ts": "orderId"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL",
+      "now()"
+     ],
+     "kind": "timestamp",
+     "note": "",
+     "sql": "created_at",
+     "ts": "createdAt"
+    }
+   ],
+   "indexes": [
+    "index loyalty_user_idx",
+    "index loyalty_order_idx",
+    "uniqueIndex loyalty_order_award_idx",
+    "uniqueIndex loyalty_order_reversal_idx"
+   ],
+   "line": 459,
+   "sql": "loyalty_transactions",
+   "ts": "loyaltyTransactions"
+  },
+  {
+   "cols": [
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "PK"
+     ],
+     "kind": "serial",
+     "note": "",
+     "sql": "id",
+     "ts": "id"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL",
+      "UNIQUE"
+     ],
+     "kind": "varchar",
+     "note": "len 255",
+     "sql": "email",
+     "ts": "email"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL",
+      "now()"
+     ],
+     "kind": "timestamp",
+     "note": "",
+     "sql": "created_at",
+     "ts": "createdAt"
+    }
+   ],
+   "indexes": [],
+   "line": 485,
+   "sql": "newsletter_subscribers",
+   "ts": "newsletterSubscribers"
+  },
+  {
+   "cols": [
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "PK"
+     ],
+     "kind": "varchar",
+     "note": "len 190",
+     "sql": "key",
+     "ts": "key"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "integer",
+     "note": "défaut 0",
+     "sql": "count",
+     "ts": "count"
+    },
+    {
+     "enum": null,
+     "fk": null,
+     "flags": [
+      "non NULL"
+     ],
+     "kind": "timestamp",
+     "note": "",
+     "sql": "reset_at",
+     "ts": "resetAt"
+    }
+   ],
+   "indexes": [
+    "index rate_limits_reset_idx"
+   ],
+   "line": 497,
+   "sql": "rate_limits",
+   "ts": "rateLimits"
+  }
+ ],
+ "universes": [
+  {
+   "children": [
+    "Nettoyants & démaquillants",
+    "Sérums",
+    "Hydratants",
+    "Anti-âge",
+    "Contour des yeux",
+    "Peaux à imperfections"
+   ],
+   "name": "Visage",
+   "slug": "visage"
+  },
+  {
+   "children": [
+    "Hydratants corps",
+    "Douche & bain",
+    "Mains & pieds",
+    "Vergetures & fermeté"
+   ],
+   "name": "Corps",
+   "slug": "corps"
+  },
+  {
+   "children": [
+    "Shampooings",
+    "Après-shampooings & masques",
+    "Anti-chute",
+    "Cuir chevelu sensible"
+   ],
+   "name": "Cheveux",
+   "slug": "cheveux"
+  },
+  {
+   "children": [
+    "Protection visage",
+    "Protection corps",
+    "Après-soleil",
+    "Enfants"
+   ],
+   "name": "Solaire",
+   "slug": "solaire"
+  },
+  {
+   "children": [
+    "Toilette bébé",
+    "Change",
+    "Soins maman"
+   ],
+   "name": "Bébé & Maman",
+   "slug": "bebe-maman"
+  },
+  {
+   "children": [
+    "Vitalité & immunité",
+    "Sommeil & stress",
+    "Beauté in & out",
+    "Digestion"
+   ],
+   "name": "Compléments",
+   "slug": "complements"
+  },
+  {
+   "children": [
+    "Bucco-dentaire",
+    "Hygiène intime",
+    "Déodorants",
+    "Premiers soins"
+   ],
+   "name": "Hygiène & Bien-être",
+   "slug": "hygiene"
+  }
+ ]
+}

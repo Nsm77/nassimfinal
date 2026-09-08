@@ -1,0 +1,41 @@
+{
+ "conformes": 4,
+ "harnais": "chaos.py",
+ "lignes": [
+  {
+   "attendu": "dégradation L2 comptée",
+   "conforme": true,
+   "id": "C1",
+   "mesure": "1 creux dégradé(s) en raster, aucun creux muet",
+   "obtenu": "composition avec via_png déclaré",
+   "titre": "timbre vectoriel absent"
+  },
+  {
+   "attendu": "refus avec exception",
+   "conforme": true,
+   "id": "C2",
+   "mesure": "UnidentifiedImageError: cannot identify image file '/home/user/nassimfinal/rapport/figs/fig27.png'",
+   "obtenu": "UnidentifiedImageError: cannot identify image file '/home/user/nassimfinal/rapport/figs/fig27.png'",
+   "titre": "PNG corrompu, timbre absent"
+  },
+  {
+   "attendu": "refus motivé (poids sans information)",
+   "conforme": true,
+   "id": "C3",
+   "mesure": "raster pesé 37 Ko",
+   "obtenu": "RuntimeError: chaos C3 : fig27 ne fournit qu'un raster de 94 Mo. Une capture 8K ne remplace pas un vecteur : elle pèse le document sans ajouter une ligne d'information. Réduire la source ou réécrire la planche en matplotlib.",
+   "titre": "raster de substitution en 7680×4320"
+  },
+  {
+   "attendu": "refus immédiat nommant le répertoire",
+   "conforme": true,
+   "id": "C4",
+   "mesure": "FileNotFoundError: plaque fig01 : ni timbre vectoriel ni PNG dans /home/user/nassimfinal/rapport/figs — construction refusée",
+   "obtenu": "FileNotFoundError: plaque fig01 : ni timbre vectoriel ni PNG dans /home/user/nassimfinal/rapport/figs — construction refusée",
+   "titre": "répertoire rapport/figs vidé"
+  }
+ ],
+ "secondes": 6.9,
+ "total": 4,
+ "verdict": "vert"
+}

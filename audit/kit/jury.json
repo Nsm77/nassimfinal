@@ -1,0 +1,142 @@
+{
+ "fautes": [],
+ "harnais": "jury.py",
+ "lignes": [
+  {
+   "fautes": [],
+   "id": "Q1",
+   "preuve_verifiee": true,
+   "question": "D'où sortent vos 81 références, 16 marques, 7 univers ?",
+   "renvoi": "I.2, annexe C",
+   "theme": "chiffres"
+  },
+  {
+   "fautes": [],
+   "id": "Q2",
+   "preuve_verifiee": true,
+   "question": "Le schéma ne déclare aucune contrainte CHECK : comment le stock ne devient-il jamais négatif ?",
+   "renvoi": "IV.2, figure 49",
+   "theme": "base"
+  },
+  {
+   "fautes": [],
+   "id": "Q3",
+   "preuve_verifiee": true,
+   "question": "Combien de tables, et pourquoi ce nombre ?",
+   "renvoi": "annexe B",
+   "theme": "base"
+  },
+  {
+   "fautes": [],
+   "id": "Q4",
+   "preuve_verifiee": true,
+   "question": "Pourquoi ne pas avoir branché de paiement en ligne ?",
+   "renvoi": "I.4, II.5, conclusion",
+   "theme": "argent"
+  },
+  {
+   "fautes": [],
+   "id": "Q5",
+   "preuve_verifiee": true,
+   "question": "Huit motifs de refus pour une promotion, c'est beaucoup. Lesquels comptent vraiment ?",
+   "renvoi": "III.4",
+   "theme": "promotions"
+  },
+  {
+   "fautes": [],
+   "id": "Q6",
+   "preuve_verifiee": true,
+   "question": "Pourquoi scrypt et non bcrypt ou Argon2 ?",
+   "renvoi": "II.4",
+   "theme": "sécurité"
+  },
+  {
+   "fautes": [],
+   "id": "Q7",
+   "preuve_verifiee": true,
+   "question": "Votre limite de requêtes est en mémoire : que se passe-t-il au deuxième serveur ?",
+   "renvoi": "V.6",
+   "theme": "sécurité"
+  },
+  {
+   "fautes": [],
+   "id": "Q8",
+   "preuve_verifiee": true,
+   "question": "Que contient votre cookie de session, et combien de temps vit-il ?",
+   "renvoi": "II.4",
+   "theme": "sécurité"
+  },
+  {
+   "fautes": [],
+   "id": "Q9",
+   "preuve_verifiee": true,
+   "question": "Où est la source de vérité de la visibilité d'un produit ?",
+   "renvoi": "III.2",
+   "theme": "architecture"
+  },
+  {
+   "fautes": [],
+   "id": "Q10",
+   "preuve_verifiee": true,
+   "question": "Deux clics sur « commander » : deux commandes ?",
+   "renvoi": "III.4, annexe F",
+   "theme": "fiabilité"
+  },
+  {
+   "fautes": [],
+   "id": "Q11",
+   "preuve_verifiee": true,
+   "question": "Votre rapport est-il lisible par un daltonien, et votre site est-il sobre en mouvement ?",
+   "renvoi": "V.6, figure 43",
+   "theme": "accessibilité"
+  },
+  {
+   "fautes": [],
+   "id": "Q12",
+   "preuve_verifiee": true,
+   "question": "Le projet est tunisien : l'arabe est-il dans le produit ?",
+   "renvoi": "I.6.1, B4",
+   "theme": "langue"
+  },
+  {
+   "fautes": [],
+   "id": "Q13",
+   "preuve_verifiee": true,
+   "question": "Comment est calculé le franco de port ?",
+   "renvoi": "III.6.1",
+   "theme": "argent"
+  },
+  {
+   "fautes": [],
+   "id": "Q14",
+   "preuve_verifiee": true,
+   "question": "Comment savez-vous que votre PDF n'est pas un assemblage de captures ?",
+   "renvoi": "V.2, V.5",
+   "theme": "méthode"
+  },
+  {
+   "fautes": [],
+   "id": "Q15",
+   "preuve_verifiee": true,
+   "question": "Qu'avez-vous vérifié vous-même, dans un kit écrit par une machine ?",
+   "renvoi": "B5, V.6",
+   "theme": "vérité"
+  }
+ ],
+ "themes": [
+  "accessibilité",
+  "architecture",
+  "argent",
+  "base",
+  "chiffres",
+  "fiabilité",
+  "langue",
+  "méthode",
+  "promotions",
+  "sécurité",
+  "vérité"
+ ],
+ "total": 15,
+ "verdict": "vert",
+ "verifiees": 15
+}

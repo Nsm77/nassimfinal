@@ -1,0 +1,33 @@
+{
+ "compteurs": {
+  "extraits": 11,
+  "figures": 61,
+  "pages": 113,
+  "tableaux": 70
+ },
+ "creux": 61,
+ "liens": 229,
+ "liens_resolus": 229,
+ "morts": [],
+ "octets_pdf": 4129412,
+ "pages": 113,
+ "passes": [
+  {
+   "ancres": 233,
+   "pages": 113,
+   "passe": 1
+  },
+  {
+   "ancres": 233,
+   "pages": 113,
+   "passe": 2
+  }
+ ],
+ "planches": 61,
+ "poses": 61,
+ "secondes_build": 36.9,
+ "secondes_figs": 29.0,
+ "sha256": "f0cc3d9f799563eb4dee6d8e88de9752682b80d3370e7980a93dff2aeac15606",
+ "signets": 233,
+ "via_png": 0
+}

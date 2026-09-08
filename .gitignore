@@ -27,3 +27,31 @@ Thumbs.db
 *.sqlite3
 
 .cache/
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Kit de soutenance — verrouillage déclaré (G18). Ce bloc est la loi du dépôt :
+# il est relu par `qa.py` (QA-10) et toute suppression d'une ligne fait rougir la porte.
+
+# Python : bytecodes et caches de build, jamais des preuves
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Sorties temporaires du moteur de composition (le livrable, lui, est suivi)
+rapport/_out/
+rapport/PDF/*.tmp
+soutenance/zooms/
+*.dep
+
+# Base embarquée : données locales de l'instance de développement
+.pgdata/
+data/pg/
+
+# Ce qui NE DOIT JAMAIS être ignoré, écrit ici pour qu'un futur `git clean` ne le mange pas :
+#   audit/**      — les preuves (B0-boot.md, facts.json, qa.json, rounds/, gates/, scellement.json)
+#   rapport/PDF/Cleopatre-rapport.pdf — le livrable
+#   soutenance/Cleopatre-soutenance.pptx — le livrable
+#   rapport/figs/*.pdf — les planches vectorielles citées par le livrable
+# Si `git status` ne montre plus l'un de ces chemins alors qu'il a changé, la loi est cassée.
