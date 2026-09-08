@@ -17,7 +17,7 @@
     "INV-9",
     "INV-10"
    ],
-   "mesure": "source : 1772 lignes vérifiées ; rendu : 0 faute(s) sur 4203 lignes reconstituées, 1064 lignes de verbatim exemptées",
+   "mesure": "source : 1772 lignes vérifiées ; rendu : 0 faute(s) sur 4234 lignes reconstituées, 1064 lignes de verbatim exemptées",
    "preuve": "audit/langue.json",
    "preuve_presente": true,
    "titre": "Lois de langue exécutées",
@@ -99,11 +99,11 @@
    "invariants": [
     "INV-3"
    ],
-   "mesure": "5 zooms déclarés, 5 fichiers produits",
+   "mesure": "5 zooms déclarés, 0 fichiers produits",
    "preuve": "audit/qa2.json",
    "preuve_presente": true,
    "titre": "Cinq zooms de détail",
-   "verdict": "vert"
+   "verdict": "rouge"
   },
   "G19": {
    "invariants": [
@@ -180,11 +180,11 @@
     "INV-7",
     "INV-17"
    ],
-   "mesure": "constat signé le 08/09/2026 ; portes automatiques vertes à la signature : True",
+   "mesure": "constat signé le 08/09/2026 ; portes automatiques vertes à la signature : False",
    "preuve": "audit/RIEN-A-AJOUTER.md",
    "preuve_presente": true,
    "titre": "Épuisement signé",
-   "verdict": "vert"
+   "verdict": "rouge"
   },
   "G26": {
    "invariants": [
@@ -201,17 +201,17 @@
     "INV-16",
     "INV-17"
    ],
-   "mesure": "37 empreintes scellées, 0 dérivée(s), étiquette locale v1.0-final ; poussée : [à la main du déposant]",
+   "mesure": "37 empreintes scellées, 3 dérivée(s), étiquette locale absente ; poussée : [à la main du déposant]",
    "preuve": "audit/sceau.json",
    "preuve_presente": true,
    "titre": "Gel scellé et étiquette poussée",
-   "verdict": "vert"
+   "verdict": "rouge"
   },
   "G3": {
    "invariants": [
     "INV-20"
    ],
-   "mesure": "113 pages, 36.9 s de build, 3.9 Mo",
+   "mesure": "114 pages, 36.0 s de build, 3.9 Mo",
    "preuve": "audit/budgets.json",
    "preuve_presente": true,
    "titre": "Plan et budget chiffrés tenus",
@@ -265,7 +265,7 @@
     "INV-3",
     "INV-4"
    ],
-   "mesure": "113 pages (bande 102 à 168), 61 planches dessinées, 61 posées, 0 secours raster",
+   "mesure": "114 pages (bande 102 à 168), 61 planches dessinées, 61 posées, 0 secours raster",
    "preuve": "audit/dernier-build.json",
    "preuve_presente": true,
    "titre": "Rapport composé entre le plancher et le plafond de pages, tout vectoriel",
@@ -284,7 +284,11 @@
  },
  "harnais": "gates.py",
  "note_g6": 100,
- "rouges": [],
+ "rouges": [
+  "G18",
+  "G25",
+  "G27"
+ ],
  "rubrique": [
   {
    "critere": "Torsion de la source : aucune faute de langue au rendu",
@@ -342,8 +346,8 @@
    "points": 1
   }
  ],
- "secondes": 1.4,
+ "secondes": 1.39,
  "total": 27,
- "verdict": "vert",
- "vert": 27
+ "verdict": "rouge",
+ "vert": 24
 }
