@@ -331,8 +331,7 @@ EXIGÉES = {                                    # l'identité v14, nommée par l
     "Newsreader-Regular": "Display", "Newsreader-SemiBold": "Display-SemiBold",
     "Newsreader-Bold": "Display-Bold", "Newsreader-Italic": "Display-Italic",
     "Manrope-Regular": "Texte", "Manrope-Medium": "Texte-Medium",
-    "Manrope-SemiBold": "Texte-SemiBold", "Manrope-Bold": "Texte-Bold",
-    "Manrope-Italic": "Texte-Italic",
+    "Manrope-SemiBold": "Texte-SemiBold", "Manrope-Bold": "Texte-Bold", "Manrope-Italic": "Texte-Italic",
 }
 
 

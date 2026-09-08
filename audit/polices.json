@@ -10,6 +10,17 @@
   "Newsreader-Regular",
   "Newsreader-SemiBold"
  ],
- "installees": [],
- "substitution": "DejaVu (système) en attendant rapport/polices/ — lancer l'installeur de fontes puis rebuild, sans toucher au texte"
+ "installees": [
+  "Manrope-Bold",
+  "Manrope-Italic",
+  "Manrope-Medium",
+  "Manrope-Regular",
+  "Manrope-SemiBold",
+  "Newsreader-Bold",
+  "Newsreader-Italic",
+  "Newsreader-Regular",
+  "Newsreader-SemiBold"
+ ],
+ "licence": "SIL Open Font License 1.1 — rapport/polices/",
+ "substitution": null
 }

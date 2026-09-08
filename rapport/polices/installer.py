@@ -25,7 +25,6 @@ VARIABLES = {
     "Newsreader-VF.ttf": f"{BASE}/newsreader/Newsreader%5Bopsz%2Cwght%5D.ttf",
     "Newsreader-Italic-VF.ttf": f"{BASE}/newsreader/Newsreader-Italic%5Bopsz%2Cwght%5D.ttf",
     "Manrope-VF.ttf": f"{BASE}/manrope/Manrope%5Bwght%5D.ttf",
-    "Manrope-Italic-VF.ttf": f"{BASE}/manrope/Manrope-Italic%5Bwght%5D.ttf",
 }
 LICENCES = {
     "OFL-Newsreader.txt": f"{BASE}/newsreader/OFL.txt",
@@ -41,7 +40,6 @@ STATIQUES = {
     "Manrope-Medium": ("Manrope-VF.ttf", "wght=500"),
     "Manrope-SemiBold": ("Manrope-VF.ttf", "wght=600"),
     "Manrope-Bold": ("Manrope-VF.ttf", "wght=700"),
-    "Manrope-Italic": ("Manrope-Italic-VF.ttf", "wght=400"),
 }
 
 
