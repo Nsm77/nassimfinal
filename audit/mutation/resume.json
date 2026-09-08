@@ -1,0 +1,39 @@
+{
+ "detectes": 3,
+ "harnais": "mutation.py",
+ "lignes": [
+  {
+   "detecte": true,
+   "explication": "la figure n'est plus appelée : le registre la refuse au lieu de l'imprimer en faveur d'un oubli",
+   "extrait": "RuntimeError: 1 planche(s) dessinée(s) et jamais citée(s) : ['fig27'] — soit les appeler dans le texte, soit retirer le dessin (rasoir §2 : une figure que personne ne cite est du travail caché)",
+   "id": "M1",
+   "loi": "INV-13 — toute plaque est citée exactement une fois",
+   "message_trouvé": true,
+   "refus": true,
+   "titre": "une planche rendue et jamais citée"
+  },
+  {
+   "detecte": true,
+   "explication": "la césure redevient possible devant la ponctuation haute : le moteur refuse la page plutôt que de l'imprimer",
+   "extrait": "rapport.contenu.LangueRefusee: ponctuation collée au mot, espace insécable absente avant ';' : «… huit de ces douze critères; sans in…»",
+   "id": "M2",
+   "loi": "loi INSÉCABLES du §4, vérifiée sur le rendu",
+   "message_trouvé": true,
+   "refus": true,
+   "titre": "une espace insécable ôtée avant un point-virgule"
+  },
+  {
+   "detecte": true,
+   "explication": "le 151 devient 9000 : schema.ts n'a pas 9000 lignes, et une référence fausse est une contrefaçon de preuve, même quand elle est invisible à l'œil",
+   "extrait": "RuntimeError: extrait hors bornes : src/db/schema.ts:9000+26 (le fichier fait 570 lignes)",
+   "id": "M3",
+   "loi": "INV-5 — toute citation `fichier:ligne` pointe une ligne qui existe",
+   "message_trouvé": true,
+   "refus": true,
+   "titre": "un extrait de code dont la ligne citée dépasse la fin du fichier"
+  }
+ ],
+ "secondes": 80.3,
+ "total": 3,
+ "verdict": "vert"
+}

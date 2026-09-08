@@ -1,0 +1,101 @@
+{
+ "caracteres": 240755,
+ "controles": [
+  {
+   "code": "QA-1",
+   "detail": "15 paquets versionnés dans les faits, absents du rendu aucun ; 6 couple(s) nom-version lus dans le document, contredits aucun",
+   "mesure": 15,
+   "titre": "versions citées = package.json",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-2",
+   "detail": "6 structures recomptées à nu ; écarts avec l'extracteur aucun ; absents du rendu aucun ; colonnes du dictionnaire 202 contre le fait 202 : cohérent",
+   "mesure": 6,
+   "titre": "chiffres du rapport = dépôt recompté",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-3",
+   "detail": "107 chemins cités, introuvables aucun, hors bornes aucun",
+   "mesure": 107,
+   "titre": "chemins et lignes cités réels",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-4",
+   "detail": "formules de remplissage lues dans le rendu : aucune",
+   "mesure": 0,
+   "titre": "aucune formule de remplissage",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-5",
+   "detail": "0 prose(s) avec mot emprunté ; exemptions comptées : 351 ligne(s) de verbatim, 18 ligne(s) de la région du résumé anglais ; exemples : aucun",
+   "mesure": 0,
+   "titre": "aucun mot anglais hors verbatim",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-6",
+   "detail": "outline 233 entrées, registre 233, titres fautifs aucun",
+   "mesure": 233,
+   "titre": "signets cohérents ×3",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-7",
+   "detail": "229 liens internes, 0 mort(s), 0 lien(s) externe(s) cliquable(s) (le kit n'en pose aucun : les URL sont imprimées et vérifiables à la main), domaines hors liste officielle : aucun ; 11 domaines cités dont 1 exemptés comme exemples d'exécution",
+   "mesure": 229,
+   "titre": "liens internes tous résolus",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-8",
+   "detail": "61 PDF, 61 PNG, ratios divergents aucun, 122 légendes de planches lues dans le rendu",
+   "mesure": 61,
+   "titre": "planches PDF et PNG en ratio",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-9",
+   "detail": "0 pictogramme(s) au rendu [], 0 ligne(s) de source contaminée(s) aucune",
+   "mesure": 0,
+   "titre": "aucun pictogramme dans une figure",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-10",
+   "detail": "65 fichiers du kit analysés ; secrets aucun ; .env suivis réels aucun, valeurs hors gabarit aucune ; .gitignore sans rien ; chemins du kit ignorés à tort aucun ; URL de base de développement en clair hors kit, consignée : ['.env.example', 'drizzle.config.json']",
+   "mesure": 65,
+   "titre": "aucun secret dans les fichiers suivis",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-11",
+   "detail": "30 glissades, morph 5, durées 900 ms 5, notes 30, ratio 1.7777, entrées du plan ≥ 90 car. 0, libellés > 140 car. 0",
+   "mesure": 30,
+   "titre": "diaporama : 30, morph, notes, formats",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-12",
+   "detail": "13 montants à virgule dans le rendu, points décimaux aucun, groupements à l'anglaise aucun",
+   "mesure": 13,
+   "titre": "nombres à la française",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-13",
+   "detail": "0 césure(s) de ponctuation sur 9348 lignes rendues, 1 ligne(s) de verbatim exemptée(s) : aucune",
+   "mesure": 0,
+   "titre": "ponctuation française non coupée au rendu",
+   "verdict": "vert"
+  }
+ ],
+ "harnais": "qa.py (pypdf, lecture page à page)",
+ "pages": 113,
+ "rouges": 0,
+ "secondes": 10.5,
+ "verdict": "vert"
+}

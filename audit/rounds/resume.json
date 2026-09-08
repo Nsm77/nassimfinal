@@ -1,0 +1,340 @@
+{
+ "en_defaut": [],
+ "harnais": "assauts.py",
+ "lignes": [
+  {
+   "affirmation": "le catalogue compte 81 références, et le nombre est le même partout",
+   "conforme": true,
+   "correction": "",
+   "id": "A01",
+   "mesure": "déposé 81, recompté 81",
+   "note": "",
+   "origine": "visé",
+   "round": "R1"
+  },
+  {
+   "affirmation": "le schéma déclare 24 tables, pas 23 ni 25",
+   "conforme": true,
+   "correction": "",
+   "id": "A02",
+   "mesure": "déposé 24, recompté 24",
+   "note": "",
+   "origine": "visé",
+   "round": "R1"
+  },
+  {
+   "affirmation": "aucune contrainte de vérification n'est revendiquée là où le dépôt n'en a pas",
+   "conforme": true,
+   "correction": "le projet affirmait « la contrainte tient le stock » ; la garde est en code (`src/lib/orders.ts`), la phrase a été réécrite",
+   "id": "A03",
+   "mesure": "le mémoire dit zéro contrainte CHECK au schéma ; le source est consulté",
+   "note": "",
+   "origine": "visé",
+   "round": "R1"
+  },
+  {
+   "affirmation": "le PDF ne contient aucun nombre suivi de « TODO », « environ », « à peu près »",
+   "conforme": true,
+   "correction": "",
+   "id": "A04",
+   "mesure": "0 ligne(s) portent le motif ; exemples aucune",
+   "note": "« [à relever] » est la marque d'inconnu réelle du kit : présente dans les tableaux d'indicateurs, elle est autorisée par la convention des crochets, la sonde la compte",
+   "origine": "sondé",
+   "round": "R1"
+  },
+  {
+   "affirmation": "toute version citée existe dans package.json",
+   "conforme": true,
+   "correction": "",
+   "id": "A05",
+   "mesure": "quinze faits de version, présence vérifiée ligne à ligne",
+   "note": "",
+   "origine": "sondé",
+   "round": "R1"
+  },
+  {
+   "affirmation": "les lignes de code citées en `fichier:ligne` ne dépassent jamais le fichier",
+   "conforme": true,
+   "correction": "",
+   "id": "A06",
+   "mesure": "référence hors bornes cherchée dans tout le document",
+   "note": "",
+   "origine": "sondé",
+   "round": "R1"
+  },
+  {
+   "affirmation": "aucune formule de remplissage dans les deux cents premières lignes",
+   "conforme": true,
+   "correction": "",
+   "id": "A07",
+   "mesure": "0 ligne(s) portent le motif ; exemples aucune",
+   "note": "",
+   "origine": "visé",
+   "round": "R2"
+  },
+  {
+   "affirmation": "le mot « item » n'est pas un mot du mémoire",
+   "conforme": true,
+   "correction": "",
+   "id": "A08",
+   "mesure": "0 ligne(s) portent le motif ; exemples aucune",
+   "note": "la région de l'abstract anglais est tenue à part, et le nombre de lignes exemptées est donné par le harnais de texte : la région ne disparaît pas du procès-verbal",
+   "origine": "visé",
+   "round": "R2"
+  },
+  {
+   "affirmation": "« password » n'apparaît que dans le verbatim du code",
+   "conforme": true,
+   "correction": "une légende écrivait « le champ password » en prose : remplacé par « le champ de mot de passe », le code garde son nom",
+   "id": "A09",
+   "mesure": "ligne de prose avec le mot anglais cherchée, verbatim exclu",
+   "note": "",
+   "origine": "visé",
+   "round": "R2"
+  },
+  {
+   "affirmation": "les montants sont à virgule, jamais à point décimal",
+   "conforme": true,
+   "correction": "",
+   "id": "A10",
+   "mesure": "0 ligne(s) portent le motif ; exemples aucune",
+   "note": "",
+   "origine": "sondé",
+   "round": "R2"
+  },
+  {
+   "affirmation": "les dizaines sont jointes par un trait d'union quand le français l'exige",
+   "conforme": true,
+   "correction": "",
+   "id": "A11",
+   "mesure": "formes détachées cherchées dans le rendu",
+   "note": "",
+   "origine": "sondé",
+   "round": "R2"
+  },
+  {
+   "affirmation": "aucune entité HTML n'est imprimée telle quelle",
+   "conforme": true,
+   "correction": "",
+   "id": "A12",
+   "mesure": "0 ligne(s) portent le motif ; exemples aucune",
+   "note": "",
+   "origine": "visé",
+   "round": "R3"
+  },
+  {
+   "affirmation": "aucun chevron de balise n'est visible dans une page",
+   "conforme": true,
+   "correction": "",
+   "id": "A13",
+   "mesure": "0 ligne(s) portent le motif ; exemples aucune",
+   "note": "",
+   "origine": "visé",
+   "round": "R3"
+  },
+  {
+   "affirmation": "aucune ligne rendue ne commence par une ponctuation française",
+   "conforme": true,
+   "correction": "la première exécution de cette sonde a produit dix faux positifs : l'extraction texte du PDF coupe une ligne à chaque span, donc à chaque insécable. La sonde reconstruit désormais les lignes par ordonnée de span, comme le fait le lecteur",
+   "id": "A14",
+   "mesure": "0 césure(s) géométrique(s) ; exemples aucune",
+   "note": "c'est un désaccord de méthode entre le harnais de texte (qa.py, voisinage) et celui-ci (géométrie des spans) : les deux comptes sont imprimés dans le procès-verbal",
+   "origine": "visé",
+   "round": "R3"
+  },
+  {
+   "affirmation": "aucun pictogramme dans une planche ni dans une légende",
+   "conforme": true,
+   "correction": "",
+   "id": "A15",
+   "mesure": "plans de code au-delà de U+1F000 cherchés dans tout le document",
+   "note": "",
+   "origine": "sondé",
+   "round": "R3"
+  },
+  {
+   "affirmation": "les ratios des planches ne varient pas d'un format à l'autre",
+   "conforme": true,
+   "correction": "",
+   "id": "A16",
+   "mesure": "61 PDF / 61 PNG",
+   "note": "",
+   "origine": "sondé",
+   "round": "R3"
+  },
+  {
+   "affirmation": "le sommaire mène à des pages, pas à des promesses",
+   "conforme": true,
+   "correction": "",
+   "id": "A17",
+   "mesure": "aucun lien interne mort au dernier placage",
+   "note": "",
+   "origine": "visé",
+   "round": "R4"
+  },
+  {
+   "affirmation": "les titres de signets sont du texte, pas du balisage",
+   "conforme": true,
+   "correction": "",
+   "id": "A18",
+   "mesure": "titres de l'appareil relus",
+   "note": "",
+   "origine": "visé",
+   "round": "R4"
+  },
+  {
+   "affirmation": "aucune section du dos du document n'hérite d'un numéro de partie",
+   "conforme": true,
+   "correction": "trouvé par cet assaut : le résumé et la quatrième prenaient le compteur de la sixième partie ; `Fab.hors_numerotation` les en sort",
+   "id": "A19",
+   "mesure": "0 ligne(s) portent le motif ; exemples aucune",
+   "note": "",
+   "origine": "visé",
+   "round": "R4"
+  },
+  {
+   "affirmation": "les listes de figures et de tableaux ne sont pas vides et ne doublent pas",
+   "conforme": true,
+   "correction": "",
+   "id": "A20",
+   "mesure": "122 occurrence(s), attendu ≥ 61",
+   "note": "",
+   "origine": "sondé",
+   "round": "R4"
+  },
+  {
+   "affirmation": "chaque tableau est annoncé avec un numéro croissant",
+   "conforme": true,
+   "correction": "",
+   "id": "A21",
+   "mesure": "140 occurrence(s), attendu ≥ 60",
+   "note": "",
+   "origine": "sondé",
+   "round": "R4"
+  },
+  {
+   "affirmation": "trente glissades, pas vingt-six",
+   "conforme": true,
+   "correction": "",
+   "id": "A22",
+   "mesure": "nombre de parties `slide` dans le paquet",
+   "note": "",
+   "origine": "visé",
+   "round": "R5"
+  },
+  {
+   "affirmation": "le Morph est écrit en XML réel, cinq fois",
+   "conforme": true,
+   "correction": "",
+   "id": "A23",
+   "mesure": "cinq déclarations `p159:morph option=\"byObject\"`",
+   "note": "",
+   "origine": "visé",
+   "round": "R5"
+  },
+  {
+   "affirmation": "chaque glissade a une note de minutage",
+   "conforme": true,
+   "correction": "",
+   "id": "A24",
+   "mesure": "30/30 glissades notées",
+   "note": "la sonde lit le paquet, pas le JSON du compositeur : elle doit voir une note absente même si le compositeur sest cru quitte",
+   "origine": "visé",
+   "round": "R5"
+  },
+  {
+   "affirmation": "aucun lien non vérifié n'est posé dans le paquet",
+   "conforme": true,
+   "correction": "",
+   "id": "A25",
+   "mesure": "aucune relation d'hyperlien dans le PPTX",
+   "note": "",
+   "origine": "sondé",
+   "round": "R5"
+  },
+  {
+   "affirmation": "le corps minimal du contenu est de 18 pt",
+   "conforme": true,
+   "correction": "",
+   "id": "A26",
+   "mesure": "mesure relue depuis le JSON d'exécution du compositeur",
+   "note": "",
+   "origine": "sondé",
+   "round": "R5"
+  },
+  {
+   "affirmation": "le kit ne contient aucun secret, et le dit quand le dépôt en porte",
+   "conforme": true,
+   "correction": "",
+   "id": "A27",
+   "mesure": "le contrôle QA-10 est relu, avec ses deux constats déclarés",
+   "note": "",
+   "origine": "visé",
+   "round": "R6"
+  },
+  {
+   "affirmation": "les vingt-cinq invariants ont un exécutant et une preuve",
+   "conforme": true,
+   "correction": "",
+   "id": "A28",
+   "mesure": "autocontrôle exécuté à l'import de `rapport/invariants.py` : sans exécutant, sans preuve, ou sans porte, le module refuse d'être importé",
+   "note": "",
+   "origine": "visé",
+   "round": "R6"
+  },
+  {
+   "affirmation": "aucun fichier de build n'est laissé dans le dépôt",
+   "conforme": true,
+   "correction": "",
+   "id": "A29",
+   "mesure": "scripts de cautère éphémères vérifiés absents",
+   "note": "",
+   "origine": "sondé",
+   "round": "R6"
+  },
+  {
+   "affirmation": "le PDF tient sous le budget de poids et sous le budget de temps",
+   "conforme": true,
+   "correction": "",
+   "id": "A30",
+   "mesure": "3.9 Mo, 36.9 s",
+   "note": "",
+   "origine": "sondé",
+   "round": "R6"
+  }
+ ],
+ "par_round": {
+  "R1": {
+   "assauts": 6,
+   "tenus": 6
+  },
+  "R2": {
+   "assauts": 5,
+   "tenus": 5
+  },
+  "R3": {
+   "assauts": 5,
+   "tenus": 5
+  },
+  "R4": {
+   "assauts": 5,
+   "tenus": 5
+  },
+  "R5": {
+   "assauts": 5,
+   "tenus": 5
+  },
+  "R6": {
+   "assauts": 4,
+   "tenus": 4
+  }
+ },
+ "secondes": 7.6,
+ "tenus": 30,
+ "total": 30,
+ "verdict": "vert",
+ "visites": {
+  "sondes": 13,
+  "vises": 17
+ }
+}

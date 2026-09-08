@@ -1,0 +1,188 @@
+{
+ "ancillaires": [
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "1"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "2"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "D1"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "3"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "4"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "D2"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "5"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "6"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "7"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "8"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "9"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.legende",
+   "texte": "zoom 400 % — les clés étrangères, colonn"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "10"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.legende",
+   "texte": "zoom 400 % — l'entier millime"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "D3"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "11"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "12"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "13"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.legende",
+   "texte": "zoom 400 % — le verrou avant l'écriture"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "14"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "15"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.legende",
+   "texte": "zoom 400 % — la colonne « avant » reste "
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "D4"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "16a"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "16b"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "D5"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "17a"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.legende",
+   "texte": "zoom 400 % — le hash qui doit tomber deu"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "17b"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "18"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "19"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "ANN 1"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "ANN 2"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "ANN 3"
+  },
+  {
+   "pt": 13.0,
+   "role": "an.pastille",
+   "texte": "ANN 4"
+  }
+ ],
+ "builds": 17,
+ "compte_ancillaires": 35,
+ "contraste_min": 7.63,
+ "min_pt_contenu": 18.0,
+ "min_pt_global": 18.0,
+ "morph": 5,
+ "mots_max": 38,
+ "octets": 3896898,
+ "zooms": 5
+}

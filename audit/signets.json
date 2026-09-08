@@ -1,0 +1,1167 @@
+{
+ "I.1": {
+  "niveau": 1,
+  "page": 13,
+  "titre": "1.1 Contexte de l'officine"
+ },
+ "I.1.1": {
+  "niveau": 2,
+  "page": 13,
+  "titre": "1.1 Ce qui distingue une parapharmacie d'un commerce en ligne"
+ },
+ "I.2": {
+  "niveau": 1,
+  "page": 14,
+  "titre": "1.2 État de l'art du commerce de santé en ligne"
+ },
+ "I.3": {
+  "niveau": 1,
+  "page": 15,
+  "titre": "1.3 Le problème, décomposé"
+ },
+ "I.4": {
+  "niveau": 1,
+  "page": 17,
+  "titre": "1.4 Pourquoi pas une place de marché, et pas un abonnement mensuel"
+ },
+ "I.5": {
+  "niveau": 1,
+  "page": 19,
+  "titre": "1.5 Cibles et indicateurs"
+ },
+ "I.5.1": {
+  "niveau": 2,
+  "page": 20,
+  "titre": "1.5 Zones et délais de livraison"
+ },
+ "I.6": {
+  "niveau": 1,
+  "page": 21,
+  "titre": "1.6 Périmètre, risques, arbitrages"
+ },
+ "I.6.1": {
+  "niveau": 2,
+  "page": 22,
+  "titre": "1.6 Qui fait quoi, et qui est informé"
+ },
+ "II.1": {
+  "niveau": 1,
+  "page": 24,
+  "titre": "2.1 Pourquoi Scrum, et jusqu'où"
+ },
+ "II.2": {
+  "niveau": 1,
+  "page": 24,
+  "titre": "2.2 Le socle : S0"
+ },
+ "II.3": {
+  "niveau": 1,
+  "page": 25,
+  "titre": "2.3 Les quatre sprints, deux par deux"
+ },
+ "II.4": {
+  "niveau": 1,
+  "page": 28,
+  "titre": "2.4 Le choix de la pile"
+ },
+ "II.5": {
+  "niveau": 1,
+  "page": 30,
+  "titre": "2.5 Sécurité, conformité et données personnelles, posées tôt"
+ },
+ "II.6": {
+  "niveau": 1,
+  "page": 31,
+  "titre": "2.6 Journal des décisions (ADL) et fautes connues"
+ },
+ "II.7": {
+  "niveau": 1,
+  "page": 32,
+  "titre": "2.7 Ce que la méthode a coûté, ce qu'elle a rendu"
+ },
+ "III.1": {
+  "niveau": 1,
+  "page": 34,
+  "titre": "3.1 Du besoin métier au cas d'usage"
+ },
+ "III.1.1": {
+  "niveau": 2,
+  "page": 34,
+  "titre": "3.1 Les trois référentiels du catalogue"
+ },
+ "III.2": {
+  "niveau": 1,
+  "page": 35,
+  "titre": "3.2 Les cas d'usage comme contrats"
+ },
+ "III.2.1": {
+  "niveau": 2,
+  "page": 36,
+  "titre": "3.2 Index des vingt-quatre contrats"
+ },
+ "III.3": {
+  "niveau": 1,
+  "page": 37,
+  "titre": "3.3 Le modèle de données"
+ },
+ "III.4": {
+  "niveau": 1,
+  "page": 44,
+  "titre": "3.4 Le modèle d'argent et le modèle de promotion"
+ },
+ "III.5": {
+  "niveau": 1,
+  "page": 47,
+  "titre": "3.5 Les processus : commande, stock, retour"
+ },
+ "III.6": {
+  "niveau": 1,
+  "page": 49,
+  "titre": "3.6 Architecture et composants"
+ },
+ "III.6.1": {
+  "niveau": 2,
+  "page": 50,
+  "titre": "3.6 L'inventaire des composants"
+ },
+ "III.7": {
+  "niveau": 1,
+  "page": 52,
+  "titre": "3.7 Les trente actions, garde-fou par garde-fou"
+ },
+ "III.8": {
+  "niveau": 1,
+  "page": 54,
+  "titre": "3.8 Ce qui est stocké, ce qui est calculé"
+ },
+ "IV.1": {
+  "niveau": 1,
+  "page": 57,
+  "titre": "4.1 S1 — publier le catalogue"
+ },
+ "IV.2": {
+  "niveau": 1,
+  "page": 59,
+  "titre": "4.2 S2 — facturer sans se tromper"
+ },
+ "IV.3": {
+  "niveau": 1,
+  "page": 61,
+  "titre": "4.3 S3 — exploiter depuis le comptoir"
+ },
+ "IV.4": {
+  "niveau": 1,
+  "page": 62,
+  "titre": "4.4 S4 — durcir ce qui doit l'être"
+ },
+ "IV.4.1": {
+  "niveau": 2,
+  "page": 64,
+  "titre": "4.4 Inventaire des actions et de leurs garde-fous"
+ },
+ "IV.5": {
+  "niveau": 1,
+  "page": 65,
+  "titre": "4.5 Ce que le dépôt mesure"
+ },
+ "IV.5.1": {
+  "niveau": 2,
+  "page": 66,
+  "titre": "4.5 Les fichiers les plus denses du dépôt"
+ },
+ "IV.6": {
+  "niveau": 1,
+  "page": 67,
+  "titre": "4.6 Ce que le projet a dû refuser"
+ },
+ "V.1": {
+  "niveau": 1,
+  "page": 69,
+  "titre": "5.1 Vingt-cinq invariants, chacun avec sa preuve"
+ },
+ "V.2": {
+  "niveau": 1,
+  "page": 70,
+  "titre": "5.2 Le harnais double : qa.py ≡ qa2.py"
+ },
+ "V.3": {
+  "niveau": 1,
+  "page": 71,
+  "titre": "5.3 Trente assauts en six rounds"
+ },
+ "V.4": {
+  "niveau": 1,
+  "page": 72,
+  "titre": "5.4 Chaos et mutation : prouver que les garde-fous mordent"
+ },
+ "V.5": {
+  "niveau": 1,
+  "page": 73,
+  "titre": "5.5 Vingt-sept portes, budgets, scellement"
+ },
+ "V.6": {
+  "niveau": 1,
+  "page": 75,
+  "titre": "5.6 Limites assumées, dettes écrites, suite réelle"
+ },
+ "abreviations": {
+  "niveau": 1,
+  "page": 10,
+  "titre": "Abréviations et sigles employés"
+ },
+ "annexe.A": {
+  "niveau": 1,
+  "page": 79,
+  "titre": "6.1 Annexe A — Repères de forme, palette, accessibilité"
+ },
+ "annexe.B": {
+  "niveau": 1,
+  "page": 80,
+  "titre": "6.2 Annexe B — Le modèle de données, table par table"
+ },
+ "annexe.C": {
+  "niveau": 1,
+  "page": 88,
+  "titre": "6.3 Annexe C — Catalogue, parcours, inventaire des routes"
+ },
+ "annexe.D": {
+  "niveau": 1,
+  "page": 94,
+  "titre": "6.4 Annexe D — Les vingt-quatre récits du backlog"
+ },
+ "annexe.D.US-01": {
+  "niveau": 2,
+  "page": 94,
+  "titre": "6.4 US-01 — Créer un compte client"
+ },
+ "annexe.D.US-02": {
+  "niveau": 2,
+  "page": 94,
+  "titre": "6.4 US-02 — Se connecter et sortir"
+ },
+ "annexe.D.US-03": {
+  "niveau": 2,
+  "page": 95,
+  "titre": "6.4 US-03 — Modifier son profil et son mot de passe"
+ },
+ "annexe.D.US-04": {
+  "niveau": 2,
+  "page": 95,
+  "titre": "6.4 US-04 — Gérer ses adresses de livraison"
+ },
+ "annexe.D.US-05": {
+  "niveau": 2,
+  "page": 95,
+  "titre": "6.4 US-05 — Parcourir le catalogue par univers"
+ },
+ "annexe.D.US-06": {
+  "niveau": 2,
+  "page": 96,
+  "titre": "6.4 US-06 — Chercher un produit"
+ },
+ "annexe.D.US-07": {
+  "niveau": 2,
+  "page": 96,
+  "titre": "6.4 US-07 — Voir une fiche produit complète"
+ },
+ "annexe.D.US-08": {
+  "niveau": 2,
+  "page": 97,
+  "titre": "6.4 US-08 — Filtrer par besoin de peau"
+ },
+ "annexe.D.US-09": {
+  "niveau": 2,
+  "page": 97,
+  "titre": "6.4 US-09 — Découvrir les marques et leur histoire"
+ },
+ "annexe.D.US-10": {
+  "niveau": 2,
+  "page": 97,
+  "titre": "6.4 US-10 — Ajouter au panier sans compte"
+ },
+ "annexe.D.US-11": {
+  "niveau": 2,
+  "page": 98,
+  "titre": "6.4 US-11 — Passer commande sans casser le stock"
+ },
+ "annexe.D.US-12": {
+  "niveau": 2,
+  "page": 98,
+  "titre": "6.4 US-12 — Appliquer un code promo"
+ },
+ "annexe.D.US-13": {
+  "niveau": 2,
+  "page": 99,
+  "titre": "6.4 US-13 — Payer à la livraison ou par virement"
+ },
+ "annexe.D.US-14": {
+  "niveau": 2,
+  "page": 99,
+  "titre": "6.4 US-14 — Ne pas commander deux fois par erreur"
+ },
+ "annexe.D.US-15": {
+  "niveau": 2,
+  "page": 99,
+  "titre": "6.4 US-15 — Suivre son colis sans compte"
+ },
+ "annexe.D.US-16": {
+  "niveau": 2,
+  "page": 100,
+  "titre": "6.4 US-16 — Annuler tant que c'est possible"
+ },
+ "annexe.D.US-17": {
+  "niveau": 2,
+  "page": 100,
+  "titre": "6.4 US-17 — Demander un retour après livraison"
+ },
+ "annexe.D.US-18": {
+  "niveau": 2,
+  "page": 101,
+  "titre": "6.4 US-18 — Laisser un avis modéré"
+ },
+ "annexe.D.US-19": {
+  "niveau": 2,
+  "page": 101,
+  "titre": "6.4 US-19 — Gérer le catalogue depuis l'administration"
+ },
+ "annexe.D.US-20": {
+  "niveau": 2,
+  "page": 101,
+  "titre": "6.4 US-20 — Ajuster un stock avec journal"
+ },
+ "annexe.D.US-21": {
+  "niveau": 2,
+  "page": 102,
+  "titre": "6.4 US-21 — Faire avancer une commande d'un clic"
+ },
+ "annexe.D.US-22": {
+  "niveau": 2,
+  "page": 102,
+  "titre": "6.4 US-22 — Répondre au support et exporter"
+ },
+ "annexe.D.US-23": {
+  "niveau": 2,
+  "page": 103,
+  "titre": "6.4 US-23 — Produire un rapport reproductible"
+ },
+ "annexe.D.US-24": {
+  "niveau": 2,
+  "page": 103,
+  "titre": "6.4 US-24 — Tenir la soutenance sans réseau"
+ },
+ "annexe.E": {
+  "niveau": 1,
+  "page": 104,
+  "titre": "6.5 Annexe E — Protocoles de vérification et commandes"
+ },
+ "annexe.F": {
+  "niveau": 1,
+  "page": 107,
+  "titre": "6.6 Annexe F — Traçabilité : récit, section, figure, preuve"
+ },
+ "annexeA.echelle": {
+  "niveau": 2,
+  "page": 88,
+  "titre": "6.2 L'échelle typographique du document"
+ },
+ "annexeA.glossaire": {
+  "niveau": 2,
+  "page": 79,
+  "titre": "6.1 Glossaire des termes du projet"
+ },
+ "annexeA.territoire": {
+  "niveau": 2,
+  "page": 79,
+  "titre": "6.1 Territoire couvert par la livraison"
+ },
+ "annexeB.dico": {
+  "niveau": 2,
+  "page": 81,
+  "titre": "6.2 Dictionnaire des colonnes"
+ },
+ "annexeB.index": {
+  "niveau": 2,
+  "page": 86,
+  "titre": "6.2 Inventaire des index"
+ },
+ "annexeC.catalogue_complet": {
+  "niveau": 2,
+  "page": 91,
+  "titre": "6.3 Catalogue complet"
+ },
+ "annexeC.rayons": {
+  "niveau": 2,
+  "page": 93,
+  "titre": "6.3 Le plan de rayon complet"
+ },
+ "annexeE.invariants": {
+  "niveau": 2,
+  "page": 104,
+  "titre": "6.5 Les vingt-cinq invariants et leur exécutant"
+ },
+ "annexeE.sialors": {
+  "niveau": 2,
+  "page": 106,
+  "titre": "6.5 Dix règles de conduite SI/ALORS"
+ },
+ "annexeE.stop": {
+  "niveau": 2,
+  "page": 107,
+  "titre": "6.5 Règles d'arrêt"
+ },
+ "annexeE.zod": {
+  "niveau": 2,
+  "page": 106,
+  "titre": "6.5 Les schémas de validation des frontières"
+ },
+ "annexeF.deck": {
+  "niveau": 2,
+  "page": 109,
+  "titre": "6.6 Correspondance avec le diaporama"
+ },
+ "annexes": {
+  "niveau": 0,
+  "page": 77,
+  "titre": "Annexes · Le gisement : six inventaires complets"
+ },
+ "bibliographie": {
+  "niveau": 1,
+  "page": 77,
+  "titre": "5.8 Bibliographie et sources techniques"
+ },
+ "conclusion": {
+  "niveau": 1,
+  "page": 76,
+  "titre": "5.7 Conclusion"
+ },
+ "fig.fig01": {
+  "niveau": 3,
+  "page": 13,
+  "titre": "Figure 1 — Ce que le mémoire documente, ce qu'il déclare"
+ },
+ "fig.fig02": {
+  "niveau": 3,
+  "page": 14,
+  "titre": "Figure 2 — Chaîne de valeur d'une parapharmacie à deux comptoirs"
+ },
+ "fig.fig03": {
+  "niveau": 3,
+  "page": 17,
+  "titre": "Figure 6 — Couverture des 11 besoins par le catalogue"
+ },
+ "fig.fig04": {
+  "niveau": 3,
+  "page": 67,
+  "titre": "Figure 52 — Avant / après : inventaire des capacités, pas une opinion"
+ },
+ "fig.fig05": {
+  "niveau": 3,
+  "page": 19,
+  "titre": "Figure 7 — Place du marché ou sur-mesure : la vraie ligne de partage"
+ },
+ "fig.fig06": {
+  "niveau": 3,
+  "page": 20,
+  "titre": "Figure 8 — Objectifs et preuve associée"
+ },
+ "fig.fig07": {
+  "niveau": 3,
+  "page": 15,
+  "titre": "Figure 4 — Arêtes de poisson du problème central"
+ },
+ "fig.fig08": {
+  "niveau": 3,
+  "page": 16,
+  "titre": "Figure 5 — Parties prenantes et ce qu'elles exigent vraiment"
+ },
+ "fig.fig09": {
+  "niveau": 3,
+  "page": 20,
+  "titre": "Figure 9 — Indicateurs : ce qui est mesurable ici, ce qui restera [à relever]"
+ },
+ "fig.fig10": {
+  "niveau": 3,
+  "page": 21,
+  "titre": "Figure 10 — Périmètre fonctionnel : les 43 routes réparties"
+ },
+ "fig.fig11": {
+  "niveau": 3,
+  "page": 15,
+  "titre": "Figure 3 — Où vont les efforts : volumétrie réelle du dépôt"
+ },
+ "fig.fig12": {
+  "niveau": 3,
+  "page": 22,
+  "titre": "Figure 11 — Risques du projet et tueurs exécutables"
+ },
+ "fig.fig13": {
+  "niveau": 3,
+  "page": 25,
+  "titre": "Figure 13 — Maille temporelle : S0 puis quatre sprints de deux semaines"
+ },
+ "fig.fig14": {
+  "niveau": 3,
+  "page": 27,
+  "titre": "Figure 16 — Rituels tenus, et ce qu'ils ont réellement changé"
+ },
+ "fig.fig15": {
+  "niveau": 3,
+  "page": 28,
+  "titre": "Figure 17 — Definition of Done — douze critères, tous vérifiables"
+ },
+ "fig.fig16": {
+  "niveau": 3,
+  "page": 25,
+  "titre": "Figure 12 — Backlog : 24 récits regroupés en 6 épopées"
+ },
+ "fig.fig17": {
+  "niveau": 3,
+  "page": 26,
+  "titre": "Figure 14 — Charge par sprint, en récits et en fichiers touchés"
+ },
+ "fig.fig18": {
+  "niveau": 3,
+  "page": 28,
+  "titre": "Figure 18 — Qui fait quoi : RACI des six jalons"
+ },
+ "fig.fig19": {
+  "niveau": 3,
+  "page": 48,
+  "titre": "Figure 34 — Flux de valeur d'une commande, du clic au comptoir"
+ },
+ "fig.fig20": {
+  "niveau": 3,
+  "page": 31,
+  "titre": "Figure 21 — Changements de périmètre consignés (ADL)"
+ },
+ "fig.fig21": {
+  "niveau": 3,
+  "page": 27,
+  "titre": "Figure 15 — Valeur × effort : ce qui a été fait en premier"
+ },
+ "fig.fig22": {
+  "niveau": 3,
+  "page": 53,
+  "titre": "Figure 38 — Les 30 actions serveur et leurs garde-fous"
+ },
+ "fig.fig23": {
+  "niveau": 3,
+  "page": 50,
+  "titre": "Figure 36 — Architecture en cinq couches, avec la volumétrie réelle"
+ },
+ "fig.fig24": {
+  "niveau": 3,
+  "page": 52,
+  "titre": "Figure 37 — Diagramme de composants (12 blocs qui se tiennent)"
+ },
+ "fig.fig25": {
+  "niveau": 3,
+  "page": 34,
+  "titre": "Figure 22 — Cas d'usage : trois acteurs, dix-huit buts"
+ },
+ "fig.fig26": {
+  "niveau": 3,
+  "page": 47,
+  "titre": "Figure 32 — Séquence : le passage de commande, minute par minute"
+ },
+ "fig.fig27": {
+  "niveau": 3,
+  "page": 49,
+  "titre": "Figure 35 — Activité : du panier à la confirmation, avec toutes les sorties"
+ },
+ "fig.fig28": {
+  "niveau": 3,
+  "page": 46,
+  "titre": "Figure 31 — Le moteur de promotions : un seul arbre, deux appelants"
+ },
+ "fig.fig29": {
+  "niveau": 3,
+  "page": 45,
+  "titre": "Figure 30 — Modèle d'argent : l'entier millime, et rien d'autre"
+ },
+ "fig.fig30": {
+  "niveau": 3,
+  "page": 31,
+  "titre": "Figure 20 — Sécurité : sept couches, chacune avec sa preuve"
+ },
+ "fig.fig31": {
+  "niveau": 3,
+  "page": 29,
+  "titre": "Figure 19 — Déploiement : ce qui tourne, où, et avec quoi"
+ },
+ "fig.fig32": {
+  "niveau": 3,
+  "page": 55,
+  "titre": "Figure 40 — Stocké contre calculé : la frontière assumée"
+ },
+ "fig.fig33": {
+  "niveau": 3,
+  "page": 57,
+  "titre": "Figure 41 — Catalogue réellement en rayons : 81 produits, sept univers"
+ },
+ "fig.fig34": {
+  "niveau": 3,
+  "page": 59,
+  "titre": "Figure 43 — Seize marques, un fournisseur dominant"
+ },
+ "fig.fig35": {
+  "niveau": 3,
+  "page": 60,
+  "titre": "Figure 44 — Éventail des prix, en millimes et en dinars"
+ },
+ "fig.fig36": {
+  "niveau": 3,
+  "page": 60,
+  "titre": "Figure 45 — Promotions : cinq codes, dix-sept produits en remise"
+ },
+ "fig.fig37": {
+  "niveau": 3,
+  "page": 61,
+  "titre": "Figure 46 — Stock tel que le seed le distribue, et seuils d'alerte"
+ },
+ "fig.fig38": {
+  "niveau": 3,
+  "page": 58,
+  "titre": "Figure 42 — Images produits : 81 sur 81, et le contrôle qui va avec"
+ },
+ "fig.fig39": {
+  "niveau": 3,
+  "page": 66,
+  "titre": "Figure 51 — Parcours client, écran par écran (12 étapes)"
+ },
+ "fig.fig40": {
+  "niveau": 3,
+  "page": 62,
+  "titre": "Figure 47 — Back-office : quatorze actions, quinze écrans, trois rôles"
+ },
+ "fig.fig41": {
+  "niveau": 3,
+  "page": 63,
+  "titre": "Figure 48 — Contenus et maillage local : ce qui habille la boutique"
+ },
+ "fig.fig42": {
+  "niveau": 3,
+  "page": 69,
+  "titre": "Figure 53 — La pyramide de preuve du kit"
+ },
+ "fig.fig43": {
+  "niveau": 3,
+  "page": 71,
+  "titre": "Figure 55 — Boucle de déterminisme : deux builds, un hash"
+ },
+ "fig.fig44": {
+  "niveau": 3,
+  "page": 70,
+  "titre": "Figure 54 — Les 27 verrous (gates) et leur statut relevé"
+ },
+ "fig.fig45": {
+  "niveau": 3,
+  "page": 71,
+  "titre": "Figure 56 — Protocole d'assaut : six rounds, trente attaques"
+ },
+ "fig.fig46": {
+  "niveau": 3,
+  "page": 72,
+  "titre": "Figure 57 — Quatre injections de chaos, quatre comportements exigés"
+ },
+ "fig.fig47": {
+  "niveau": 3,
+  "page": 73,
+  "titre": "Figure 58 — Trois sabotages, trois détections"
+ },
+ "fig.fig48": {
+  "niveau": 3,
+  "page": 74,
+  "titre": "Figure 59 — Budgets mesurés, seuils du prompt"
+ },
+ "fig.fig49": {
+  "niveau": 3,
+  "page": 48,
+  "titre": "Figure 33 — Machine à états de la commande : sept statuts, neuf transitions"
+ },
+ "fig.fig50": {
+  "niveau": 3,
+  "page": 75,
+  "titre": "Figure 60 — Limites assumées et suites possibles"
+ },
+ "fig.fig51": {
+  "niveau": 3,
+  "page": 54,
+  "titre": "Figure 39 — Anatomie d'une action serveur : les six garde-fous en ordre"
+ },
+ "fig.fig52": {
+  "niveau": 3,
+  "page": 63,
+  "titre": "Figure 49 — Accessibilité : ce qui est réellement en place"
+ },
+ "fig.fig53": {
+  "niveau": 3,
+  "page": 64,
+  "titre": "Figure 50 — Le mouvement est une donnée du projet, pas un goût"
+ },
+ "fig.fig54": {
+  "niveau": 3,
+  "page": 109,
+  "titre": "Figure 61 — Correspondance rapport ↔ deck : 30 glissades, zéro orpheline"
+ },
+ "fig.figR1": {
+  "niveau": 3,
+  "page": 38,
+  "titre": "Figure 23 — Les 24 tables du schéma, d'un seul regard"
+ },
+ "fig.figX1": {
+  "niveau": 3,
+  "page": 39,
+  "titre": "Figure 24 — Détail X1 — Identité & accès"
+ },
+ "fig.figX2": {
+  "niveau": 3,
+  "page": 40,
+  "titre": "Figure 25 — Détail X2 — Catalogue"
+ },
+ "fig.figX3": {
+  "niveau": 3,
+  "page": 41,
+  "titre": "Figure 26 — Détail X3 — Ventes"
+ },
+ "fig.figX4": {
+  "niveau": 3,
+  "page": 42,
+  "titre": "Figure 27 — Détail X4 — Engagement"
+ },
+ "fig.figX5": {
+  "niveau": 3,
+  "page": 43,
+  "titre": "Figure 28 — Détail X5 — Exploitation"
+ },
+ "fig.figX6": {
+  "niveau": 3,
+  "page": 44,
+  "titre": "Figure 29 — Détail X6 — Sûreté de fonctionnement"
+ },
+ "intro": {
+  "niveau": 1,
+  "page": 11,
+  "titre": "Introduction"
+ },
+ "liminaires.dedicaces": {
+  "niveau": 1,
+  "page": 2,
+  "titre": "Dédicaces"
+ },
+ "liminaires.jury": {
+  "niveau": 1,
+  "page": 2,
+  "titre": "Jury et mentions"
+ },
+ "liminaires.remerciements": {
+  "niveau": 1,
+  "page": 2,
+  "titre": "Remerciements"
+ },
+ "liste.figures": {
+  "niveau": 0,
+  "page": 5,
+  "titre": "Liste des planches"
+ },
+ "liste.tableaux": {
+  "niveau": 0,
+  "page": 7,
+  "titre": "Liste des tableaux"
+ },
+ "partie.I": {
+  "niveau": 0,
+  "page": 11,
+  "titre": "I · Le métier, le problème, la cible"
+ },
+ "partie.II": {
+  "niveau": 0,
+  "page": 23,
+  "titre": "II · Méthode, conduite et arbitrages"
+ },
+ "partie.III": {
+  "niveau": 0,
+  "page": 32,
+  "titre": "III · Conception : besoins, cas d'usage, modèles"
+ },
+ "partie.IV": {
+  "niveau": 0,
+  "page": 55,
+  "titre": "IV · Réalisation : quatre sprints, deux livraisons"
+ },
+ "partie.V": {
+  "niveau": 0,
+  "page": 68,
+  "titre": "V · Vérification : harnais, assauts, budgets"
+ },
+ "quatrieme": {
+  "niveau": 1,
+  "page": 112,
+  "titre": "Quatrième de couverture"
+ },
+ "resume.en": {
+  "niveau": 1,
+  "page": 111,
+  "titre": "Abstract"
+ },
+ "resume.fr": {
+  "niveau": 1,
+  "page": 111,
+  "titre": "Résumé"
+ },
+ "sommaire": {
+  "niveau": 0,
+  "page": 2,
+  "titre": "Sommaire"
+ },
+ "tab.I2.comparaison": {
+  "niveau": 3,
+  "page": 14,
+  "titre": "Tableau 3 — Les quatre voies, jugées sur cinq critères"
+ },
+ "tab.I5.indicateurs": {
+  "niveau": 3,
+  "page": 21,
+  "titre": "Tableau 5 — Indicateurs structurels du dépôt et de l'exploitation"
+ },
+ "tab.I51.livraison": {
+  "niveau": 3,
+  "page": 20,
+  "titre": "Tableau 4 — Ce que le code dit de la livraison"
+ },
+ "tab.I6.raci": {
+  "niveau": 3,
+  "page": 22,
+  "titre": "Tableau 6 — Matrice de responsabilités tenue pendant le projet"
+ },
+ "tab.II2.decisions": {
+  "niveau": 3,
+  "page": 24,
+  "titre": "Tableau 7 — Six décisions de socle, et leur coût"
+ },
+ "tab.II3.sprints": {
+  "niveau": 3,
+  "page": 26,
+  "titre": "Tableau 8 — Découpage en sprints et remises partielles"
+ },
+ "tab.II4.pile": {
+  "niveau": 3,
+  "page": 28,
+  "titre": "Tableau 9 — Pile retenue et versions relues dans le dépôt"
+ },
+ "tab.II6.fautes": {
+  "niveau": 3,
+  "page": 32,
+  "titre": "Tableau 10 — Fautes connues à la date du gel"
+ },
+ "tab.III1.besoins": {
+  "niveau": 3,
+  "page": 35,
+  "titre": "Tableau 13 — Les 11 besoins et leur couverture"
+ },
+ "tab.III1.marques": {
+  "niveau": 3,
+  "page": 35,
+  "titre": "Tableau 12 — Les 16 marques du catalogue"
+ },
+ "tab.III1.univers": {
+  "niveau": 3,
+  "page": 34,
+  "titre": "Tableau 11 — Les 7 univers, du plus fourni au plus mince"
+ },
+ "tab.III2.contrats": {
+  "niveau": 3,
+  "page": 36,
+  "titre": "Tableau 14 — Six contrats de cas d'usage, les plus coûteux à rater"
+ },
+ "tab.III2.index": {
+  "niveau": 3,
+  "page": 36,
+  "titre": "Tableau 15 — Les 24 récits du backlog, dans l'ordre de livraison"
+ },
+ "tab.III4.motifs": {
+  "niveau": 3,
+  "page": 45,
+  "titre": "Tableau 16 — Les 8 motifs de refus du moteur"
+ },
+ "tab.III6.composants": {
+  "niveau": 3,
+  "page": 50,
+  "titre": "Tableau 17 — Les 36 composants du dépôt"
+ },
+ "tab.IV1.boutiques": {
+  "niveau": 3,
+  "page": 60,
+  "titre": "Tableau 19 — Les 2 points de vente, tels que le dépôt les déclare"
+ },
+ "tab.IV1.promos": {
+  "niveau": 3,
+  "page": 58,
+  "titre": "Tableau 18 — Les 5 codes de promotion du dépôt"
+ },
+ "tab.IV3.admin": {
+  "niveau": 3,
+  "page": 62,
+  "titre": "Tableau 20 — Ce que l'administration peut vraiment faire"
+ },
+ "tab.IV4.actions": {
+  "niveau": 3,
+  "page": 64,
+  "titre": "Tableau 21 — Les 30 actions serveur, garde-fou par garde-fou"
+ },
+ "tab.IV5.lourds": {
+  "niveau": 3,
+  "page": 66,
+  "titre": "Tableau 23 — Les huit fichiers les plus longs"
+ },
+ "tab.IV5.volumetrie": {
+  "niveau": 3,
+  "page": 65,
+  "titre": "Tableau 22 — Volumétrie relue à la composition"
+ },
+ "tab.V3.rounds": {
+  "niveau": 3,
+  "page": 71,
+  "titre": "Tableau 24 — Procès-verbaux des six rounds d'assaut"
+ },
+ "tab.V5.portes": {
+  "niveau": 3,
+  "page": 73,
+  "titre": "Tableau 25 — Les vingt-sept portes et leurs preuves"
+ },
+ "tab.abreviations": {
+  "niveau": 3,
+  "page": 10,
+  "titre": "Tableau 2 — Sigles du document"
+ },
+ "tab.annexeA.contrastes": {
+  "niveau": 3,
+  "page": 79,
+  "titre": "Tableau 28 — Contrastes mesurés du kit"
+ },
+ "tab.annexeA.echelle_liste": {
+  "niveau": 3,
+  "page": 88,
+  "titre": "Tableau 35 — L'échelle employée par le moteur de composition"
+ },
+ "tab.annexeA.glossaire": {
+  "niveau": 3,
+  "page": 79,
+  "titre": "Tableau 29 — Glossaire croisé mémoire et code"
+ },
+ "tab.annexeA.territoire_liste": {
+  "niveau": 3,
+  "page": 80,
+  "titre": "Tableau 30 — Le territoire, gouvernorat par gouvernorat"
+ },
+ "tab.annexeB.colonnes": {
+  "niveau": 3,
+  "page": 81,
+  "titre": "Tableau 33 — Les 202 colonnes du modèle, une par ligne"
+ },
+ "tab.annexeB.enums": {
+  "niveau": 3,
+  "page": 81,
+  "titre": "Tableau 32 — Les dix enums du schéma"
+ },
+ "tab.annexeB.index_liste": {
+  "niveau": 3,
+  "page": 86,
+  "titre": "Tableau 34 — Les 50 index déclarés"
+ },
+ "tab.annexeB.tables": {
+  "niveau": 3,
+  "page": 80,
+  "titre": "Tableau 31 — Les 24 tables, telles qu'écrites"
+ },
+ "tab.annexeC.api": {
+  "niveau": 3,
+  "page": 90,
+  "titre": "Tableau 38 — Les 5 points d'entrée de l'API"
+ },
+ "tab.annexeC.catalogue": {
+  "niveau": 3,
+  "page": 89,
+  "titre": "Tableau 36 — Le catalogue, mesuré"
+ },
+ "tab.annexeC.produits": {
+  "niveau": 3,
+  "page": 91,
+  "titre": "Tableau 39 — Les 81 références du catalogue"
+ },
+ "tab.annexeC.rayons_liste": {
+  "niveau": 3,
+  "page": 93,
+  "titre": "Tableau 40 — Le plan de rayon, univers par univers"
+ },
+ "tab.annexeC.routes": {
+  "niveau": 3,
+  "page": 89,
+  "titre": "Tableau 37 — Les 43 pages, route par route"
+ },
+ "tab.annexeD.US-01": {
+  "niveau": 3,
+  "page": 94,
+  "titre": "Tableau 41 — Fiche US-01"
+ },
+ "tab.annexeD.US-02": {
+  "niveau": 3,
+  "page": 94,
+  "titre": "Tableau 42 — Fiche US-02"
+ },
+ "tab.annexeD.US-03": {
+  "niveau": 3,
+  "page": 95,
+  "titre": "Tableau 43 — Fiche US-03"
+ },
+ "tab.annexeD.US-04": {
+  "niveau": 3,
+  "page": 95,
+  "titre": "Tableau 44 — Fiche US-04"
+ },
+ "tab.annexeD.US-05": {
+  "niveau": 3,
+  "page": 96,
+  "titre": "Tableau 45 — Fiche US-05"
+ },
+ "tab.annexeD.US-06": {
+  "niveau": 3,
+  "page": 96,
+  "titre": "Tableau 46 — Fiche US-06"
+ },
+ "tab.annexeD.US-07": {
+  "niveau": 3,
+  "page": 96,
+  "titre": "Tableau 47 — Fiche US-07"
+ },
+ "tab.annexeD.US-08": {
+  "niveau": 3,
+  "page": 97,
+  "titre": "Tableau 48 — Fiche US-08"
+ },
+ "tab.annexeD.US-09": {
+  "niveau": 3,
+  "page": 97,
+  "titre": "Tableau 49 — Fiche US-09"
+ },
+ "tab.annexeD.US-10": {
+  "niveau": 3,
+  "page": 98,
+  "titre": "Tableau 50 — Fiche US-10"
+ },
+ "tab.annexeD.US-11": {
+  "niveau": 3,
+  "page": 98,
+  "titre": "Tableau 51 — Fiche US-11"
+ },
+ "tab.annexeD.US-12": {
+  "niveau": 3,
+  "page": 98,
+  "titre": "Tableau 52 — Fiche US-12"
+ },
+ "tab.annexeD.US-13": {
+  "niveau": 3,
+  "page": 99,
+  "titre": "Tableau 53 — Fiche US-13"
+ },
+ "tab.annexeD.US-14": {
+  "niveau": 3,
+  "page": 99,
+  "titre": "Tableau 54 — Fiche US-14"
+ },
+ "tab.annexeD.US-15": {
+  "niveau": 3,
+  "page": 100,
+  "titre": "Tableau 55 — Fiche US-15"
+ },
+ "tab.annexeD.US-16": {
+  "niveau": 3,
+  "page": 100,
+  "titre": "Tableau 56 — Fiche US-16"
+ },
+ "tab.annexeD.US-17": {
+  "niveau": 3,
+  "page": 100,
+  "titre": "Tableau 57 — Fiche US-17"
+ },
+ "tab.annexeD.US-18": {
+  "niveau": 3,
+  "page": 101,
+  "titre": "Tableau 58 — Fiche US-18"
+ },
+ "tab.annexeD.US-19": {
+  "niveau": 3,
+  "page": 101,
+  "titre": "Tableau 59 — Fiche US-19"
+ },
+ "tab.annexeD.US-20": {
+  "niveau": 3,
+  "page": 102,
+  "titre": "Tableau 60 — Fiche US-20"
+ },
+ "tab.annexeD.US-21": {
+  "niveau": 3,
+  "page": 102,
+  "titre": "Tableau 61 — Fiche US-21"
+ },
+ "tab.annexeD.US-22": {
+  "niveau": 3,
+  "page": 102,
+  "titre": "Tableau 62 — Fiche US-22"
+ },
+ "tab.annexeD.US-23": {
+  "niveau": 3,
+  "page": 103,
+  "titre": "Tableau 63 — Fiche US-23"
+ },
+ "tab.annexeD.US-24": {
+  "niveau": 3,
+  "page": 103,
+  "titre": "Tableau 64 — Fiche US-24"
+ },
+ "tab.annexeE.commandes": {
+  "niveau": 3,
+  "page": 104,
+  "titre": "Tableau 65 — Les sept commandes du kit"
+ },
+ "tab.annexeE.inv": {
+  "niveau": 3,
+  "page": 104,
+  "titre": "Tableau 66 — Les vingt-cinq invariants du kit"
+ },
+ "tab.annexeE.si_alors": {
+  "niveau": 3,
+  "page": 106,
+  "titre": "Tableau 67 — Les dix règles SI/ALORS du §7"
+ },
+ "tab.annexeE.zod_liste": {
+  "niveau": 3,
+  "page": 106,
+  "titre": "Tableau 68 — Les 15 schémas, avec leur ligne de définition"
+ },
+ "tab.annexeF.deck": {
+  "niveau": 3,
+  "page": 109,
+  "titre": "Tableau 70 — Récit par récit : section de texte et glissade"
+ },
+ "tab.annexeF.trace": {
+  "niveau": 3,
+  "page": 107,
+  "titre": "Tableau 69 — Traçabilité des vingt-quatre récits"
+ },
+ "tab.bibliographie.sources": {
+  "niveau": 3,
+  "page": 77,
+  "titre": "Tableau 27 — Sources consultées, avec l'usage qui en a été fait"
+ },
+ "tab.conclusion.tuiles": {
+  "niveau": 3,
+  "page": 76,
+  "titre": "Tableau 26 — Conclusion en six tuiles"
+ },
+ "tab.jury": {
+  "niveau": 3,
+  "page": 2,
+  "titre": "Tableau 1 — Feuille de jury"
+ }
+}

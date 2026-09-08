@@ -1,0 +1,673 @@
+{
+ "fig01": {
+  "id": "fig01",
+  "mm": [
+   166.0,
+   88.0
+  ],
+  "octets_pdf": 58932,
+  "octets_png": 153159,
+  "pdf_ratio": 1.8864,
+  "png_ratio": 1.8864
+ },
+ "fig02": {
+  "id": "fig02",
+  "mm": [
+   166.0,
+   62.0
+  ],
+  "octets_pdf": 62042,
+  "octets_png": 121021,
+  "pdf_ratio": 2.6774,
+  "png_ratio": 2.6776
+ },
+ "fig03": {
+  "id": "fig03",
+  "mm": [
+   80.0,
+   78.0
+  ],
+  "octets_pdf": 58707,
+  "octets_png": 78973,
+  "pdf_ratio": 1.0256,
+  "png_ratio": 1.025
+ },
+ "fig04": {
+  "id": "fig04",
+  "mm": [
+   166.0,
+   84.0
+  ],
+  "octets_pdf": 31413,
+  "octets_png": 124927,
+  "pdf_ratio": 1.9762,
+  "png_ratio": 1.9758
+ },
+ "fig05": {
+  "id": "fig05",
+  "mm": [
+   80.0,
+   92.0
+  ],
+  "octets_pdf": 32666,
+  "octets_png": 129756,
+  "pdf_ratio": 0.8696,
+  "png_ratio": 0.8692
+ },
+ "fig06": {
+  "id": "fig06",
+  "mm": [
+   166.0,
+   70.0
+  ],
+  "octets_pdf": 62553,
+  "octets_png": 142085,
+  "pdf_ratio": 2.3714,
+  "png_ratio": 2.3729
+ },
+ "fig07": {
+  "id": "fig07",
+  "mm": [
+   166.0,
+   76.0
+  ],
+  "octets_pdf": 37893,
+  "octets_png": 129519,
+  "pdf_ratio": 2.1842,
+  "png_ratio": 2.1851
+ },
+ "fig08": {
+  "id": "fig08",
+  "mm": [
+   166.0,
+   58.0
+  ],
+  "octets_pdf": 31482,
+  "octets_png": 112432,
+  "pdf_ratio": 2.8621,
+  "png_ratio": 2.8613
+ },
+ "fig09": {
+  "id": "fig09",
+  "mm": [
+   166.0,
+   64.0
+  ],
+  "octets_pdf": 60931,
+  "octets_png": 145463,
+  "pdf_ratio": 2.5938,
+  "png_ratio": 2.596
+ },
+ "fig10": {
+  "id": "fig10",
+  "mm": [
+   166.0,
+   76.0
+  ],
+  "octets_pdf": 42081,
+  "octets_png": 211758,
+  "pdf_ratio": 2.1842,
+  "png_ratio": 2.1851
+ },
+ "fig11": {
+  "id": "fig11",
+  "mm": [
+   80.0,
+   80.0
+  ],
+  "octets_pdf": 53238,
+  "octets_png": 50678,
+  "pdf_ratio": 1.0,
+  "png_ratio": 1.0
+ },
+ "fig12": {
+  "id": "fig12",
+  "mm": [
+   166.0,
+   86.0
+  ],
+  "octets_pdf": 29412,
+  "octets_png": 121202,
+  "pdf_ratio": 1.9302,
+  "png_ratio": 1.931
+ },
+ "fig13": {
+  "id": "fig13",
+  "mm": [
+   166.0,
+   66.0
+  ],
+  "octets_pdf": 36432,
+  "octets_png": 99155,
+  "pdf_ratio": 2.5152,
+  "png_ratio": 2.516
+ },
+ "fig14": {
+  "id": "fig14",
+  "mm": [
+   80.0,
+   74.0
+  ],
+  "octets_pdf": 59688,
+  "octets_png": 81234,
+  "pdf_ratio": 1.0811,
+  "png_ratio": 1.0801
+ },
+ "fig15": {
+  "id": "fig15",
+  "mm": [
+   166.0,
+   58.0
+  ],
+  "octets_pdf": 34439,
+  "octets_png": 133776,
+  "pdf_ratio": 2.8621,
+  "png_ratio": 2.8613
+ },
+ "fig16": {
+  "id": "fig16",
+  "mm": [
+   166.0,
+   70.0
+  ],
+  "octets_pdf": 58955,
+  "octets_png": 266110,
+  "pdf_ratio": 2.3714,
+  "png_ratio": 2.3729
+ },
+ "fig17": {
+  "id": "fig17",
+  "mm": [
+   80.0,
+   72.0
+  ],
+  "octets_pdf": 51290,
+  "octets_png": 45575,
+  "pdf_ratio": 1.1111,
+  "png_ratio": 1.1106
+ },
+ "fig18": {
+  "id": "fig18",
+  "mm": [
+   166.0,
+   52.0
+  ],
+  "octets_pdf": 48479,
+  "octets_png": 101379,
+  "pdf_ratio": 3.1923,
+  "png_ratio": 3.1922
+ },
+ "fig19": {
+  "id": "fig19",
+  "mm": [
+   166.0,
+   56.0
+  ],
+  "octets_pdf": 23895,
+  "octets_png": 83996,
+  "pdf_ratio": 2.9643,
+  "png_ratio": 2.9652
+ },
+ "fig20": {
+  "id": "fig20",
+  "mm": [
+   80.0,
+   64.0
+  ],
+  "octets_pdf": 20362,
+  "octets_png": 21690,
+  "pdf_ratio": 1.25,
+  "png_ratio": 1.2503
+ },
+ "fig21": {
+  "id": "fig21",
+  "mm": [
+   166.0,
+   74.0
+  ],
+  "octets_pdf": 53344,
+  "octets_png": 98004,
+  "pdf_ratio": 2.2432,
+  "png_ratio": 2.2426
+ },
+ "fig22": {
+  "id": "fig22",
+  "mm": [
+   166.0,
+   148.0
+  ],
+  "octets_pdf": 39497,
+  "octets_png": 243603,
+  "pdf_ratio": 1.1216,
+  "png_ratio": 1.1213
+ },
+ "fig23": {
+  "id": "fig23",
+  "mm": [
+   166.0,
+   104.0
+  ],
+  "octets_pdf": 62687,
+  "octets_png": 150962,
+  "pdf_ratio": 1.5962,
+  "png_ratio": 1.5961
+ },
+ "fig24": {
+  "id": "fig24",
+  "mm": [
+   166.0,
+   112.0
+  ],
+  "octets_pdf": 30556,
+  "octets_png": 135476,
+  "pdf_ratio": 1.4821,
+  "png_ratio": 1.4826
+ },
+ "fig25": {
+  "id": "fig25",
+  "mm": [
+   166.0,
+   118.0
+  ],
+  "octets_pdf": 32498,
+  "octets_png": 263756,
+  "pdf_ratio": 1.4068,
+  "png_ratio": 1.407
+ },
+ "fig26": {
+  "id": "fig26",
+  "mm": [
+   166.0,
+   118.0
+  ],
+  "octets_pdf": 37860,
+  "octets_png": 121485,
+  "pdf_ratio": 1.4068,
+  "png_ratio": 1.407
+ },
+ "fig27": {
+  "id": "fig27",
+  "mm": [
+   80.0,
+   126.0
+  ],
+  "octets_pdf": 18577,
+  "octets_png": 81976,
+  "pdf_ratio": 0.6349,
+  "png_ratio": 0.6344
+ },
+ "fig28": {
+  "id": "fig28",
+  "mm": [
+   166.0,
+   92.0
+  ],
+  "octets_pdf": 45903,
+  "octets_png": 159543,
+  "pdf_ratio": 1.8043,
+  "png_ratio": 1.8048
+ },
+ "fig29": {
+  "id": "fig29",
+  "mm": [
+   80.0,
+   92.0
+  ],
+  "octets_pdf": 61069,
+  "octets_png": 71296,
+  "pdf_ratio": 0.8696,
+  "png_ratio": 0.8692
+ },
+ "fig30": {
+  "id": "fig30",
+  "mm": [
+   166.0,
+   100.0
+  ],
+  "octets_pdf": 66482,
+  "octets_png": 151715,
+  "pdf_ratio": 1.66,
+  "png_ratio": 1.6596
+ },
+ "fig31": {
+  "id": "fig31",
+  "mm": [
+   166.0,
+   80.0
+  ],
+  "octets_pdf": 32570,
+  "octets_png": 109169,
+  "pdf_ratio": 2.075,
+  "png_ratio": 2.0763
+ },
+ "fig32": {
+  "id": "fig32",
+  "mm": [
+   166.0,
+   84.0
+  ],
+  "octets_pdf": 37005,
+  "octets_png": 134085,
+  "pdf_ratio": 1.9762,
+  "png_ratio": 1.9758
+ },
+ "fig33": {
+  "id": "fig33",
+  "mm": [
+   80.0,
+   78.0
+  ],
+  "octets_pdf": 56100,
+  "octets_png": 56387,
+  "pdf_ratio": 1.0256,
+  "png_ratio": 1.025
+ },
+ "fig34": {
+  "id": "fig34",
+  "mm": [
+   80.0,
+   78.0
+  ],
+  "octets_pdf": 53519,
+  "octets_png": 59287,
+  "pdf_ratio": 1.0256,
+  "png_ratio": 1.025
+ },
+ "fig35": {
+  "id": "fig35",
+  "mm": [
+   166.0,
+   64.0
+  ],
+  "octets_pdf": 49823,
+  "octets_png": 60695,
+  "pdf_ratio": 2.5938,
+  "png_ratio": 2.596
+ },
+ "fig36": {
+  "id": "fig36",
+  "mm": [
+   166.0,
+   76.0
+  ],
+  "octets_pdf": 27348,
+  "octets_png": 173055,
+  "pdf_ratio": 2.1842,
+  "png_ratio": 2.1851
+ },
+ "fig37": {
+  "id": "fig37",
+  "mm": [
+   80.0,
+   74.0
+  ],
+  "octets_pdf": 31118,
+  "octets_png": 40059,
+  "pdf_ratio": 1.0811,
+  "png_ratio": 1.0801
+ },
+ "fig38": {
+  "id": "fig38",
+  "mm": [
+   166.0,
+   62.0
+  ],
+  "octets_pdf": 56276,
+  "octets_png": 64019,
+  "pdf_ratio": 2.6774,
+  "png_ratio": 2.6776
+ },
+ "fig39": {
+  "id": "fig39",
+  "mm": [
+   166.0,
+   58.0
+  ],
+  "octets_pdf": 23064,
+  "octets_png": 77294,
+  "pdf_ratio": 2.8621,
+  "png_ratio": 2.8613
+ },
+ "fig40": {
+  "id": "fig40",
+  "mm": [
+   166.0,
+   92.0
+  ],
+  "octets_pdf": 32969,
+  "octets_png": 204000,
+  "pdf_ratio": 1.8043,
+  "png_ratio": 1.8048
+ },
+ "fig41": {
+  "id": "fig41",
+  "mm": [
+   166.0,
+   58.0
+  ],
+  "octets_pdf": 25213,
+  "octets_png": 72444,
+  "pdf_ratio": 2.8621,
+  "png_ratio": 2.8613
+ },
+ "fig42": {
+  "id": "fig42",
+  "mm": [
+   80.0,
+   96.0
+  ],
+  "octets_pdf": 31539,
+  "octets_png": 59865,
+  "pdf_ratio": 0.8333,
+  "png_ratio": 0.8332
+ },
+ "fig43": {
+  "id": "fig43",
+  "mm": [
+   166.0,
+   62.0
+  ],
+  "octets_pdf": 28808,
+  "octets_png": 60458,
+  "pdf_ratio": 2.6774,
+  "png_ratio": 2.6776
+ },
+ "fig44": {
+  "id": "fig44",
+  "mm": [
+   166.0,
+   120.0
+  ],
+  "octets_pdf": 21987,
+  "octets_png": 192941,
+  "pdf_ratio": 1.3833,
+  "png_ratio": 1.3832
+ },
+ "fig45": {
+  "id": "fig45",
+  "mm": [
+   166.0,
+   74.0
+  ],
+  "octets_pdf": 38101,
+  "octets_png": 115270,
+  "pdf_ratio": 2.2432,
+  "png_ratio": 2.2426
+ },
+ "fig46": {
+  "id": "fig46",
+  "mm": [
+   166.0,
+   68.0
+  ],
+  "octets_pdf": 29151,
+  "octets_png": 82979,
+  "pdf_ratio": 2.4412,
+  "png_ratio": 2.4408
+ },
+ "fig47": {
+  "id": "fig47",
+  "mm": [
+   80.0,
+   76.0
+  ],
+  "octets_pdf": 31264,
+  "octets_png": 75062,
+  "pdf_ratio": 1.0526,
+  "png_ratio": 1.0524
+ },
+ "fig48": {
+  "id": "fig48",
+  "mm": [
+   166.0,
+   72.0
+  ],
+  "octets_pdf": 27230,
+  "octets_png": 63121,
+  "pdf_ratio": 2.3056,
+  "png_ratio": 2.3059
+ },
+ "fig49": {
+  "id": "fig49",
+  "mm": [
+   166.0,
+   98.0
+  ],
+  "octets_pdf": 54540,
+  "octets_png": 131331,
+  "pdf_ratio": 1.6939,
+  "png_ratio": 1.694
+ },
+ "fig50": {
+  "id": "fig50",
+  "mm": [
+   166.0,
+   76.0
+  ],
+  "octets_pdf": 52632,
+  "octets_png": 156579,
+  "pdf_ratio": 2.1842,
+  "png_ratio": 2.1851
+ },
+ "fig51": {
+  "id": "fig51",
+  "mm": [
+   166.0,
+   118.0
+  ],
+  "octets_pdf": 40121,
+  "octets_png": 189472,
+  "pdf_ratio": 1.4068,
+  "png_ratio": 1.407
+ },
+ "fig52": {
+  "id": "fig52",
+  "mm": [
+   166.0,
+   96.0
+  ],
+  "octets_pdf": 56889,
+  "octets_png": 158039,
+  "pdf_ratio": 1.7292,
+  "png_ratio": 1.7299
+ },
+ "fig53": {
+  "id": "fig53",
+  "mm": [
+   166.0,
+   76.0
+  ],
+  "octets_pdf": 31508,
+  "octets_png": 103927,
+  "pdf_ratio": 2.1842,
+  "png_ratio": 2.1851
+ },
+ "fig54": {
+  "id": "fig54",
+  "mm": [
+   166.0,
+   88.0
+  ],
+  "octets_pdf": 41238,
+  "octets_png": 257729,
+  "pdf_ratio": 1.8864,
+  "png_ratio": 1.8864
+ },
+ "figR1": {
+  "id": "figR1",
+  "mm": [
+   166.0,
+   227.6
+  ],
+  "octets_pdf": 48403,
+  "octets_png": 723499,
+  "pdf_ratio": 0.7293,
+  "png_ratio": 0.7292
+ },
+ "figX1": {
+  "id": "figX1",
+  "mm": [
+   166.0,
+   112.0
+  ],
+  "octets_pdf": 36608,
+  "octets_png": 145426,
+  "pdf_ratio": 1.4821,
+  "png_ratio": 1.4826
+ },
+ "figX2": {
+  "id": "figX2",
+  "mm": [
+   166.0,
+   112.0
+  ],
+  "octets_pdf": 39423,
+  "octets_png": 275531,
+  "pdf_ratio": 1.4821,
+  "png_ratio": 1.4826
+ },
+ "figX3": {
+  "id": "figX3",
+  "mm": [
+   166.0,
+   112.0
+  ],
+  "octets_pdf": 39233,
+  "octets_png": 273877,
+  "pdf_ratio": 1.4821,
+  "png_ratio": 1.4826
+ },
+ "figX4": {
+  "id": "figX4",
+  "mm": [
+   166.0,
+   112.0
+  ],
+  "octets_pdf": 38481,
+  "octets_png": 175117,
+  "pdf_ratio": 1.4821,
+  "png_ratio": 1.4826
+ },
+ "figX5": {
+  "id": "figX5",
+  "mm": [
+   166.0,
+   112.0
+  ],
+  "octets_pdf": 35711,
+  "octets_png": 140628,
+  "pdf_ratio": 1.4821,
+  "png_ratio": 1.4826
+ },
+ "figX6": {
+  "id": "figX6",
+  "mm": [
+   166.0,
+   112.0
+  ],
+  "octets_pdf": 38251,
+  "octets_png": 155705,
+  "pdf_ratio": 1.4821,
+  "png_ratio": 1.4826
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "cible_build_s": 600.0,
+ "cible_figs_s": 300.0,
+ "cible_mo_pdf": 30.0,
+ "cible_pages": 120,
+ "empreinte": "f0cc3d9f799563eb4dee6d8e88de9752682b80d3370e7980a93dff2aeac15606",
+ "empreintes_determinisme": {
+  "a": "f2e9c917224628857ec8fbe354584c07c4b7ffeccc76cc38104a4ca24976e28f",
+  "b": "f2e9c917224628857ec8fbe354584c07c4b7ffeccc76cc38104a4ca24976e28f"
+ },
+ "figures": 61,
+ "octets_pdf": 4129412,
+ "pages": 113,
+ "secondes_build": 36.9,
+ "secondes_figs": 29.0,
+ "secondes_qa": 10.5,
+ "sha256_identique": true
+}

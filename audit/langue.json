@@ -1,0 +1,17 @@
+{
+ "exemptees": [
+  {
+   "debut": "This report documents the design and implementation of an e-",
+   "langue": "en",
+   "mots": 144,
+   "raison": "abstract-bilingue"
+  },
+  {
+   "debut": "Keywords: e-commerce, parapharmacy, TypeScript, PostgreSQL, ",
+   "langue": "en",
+   "mots": 11,
+   "raison": "abstract-bilingue"
+  }
+ ],
+ "verifiees": 1772
+}

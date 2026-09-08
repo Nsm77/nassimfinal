@@ -1,0 +1,101 @@
+{
+ "controles": [
+  {
+   "code": "QA-1",
+   "detail": "15 versions attendues, absentes aucune ; 0 triple(s) de version imprimée(s) sans paquet correspondant (signal, pas faute : aucune)",
+   "mesure": 15,
+   "titre": "",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-2",
+   "detail": "recomptage par outils du shell (tables 24, enums 10, routes 43, endpoints 5, actions 30, produits 81) ; écarts avec l'extracteur aucun",
+   "mesure": 6,
+   "titre": "",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-3",
+   "detail": "86 mentions de chemin, absentes du disque aucune (test `stat`, pas listing Python)",
+   "mesure": 86,
+   "titre": "",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-4",
+   "detail": "0 formule(s) sur 6316 spans non verbatim du document (verbatim tenu à part) : aucune",
+   "mesure": 0,
+   "titre": "",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-5",
+   "detail": "0 emploi(s) fautif(s) sur 1021 lignes de prose (4188 ligne(s) hors prose, 8 ligne(s) anglaise(s) tenues hors du champ), 11 occurrence(s) exemptée(s) par la fonte ou par une marque d'identifiant ; exemples aucun",
+   "mesure": 0,
+   "titre": "",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-6",
+   "detail": "233 entrées d'outline PyMuPDF, registre 233, titres fautifs aucun, pointeurs hors pages aucun",
+   "mesure": 233,
+   "titre": "",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-7",
+   "detail": "229 sauts internes résolus par get_links(), 0 lien(s) externe(s) cliquable(s), 0 sans cible",
+   "mesure": 229,
+   "titre": "",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-8",
+   "detail": "ratios lus côté PyMuPDF (points) contre PIL (pixels) : divergences aucune",
+   "mesure": 61,
+   "titre": "",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-9",
+   "detail": "spans portant un idéogramme ou un pictogramme : aucun",
+   "mesure": 0,
+   "titre": "",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-10",
+   "detail": "grep du kit : 0 affectation suspecte ; .env suivis réels : aucun",
+   "mesure": 0,
+   "titre": "",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-11",
+   "detail": "lu par zip et regex : 30 glissades, 5 morph, 30 fichiers de notes, corps < 18 pt dans une zone de contenu aucun",
+   "mesure": 30,
+   "titre": "",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-12",
+   "detail": "10 montants à trois décimales, points décimaux aucun, groupements par point aucuns (le point n'est pas un séparateur de milliers en français)",
+   "mesure": 10,
+   "titre": "",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-13",
+   "detail": "loi des insécables jugée à la géométrie des spans et à la police : 0 faute(s) ; exemples aucune",
+   "mesure": 0,
+   "titre": "",
+   "verdict": "vert"
+  }
+ ],
+ "harnais": "qa2.py (PyMuPDF + outils du shell)",
+ "lignes": 5217,
+ "rouges": 0,
+ "secondes": 1.35,
+ "spans": 10716,
+ "verdict": "vert"
+}

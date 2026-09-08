@@ -1,0 +1,267 @@
+{
+ "accord": 13,
+ "divergences": [],
+ "ecarts_instruits": [
+  {
+   "regle": "le moteur enregistre DejaVu pour le rapport entier ; la discrimination se fait sur « Mono » dans le nom de fonte, et le nombre de spans tenus à part est imprimé",
+   "rencontre": "qa2 exemptait le verbatim en cherchant « mono » dans une police censée être Times/Helvetica : 0 span de prose trouvé, donc 0 faute déclarée par silence.",
+   "titre": "la fonte du corps n'est pas Helvetica"
+  },
+  {
+   "regle": "une ligne visuelle = un bloc et une ordonnée de ligne, tels que le moteur de texte les donne ; plus de reconstruction à la main",
+   "rencontre": "en regroupant les spans par `y` arrondi, la deuxième ligne d'une cellule se retrouvait dans la première de la voisine : sept mots coupés, dix-huit emprunts anglais imaginaires.",
+   "titre": "le seau par ordonnée recolle deux cellules"
+  },
+  {
+   "regle": "le blanc ne tranche plus la ligne ; la fonte tranche la nature du texte (verbatim), et la marque d'identifiant est cherchée à ±2 caractères",
+   "rencontre": "le critère « écart horizontal > un espace » pour couper une ligne rendait huit « lignes » commençant par « : », donc huit fautes d'insécable introuvables à l'œil.",
+   "titre": "une ligne justifiée écarte les mots de onze points"
+  },
+  {
+   "regle": "qa2 juge la **langue de la ligne** par ses mots outils, et consigne le nombre de lignes anglaises tenues hors du champ (huit au dernier rendu)",
+   "rencontre": "qa.py bornait l'abstract entre deux titres « Abstract » ; le mot reparaît en titre courant et la région se refermait sur rien — la ligne fautive restait dans le champ.",
+   "titre": "la région anglaise ne se déduit pas d'un titre"
+  }
+ ],
+ "harnais": "ab.py",
+ "lignes": [
+  {
+   "code": "QA-1",
+   "methodes": [
+    "package.json + texte du PDF, voisinage",
+    "spans du PDF + triple de version exact"
+   ],
+   "qa": {
+    "detail": "15 paquets versionnés dans les faits, absents du rendu aucun ; 6 couple(s) nom-version lus dans le document, contredits aucun",
+    "mesure": 15
+   },
+   "qa2": {
+    "detail": "15 versions attendues, absentes aucune ; 0 triple(s) de version imprimée(s) sans paquet correspondant (signal, pas faute : aucune)",
+    "mesure": 15
+   },
+   "qa2_verdict": "vert",
+   "qa_verdict": "vert",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-10",
+   "methodes": [
+    "arborescence du kit, motif par motif",
+    "grep -rIn du dépôt, .env suivis par git"
+   ],
+   "qa": {
+    "detail": "65 fichiers du kit analysés ; secrets aucun ; .env suivis réels aucun, valeurs hors gabarit aucune ; .gitignore sans rien ; chemins du kit ignorés à tort aucun ; URL de base de développement en clair hors kit, consignée ",
+    "mesure": 65
+   },
+   "qa2": {
+    "detail": "grep du kit : 0 affectation suspecte ; .env suivis réels : aucun",
+    "mesure": 0
+   },
+   "qa2_verdict": "vert",
+   "qa_verdict": "vert",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-11",
+   "methodes": [
+    "python-pptx, modèle d'objet",
+    "zip + regex sur le XML, nom de zone"
+   ],
+   "qa": {
+    "detail": "30 glissades, morph 5, durées 900 ms 5, notes 30, ratio 1.7777, entrées du plan ≥ 90 car. 0, libellés > 140 car. 0",
+    "mesure": 30
+   },
+   "qa2": {
+    "detail": "lu par zip et regex : 30 glissades, 5 morph, 30 fichiers de notes, corps < 18 pt dans une zone de contenu aucun",
+    "mesure": 30
+   },
+   "qa2_verdict": "vert",
+   "qa_verdict": "vert",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-12",
+   "methodes": [
+    "nombresFR sur la source",
+    "regex sur les spans du rendu"
+   ],
+   "qa": {
+    "detail": "13 montants à virgule dans le rendu, points décimaux aucun, groupements à l'anglaise aucun",
+    "mesure": 13
+   },
+   "qa2": {
+    "detail": "10 montants à trois décimales, points décimaux aucun, groupements par point aucuns (le point n'est pas un séparateur de milliers en français)",
+    "mesure": 10
+   },
+   "qa2_verdict": "vert",
+   "qa_verdict": "vert",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-13",
+   "methodes": [
+    "voisinage de caractères dans la ligne",
+    "recouvrement d'ordonnées et blanc physique"
+   ],
+   "qa": {
+    "detail": "0 césure(s) de ponctuation sur 9348 lignes rendues, 1 ligne(s) de verbatim exemptée(s) : aucune",
+    "mesure": 0
+   },
+   "qa2": {
+    "detail": "loi des insécables jugée à la géométrie des spans et à la police : 0 faute(s) ; exemples aucune",
+    "mesure": 0
+   },
+   "qa2_verdict": "vert",
+   "qa_verdict": "vert",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-2",
+   "methodes": [
+    "grammaire de `facts.py` (ast)",
+    "grep et find dans le dépôt"
+   ],
+   "qa": {
+    "detail": "6 structures recomptées à nu ; écarts avec l'extracteur aucun ; absents du rendu aucun ; colonnes du dictionnaire 202 contre le fait 202 : cohérent",
+    "mesure": 6
+   },
+   "qa2": {
+    "detail": "recomptage par outils du shell (tables 24, enums 10, routes 43, endpoints 5, actions 30, produits 81) ; écarts avec l'extracteur aucun",
+    "mesure": 6
+   },
+   "qa2_verdict": "vert",
+   "qa_verdict": "vert",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-3",
+   "methodes": [
+    "liste des fichiers écrits par le kit",
+    "`stat` sur chaque chemin cité"
+   ],
+   "qa": {
+    "detail": "107 chemins cités, introuvables aucun, hors bornes aucun",
+    "mesure": 107
+   },
+   "qa2": {
+    "detail": "86 mentions de chemin, absentes du disque aucune (test `stat`, pas listing Python)",
+    "mesure": 86
+   },
+   "qa2_verdict": "vert",
+   "qa_verdict": "vert",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-4",
+   "methodes": [
+    "regex sur le texte extrait",
+    "regex sur les spans non verbatim"
+   ],
+   "qa": {
+    "detail": "formules de remplissage lues dans le rendu : aucune",
+    "mesure": 0
+   },
+   "qa2": {
+    "detail": "0 formule(s) sur 6316 spans non verbatim du document (verbatim tenu à part) : aucune",
+    "mesure": 0
+   },
+   "qa2_verdict": "vert",
+   "qa_verdict": "vert",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-5",
+   "methodes": [
+    "fenêtre de ±26 caractères autour du mot",
+    "fonte du span porteur + ligne de prose déclarée + détection de langue"
+   ],
+   "qa": {
+    "detail": "0 prose(s) avec mot emprunté ; exemptions comptées : 351 ligne(s) de verbatim, 18 ligne(s) de la région du résumé anglais ; exemples : aucun",
+    "mesure": 0
+   },
+   "qa2": {
+    "detail": "0 emploi(s) fautif(s) sur 1021 lignes de prose (4188 ligne(s) hors prose, 8 ligne(s) anglaise(s) tenues hors du champ), 11 occurrence(s) exemptée(s) par la fonte ou par une marque d'identifiant ; exemples aucun",
+    "mesure": 0
+   },
+   "qa2_verdict": "vert",
+   "qa_verdict": "vert",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-6",
+   "methodes": [
+    "registre de composition",
+    "outline PyMuPDF"
+   ],
+   "qa": {
+    "detail": "outline 233 entrées, registre 233, titres fautifs aucun",
+    "mesure": 233
+   },
+   "qa2": {
+    "detail": "233 entrées d'outline PyMuPDF, registre 233, titres fautifs aucun, pointeurs hors pages aucun",
+    "mesure": 233
+   },
+   "qa2_verdict": "vert",
+   "qa_verdict": "vert",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-7",
+   "methodes": [
+    "comptage à la composition",
+    "destinations d'annotations lues dans le fichier"
+   ],
+   "qa": {
+    "detail": "229 liens internes, 0 mort(s), 0 lien(s) externe(s) cliquable(s) (le kit n'en pose aucun : les URL sont imprimées et vérifiables à la main), domaines hors liste officielle : aucun ; 11 domaines cités dont 1 exemptés comm",
+    "mesure": 229
+   },
+   "qa2": {
+    "detail": "229 sauts internes résolus par get_links(), 0 lien(s) externe(s) cliquable(s), 0 sans cible",
+    "mesure": 229
+   },
+   "qa2_verdict": "vert",
+   "qa_verdict": "vert",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-8",
+   "methodes": [
+    "ratios renvoyés par matplotlib",
+    "points lus par PyMuPDF contre pixels lus par PIL"
+   ],
+   "qa": {
+    "detail": "61 PDF, 61 PNG, ratios divergents aucun, 122 légendes de planches lues dans le rendu",
+    "mesure": 61
+   },
+   "qa2": {
+    "detail": "ratios lus côté PyMuPDF (points) contre PIL (pixels) : divergences aucune",
+    "mesure": 61
+   },
+   "qa2_verdict": "vert",
+   "qa_verdict": "vert",
+   "verdict": "vert"
+  },
+  {
+   "code": "QA-9",
+   "methodes": [
+    "tables de pictogrammes",
+    "plans de code de chaque span"
+   ],
+   "qa": {
+    "detail": "0 pictogramme(s) au rendu [], 0 ligne(s) de source contaminée(s) aucune",
+    "mesure": 0
+   },
+   "qa2": {
+    "detail": "spans portant un idéogramme ou un pictogramme : aucun",
+    "mesure": 0
+   },
+   "qa2_verdict": "vert",
+   "qa_verdict": "vert",
+   "verdict": "vert"
+  }
+ ],
+ "lois": 13,
+ "note": "l'accord porte sur le verdict de chaque loi ; les mesures diffèrent par nature (le premier harnais compte des fichiers, le second des spans) et c'est voulu",
+ "secondes": 0.0,
+ "verdict": "vert"
+}
