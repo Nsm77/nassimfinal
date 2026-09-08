@@ -69,3 +69,11 @@ Copier `rapport/` et `soutenance/`, puis : `rapport/facts.py` (vos gisements), `
 prose), `soutenance/slides.py` (votre minutage). Les lois de langue, les deux harnais, les portes et
 les provocations se gardent telles quelles : c'est ce qu'ils vérifient qui change, pas la façon de
 vérifier.
+
+## V14 — refonte éditoriale en cours
+
+Le commit « V14, premier geste » a légitimement **rouvert le sceau** : les portes se rejugent à la fin
+de la refonte, et `audit/gates.json` le dit (G27 rouge = empreintes dérivées, attendu, pas régression).
+L'état des fontes est lisible dans `audit/polices.json` ; `CLEOPATRE_FONDS=strict python3 rapport/build.py`
+refuse le build dès qu'une TTF d'identité manque. Les installer : `python3 rapport/polices/installer.py`,
+puis rebuild — le texte ne bouge pas, seules les mesures changent.

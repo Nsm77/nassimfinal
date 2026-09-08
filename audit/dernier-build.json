@@ -2,32 +2,32 @@
  "compteurs": {
   "extraits": 11,
   "figures": 61,
-  "pages": 113,
+  "pages": 114,
   "tableaux": 70
  },
  "creux": 61,
  "liens": 229,
  "liens_resolus": 229,
  "morts": [],
- "octets_pdf": 4129412,
- "pages": 113,
+ "octets_pdf": 4133334,
+ "pages": 114,
  "passes": [
   {
    "ancres": 233,
-   "pages": 113,
+   "pages": 114,
    "passe": 1
   },
   {
    "ancres": 233,
-   "pages": 113,
+   "pages": 114,
    "passe": 2
   }
  ],
  "planches": 61,
  "poses": 61,
- "secondes_build": 36.9,
- "secondes_figs": 29.0,
- "sha256": "f0cc3d9f799563eb4dee6d8e88de9752682b80d3370e7980a93dff2aeac15606",
+ "secondes_build": 36.0,
+ "secondes_figs": 28.31,
+ "sha256": "d017e284c4dfb9cc8a0bc727ccf9d29599f7c4d7c51a0fb888dbfdea93bfc615",
  "signets": 233,
  "via_png": 0
 }

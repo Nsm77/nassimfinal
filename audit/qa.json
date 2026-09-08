@@ -1,5 +1,5 @@
 {
- "caracteres": 240755,
+ "caracteres": 241107,
  "controles": [
   {
    "code": "QA-1",
@@ -66,8 +66,8 @@
   },
   {
    "code": "QA-10",
-   "detail": "65 fichiers du kit analysés ; secrets aucun ; .env suivis réels aucun, valeurs hors gabarit aucune ; .gitignore sans rien ; chemins du kit ignorés à tort aucun ; URL de base de développement en clair hors kit, consignée : ['.env.example', 'drizzle.config.json']",
-   "mesure": 65,
+   "detail": "67 fichiers du kit analysés ; secrets aucun ; .env suivis réels aucun, valeurs hors gabarit aucune ; .gitignore sans rien ; chemins du kit ignorés à tort aucun ; URL de base de développement en clair hors kit, consignée : ['.env.example', 'drizzle.config.json']",
+   "mesure": 67,
    "titre": "aucun secret dans les fichiers suivis",
    "verdict": "vert"
   },
@@ -87,15 +87,15 @@
   },
   {
    "code": "QA-13",
-   "detail": "0 césure(s) de ponctuation sur 9348 lignes rendues, 1 ligne(s) de verbatim exemptée(s) : aucune",
+   "detail": "0 césure(s) de ponctuation sur 9386 lignes rendues, 1 ligne(s) de verbatim exemptée(s) : aucune",
    "mesure": 0,
    "titre": "ponctuation française non coupée au rendu",
    "verdict": "vert"
   }
  ],
  "harnais": "qa.py (pypdf, lecture page à page)",
- "pages": 113,
+ "pages": 114,
  "rouges": 0,
- "secondes": 10.5,
+ "secondes": 10.39,
  "verdict": "vert"
 }

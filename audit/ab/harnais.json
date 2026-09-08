@@ -50,8 +50,8 @@
     "grep -rIn du dépôt, .env suivis par git"
    ],
    "qa": {
-    "detail": "65 fichiers du kit analysés ; secrets aucun ; .env suivis réels aucun, valeurs hors gabarit aucune ; .gitignore sans rien ; chemins du kit ignorés à tort aucun ; URL de base de développement en clair hors kit, consignée ",
-    "mesure": 65
+    "detail": "67 fichiers du kit analysés ; secrets aucun ; .env suivis réels aucun, valeurs hors gabarit aucune ; .gitignore sans rien ; chemins du kit ignorés à tort aucun ; URL de base de développement en clair hors kit, consignée ",
+    "mesure": 67
    },
    "qa2": {
     "detail": "grep du kit : 0 affectation suspecte ; .env suivis réels : aucun",
@@ -104,7 +104,7 @@
     "recouvrement d'ordonnées et blanc physique"
    ],
    "qa": {
-    "detail": "0 césure(s) de ponctuation sur 9348 lignes rendues, 1 ligne(s) de verbatim exemptée(s) : aucune",
+    "detail": "0 césure(s) de ponctuation sur 9386 lignes rendues, 1 ligne(s) de verbatim exemptée(s) : aucune",
     "mesure": 0
    },
    "qa2": {
@@ -162,7 +162,7 @@
     "mesure": 0
    },
    "qa2": {
-    "detail": "0 formule(s) sur 6316 spans non verbatim du document (verbatim tenu à part) : aucune",
+    "detail": "0 formule(s) sur 6354 spans non verbatim du document (verbatim tenu à part) : aucune",
     "mesure": 0
    },
    "qa2_verdict": "vert",
@@ -180,7 +180,7 @@
     "mesure": 0
    },
    "qa2": {
-    "detail": "0 emploi(s) fautif(s) sur 1021 lignes de prose (4188 ligne(s) hors prose, 8 ligne(s) anglaise(s) tenues hors du champ), 11 occurrence(s) exemptée(s) par la fonte ou par une marque d'identifiant ; exemples aucun",
+    "detail": "0 emploi(s) fautif(s) sur 1014 lignes de prose (4242 ligne(s) hors prose, 8 ligne(s) anglaise(s) tenues hors du champ), 11 occurrence(s) exemptée(s) par la fonte ou par une marque d'identifiant ; exemples aucun",
     "mesure": 0
    },
    "qa2_verdict": "vert",

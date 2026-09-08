@@ -19,6 +19,8 @@ les images (faute connue n° 3 : `chapter` trop tardif), le placage vectoriel in
 from __future__ import annotations
 
 import math
+import json
+import os
 import re
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -43,16 +45,19 @@ reportlab.rl_config.invariant = 1          # déterminisme : aucune horloge dans
 HERE = Path(__file__).resolve().parent
 RACINE = HERE.parent
 FIGS = HERE / "figs"
+AUDIT = RACINE / "audit"
 FONTS = Path("/usr/share/fonts/truetype/dejavu")
 
-ENCRE = colors.HexColor("#2B2620")
-OR = colors.HexColor("#C9A959")
-PAPIER = colors.HexColor("#F5F1E8")
+ENCRE = colors.HexColor("#221A12")          # encre profonde, plus chaude que le brun v13
+OR = colors.HexColor("#C9A959")              # champagne
+PAPIER = colors.HexColor("#F7F1E4")          # ivoire chaud
 SABLE = colors.HexColor("#E3D9C6")
 PIERRE = colors.HexColor("#B9AFA0")
 ROUILLE = colors.HexColor("#A9563A")
 SAUGE = colors.HexColor("#6F7F66")
 GRIS = colors.HexColor("#5A5147")
+TINTE = colors.HexColor("#EFE7D6")           # fond léger des cadres et diptyques
+FILET = colors.HexColor("#D9CDB6")           # hairline : le trait de 0,6 pt qui tient la grille
 
 MARGE = 22 * mm
 MARGE_H = 20 * mm
@@ -320,68 +325,131 @@ def dt(millimes: int, *, courte: bool = False) -> str:
 
 
 # ──────────────────────────────────────────────────── polices & styles
+POLICES = HERE / "polices"
+
+EXIGÉES = {                                    # l'identité v14, nommée par le prompt, pas approchée
+    "Newsreader-Regular": "Display", "Newsreader-SemiBold": "Display-SemiBold",
+    "Newsreader-Bold": "Display-Bold", "Newsreader-Italic": "Display-Italic",
+    "Manrope-Regular": "Texte", "Manrope-Medium": "Texte-Medium",
+    "Manrope-SemiBold": "Texte-SemiBold", "Manrope-Bold": "Texte-Bold",
+    "Manrope-Italic": "Texte-Italic",
+}
+
+
+def _polices() -> dict:
+    """Newsreader (display) + Manrope (texte) si posées ; sinon substitution **écrite**, jamais tue.
+
+    Le bac à sable n'a pas de réseau vers les hébergeurs de fontes : le kit refuse deux mensonges.
+    Il ne remplace pas l'identité en silence — `audit/polices.json` dit ce qui tient lieu — et il ne
+    prétend pas l'avoir quand elle manque : `CLEOPATRE_FONDS=strict` fait échouer le build tant que
+    `rapport/polices/` n'a pas reçu les TTF (`python3 rapport/polices/installer.py`).
+    """
+    etat = {"exigees": sorted(EXIGÉES), "installees": [], "substitution": None}
+    trouve = {nom for nom in EXIGÉES if (POLICES / f"{nom}.ttf").exists()}
+    etat["installees"] = sorted(trouve)
+    if (POLICES / "OFL-Newsreader.txt").exists():
+        etat["licence"] = "SIL Open Font License 1.1 — rapport/polices/"
+    if len(trouve) == len(EXIGÉES):
+        for nom, logique in EXIGÉES.items():
+            pdfmetrics.registerFont(TTFont(logique, str(POLICES / f"{nom}.ttf")))
+    else:
+        if os.environ.get("CLEOPATRE_FONDS", "").lower() == "strict":
+            raise RuntimeError("strict : fontes d'identité absentes — "
+                               + ", ".join(sorted(set(EXIGÉES) - trouve)))
+        etat["substitution"] = ("DejaVu (système) en attendant rapport/polices/ — "
+                                "lancer l'installeur de fontes puis rebuild, sans toucher au texte")
+        for logique, source in (("Display", "DejaVuSerif"), ("Display-Bold", "DejaVuSerif-Bold"),
+                                ("Display-SemiBold", "DejaVuSerif"), ("Display-Italic", "DejaVuSerif"),
+                                ("Texte", "DejaVuSans"), ("Texte-Medium", "DejaVuSans"),
+                                ("Texte-SemiBold", "DejaVuSans-Bold"), ("Texte-Bold", "DejaVuSans-Bold"),
+                                ("Texte-Italic", "DejaVuSans")):
+            pdfmetrics.registerFont(TTFont(logique, str(FONTS / f"{source}.ttf")))
+    for base, normal, bold, italic in (("Texte", "Texte", "Texte-Bold", "Texte-Italic"),
+                                       ("Display", "Display", "Display-Bold", "Display-Italic")):
+        registerFontFamily(base, normal=normal, bold=bold, italic=italic, boldItalic=bold)
+    pdfmetrics.registerFont(TTFont("Mono", str(FONTS / "DejaVuSansMono.ttf")))
+    pdfmetrics.registerFont(TTFont("Mono-Bold", str(FONTS / "DejaVuSansMono-Bold.ttf")))
+    AUDIT.mkdir(parents=True, exist_ok=True)
+    (AUDIT / "polices.json").write_text(json.dumps(etat, ensure_ascii=False, indent=1,
+                                                   sort_keys=True) + "\n", encoding="utf-8")
+    return etat
+
+
 _INSTALLE = False
+etat_polices: dict = {}
 
 
 def installer_polices() -> None:
-    global _INSTALLE
+    """Point d'entrée du composeur : enregistrement idempotent, état de substitution exposé.
+
+    `styles()` l'appelle avant de composer quoi que ce soit ; les planches matplotlib passent par
+    `polices_matplotlib()`. L'état courant ( fontes installées ou substitution ) vit dans
+    `doc.etat_polices` et dans `audit/polices.json`, relus par la porte G6 et par `reforge.py`.
+    """
+    global _INSTALLE, etat_polices
     if _INSTALLE:
         return
     if not FONTS.exists():
         raise RuntimeError(f"polices DejaVu introuvables dans {FONTS} : le rapport refuse de composer "
                            "avec une police non vérifiée pour l'insécable fine")
-    pdfmetrics.registerFont(TTFont("DejaVu", str(FONTS / "DejaVuSans.ttf")))
-    pdfmetrics.registerFont(TTFont("DejaVu-Bold", str(FONTS / "DejaVuSans-Bold.ttf")))
-    pdfmetrics.registerFont(TTFont("DejaVuSerif", str(FONTS / "DejaVuSerif.ttf")))
-    pdfmetrics.registerFont(TTFont("DejaVuSerif-Bold", str(FONTS / "DejaVuSerif-Bold.ttf")))
-    pdfmetrics.registerFont(TTFont("Mono", str(FONTS / "DejaVuSansMono.ttf")))
-    pdfmetrics.registerFont(TTFont("Mono-Bold", str(FONTS / "DejaVuSansMono-Bold.ttf")))
-    registerFontFamily("DejaVu", normal="DejaVu", bold="DejaVu-Bold", italic="DejaVu",
-                       boldItalic="DejaVu-Bold")
-    registerFontFamily("DejaVuSerif", normal="DejaVuSerif", bold="DejaVuSerif-Bold",
-                       italic="DejaVuSerif", boldItalic="DejaVuSerif-Bold")
+    etat_polices = _polices()
     _INSTALLE = True
+
+
+def polices_matplotlib() -> dict:
+    """Mêmes fontes, deux moteurs : ce que dessine matplotlib doit être ce que compose ReportLab.
+
+    Renvoie le dictionnaire rcParams à appliquer ; `substitution` traverse le pont, une figure ne doit
+    jamais mentir sur la police qu'elle montre au jury.
+    """
+    installer_polices()
+    installees = set(etat_polices.get("installees", []))
+    if len(installees) == len(EXIGÉES):
+        return {"family": "Manrope", "serif.family": "Newsreader", "display.family": "Manrope",
+                "monospace.family": "DejaVu Sans Mono", "substitution": None}
+    return {"family": "DejaVu Sans", "serif.family": "DejaVu Serif", "display.family": "DejaVu Sans",
+            "monospace.family": "DejaVu Sans Mono", "substitution": etat_polices["substitution"]}
 
 
 def styles() -> dict[str, ParagraphStyle]:
     installer_polices()
     S: dict[str, ParagraphStyle] = {}
-    S["couverture"] = ParagraphStyle("couverture", fontName="DejaVuSerif", fontSize=26, leading=32,
+    S["couverture"] = ParagraphStyle("couverture", fontName="Display", fontSize=34, leading=38,
                                      textColor=ENCRE, alignment=TA_CENTER)
-    S["couv_sous"] = ParagraphStyle("couv_sous", fontName="DejaVu", fontSize=12, leading=17,
+    S["couv_sous"] = ParagraphStyle("couv_sous", fontName="Texte", fontSize=12, leading=17,
                                     textColor=GRIS, alignment=TA_CENTER)
-    S["couv_pied"] = ParagraphStyle("couv_pied", fontName="DejaVu", fontSize=9, leading=13,
+    S["couv_pied"] = ParagraphStyle("couv_pied", fontName="Texte", fontSize=9, leading=13,
                                     textColor=GRIS, alignment=TA_CENTER)
-    S["interc"] = ParagraphStyle("interc", fontName="DejaVuSerif", fontSize=23, leading=28,
+    S["interc"] = ParagraphStyle("interc", fontName="Display", fontSize=30, leading=33.5,
                                  textColor=colors.HexColor("#F5F1E8"), alignment=TA_LEFT, spaceBefore=6)
-    S["interc_num"] = ParagraphStyle("interc_num", fontName="DejaVuSerif", fontSize=40, leading=44,
+    S["interc_num"] = ParagraphStyle("interc_num", fontName="Display", fontSize=92, leading=94,
                                      textColor=OR, spaceAfter=1)
-    S["interc_note"] = ParagraphStyle("interc_note", fontName="DejaVu", fontSize=9.2, leading=13.5,
+    S["interc_note"] = ParagraphStyle("interc_note", fontName="Texte", fontSize=9.2, leading=13.5,
                                       textColor=PIERRE, alignment=TA_LEFT)
-    S["h1"] = ParagraphStyle("h1", fontName="DejaVuSerif", fontSize=15.6, leading=19.4, textColor=ENCRE,
+    S["h1"] = ParagraphStyle("h1", fontName="Display", fontSize=19.5, leading=23.2, textColor=ENCRE,
                              spaceBefore=12, spaceAfter=6, keepWithNext=1)
-    S["h2"] = ParagraphStyle("h2", fontName="DejaVu", fontSize=11.6, leading=14.8, textColor=ENCRE,
+    S["h2"] = ParagraphStyle("h2", fontName="Display", fontSize=14.6, leading=18.2, textColor=ENCRE,
                              spaceBefore=9, spaceAfter=4, keepWithNext=1)
-    S["h3"] = ParagraphStyle("h3", fontName="DejaVu-Bold", fontSize=9.8, leading=12.6, textColor=GRIS,
+    S["h3"] = ParagraphStyle("h3", fontName="Texte-Bold", fontSize=9.8, leading=12.6, textColor=GRIS,
                              spaceBefore=7, spaceAfter=3, keepWithNext=1)
-    S["corps"] = ParagraphStyle("corps", fontName="DejaVu", fontSize=9.6, leading=14.1, textColor=ENCRE,
+    S["corps"] = ParagraphStyle("corps", fontName="Texte", fontSize=9.6, leading=14.1, textColor=ENCRE,
                                 alignment=TA_JUSTIFY, spaceAfter=5.0)
-    S["chapeau"] = ParagraphStyle("chapeau", fontName="DejaVu", fontSize=10.0, leading=14.6,
+    S["chapeau"] = ParagraphStyle("chapeau", fontName="Texte", fontSize=10.0, leading=14.6,
                                   textColor=GRIS, alignment=TA_JUSTIFY, spaceAfter=7)
-    S["liste"] = ParagraphStyle("liste", fontName="DejaVu", fontSize=9.4, leading=13.4, textColor=ENCRE,
+    S["liste"] = ParagraphStyle("liste", fontName="Texte", fontSize=9.4, leading=13.4, textColor=ENCRE,
                                 alignment=TA_LEFT, leftIndent=9.5, spaceAfter=2.4)
-    S["note"] = ParagraphStyle("note", fontName="DejaVu", fontSize=7.7, leading=10.6, textColor=GRIS,
+    S["note"] = ParagraphStyle("note", fontName="Texte", fontSize=7.7, leading=10.6, textColor=GRIS,
                                alignment=TA_LEFT, spaceBefore=2.2, spaceAfter=5.4)
-    S["legende"] = ParagraphStyle("legende", fontName="DejaVu", fontSize=7.5, leading=10.1,
+    S["legende"] = ParagraphStyle("legende", fontName="Texte", fontSize=7.5, leading=10.1,
                                   textColor=GRIS, alignment=TA_JUSTIFY, spaceBefore=1.8, spaceAfter=7)
     S["table_mono"] = ParagraphStyle("table_mono", fontName="Mono", fontSize=6.3, leading=8.0,
                                       textColor=ENCRE, spaceBefore=0.6, spaceAfter=0.6)
     S["code"] = ParagraphStyle("code", fontName="Mono", fontSize=6.7, leading=8.9, textColor=ENCRE,
                                backColor=SABLE, borderPadding=5, spaceAfter=6)
-    S["table"] = ParagraphStyle("table", fontName="DejaVu", fontSize=7.1, leading=9.0, textColor=ENCRE)
-    S["table_h"] = ParagraphStyle("table_h", fontName="DejaVu-Bold", fontSize=7.1, leading=9.0,
+    S["table"] = ParagraphStyle("table", fontName="Texte", fontSize=7.1, leading=9.0, textColor=ENCRE)
+    S["table_h"] = ParagraphStyle("table_h", fontName="Texte-Bold", fontSize=7.1, leading=9.0,
                                   textColor=ENCRE)
-    S["toc"] = ParagraphStyle("toc", fontName="DejaVu", fontSize=9.1, leading=13.2, textColor=ENCRE)
+    S["toc"] = ParagraphStyle("toc", fontName="Texte", fontSize=9.1, leading=13.2, textColor=ENCRE)
     return S
 
 
@@ -508,6 +576,63 @@ class Registre:
         self.pages_signets[cle] = dict(page=page, titre=titre, niveau=niveau)
 
 
+class CadreCapture(Flowable):
+    """Le cadre éditorial 16:9 en attente de capture — pas une boîte grise de formulaire.
+
+    Il revendique sa place sur la page, tient exactement le ratio promis, et s'efface dès qu'un fichier
+    `public/avants/<cle>.png` existe : alors l'image est posée **sans déformation**, et le contrôle du
+    ratio refuse une capture qui ne tiendrait pas dans le cadre promis. Aucun gabarit inventé, aucune
+    capture fabriquée.
+    """
+
+    SAUT_SOUS = 8.4 * mm
+
+    def __init__(self, cle: str, etiquette: str, note: str = ""):
+        super().__init__()
+        self.cle, self.etiquette, self.note = cle, etiquette, note
+        self.image = RACINE / "public" / "avants" / f"{cle}.png"
+        self.largeur = 0.0
+
+    def wrap(self, aw, ah):
+        self.largeur = aw
+        return aw, aw * 9 / 16 + self.SAUT_SOUS
+
+    def draw(self):
+        c = self.canv
+        h = self.largeur * 9 / 16
+        if self.image.exists():
+            from PIL import Image as _Im
+            with _Im.open(self.image) as im:
+                w0, h0 = im.size
+            if abs(w0 / h0 - 16 / 9) > 0.03:
+                raise RuntimeError(f"chaos d'insertion : {self.image.name} fait un ratio de "
+                                   f"{w0 / h0:.3f}, le cadre promet 16:9 (±3 %). Recadrer la capture, "
+                                   f"ne pas tordre l'image.")
+            c.saveState()
+            c.clipPath(c.beginPath().roundRect(0, self.SAUT_SOUS, self.largeur, h, 2.2 * mm),
+                       stroke=0, fill=0)
+            c.drawImage(str(self.image), 0, self.SAUT_SOUS, width=self.largeur, height=h,
+                        preserveAspectRatio=True, anchor="c", mask="auto")
+            c.restoreState()
+            c.setStrokeColor(FILET); c.setLineWidth(0.6)
+            c.roundRect(0, self.SAUT_SOUS, self.largeur, h, 2.2 * mm, stroke=1, fill=0)
+            return
+        c.setFillColor(TINTE)
+        c.roundRect(0, self.SAUT_SOUS, self.largeur, h, 2.2 * mm, stroke=0, fill=1)
+        c.setStrokeColor(FILET); c.setLineWidth(0.6)
+        c.roundRect(0, self.SAUT_SOUS, self.largeur, h, 2.2 * mm, stroke=1, fill=0)
+        c.setFillColor(PIERRE)
+        for x, y in ((3.4 * mm, self.SAUT_SOUS + 3.4 * mm), (self.largeur - 3.4 * mm, self.SAUT_SOUS + 3.4 * mm),
+                     (3.4 * mm, self.SAUT_SOUS + h - 3.4 * mm), (self.largeur - 3.4 * mm, self.SAUT_SOUS + h - 3.4 * mm)):
+            c.circle(x, y, 0.7 * mm, stroke=0, fill=1)
+        c.setFillColor(GRIS)
+        c.setFont("Display", 13.5)
+        c.drawCentredString(self.largeur / 2, self.SAUT_SOUS + h / 2 + 4.4, self.etiquette)
+        c.setFont("Texte-Medium", 7.2)
+        c.drawCentredString(self.largeur / 2, self.SAUT_SOUS + h / 2 - 9.4,
+                            "CAPTURE À INSÉRER — 16 : 9" + (f" — {self.note}" if self.note else ""))
+
+
 class Toile(BaseDocTemplate):
     """Gabarit : couverture, intercalaires, pages courantes avec titre courant et filet doré."""
 
@@ -547,11 +672,11 @@ class Toile(BaseDocTemplate):
         c.rect(0, A4[1] - 9.9 * mm, A4[0], 0.9 * mm, stroke=0, fill=1)
         c.rect(0, 6.4 * mm, A4[0], 0.5 * mm, stroke=0, fill=1)
         c.setFillColor(PAPIER)
-        c.setFont("DejaVu-Bold", 7.8)
+        c.setFont("Texte-Bold", 7.8)
         c.drawString(MARGE, A4[1] - 6.1 * mm, "CLÉOPÂTRE — ESPACE SANTÉ BEAUTÉ")
         c.drawRightString(A4[0] - MARGE, A4[1] - 6.1 * mm, "RAPPORT DE PROJET")
         c.setFillColor(GRIS)
-        c.setFont("DejaVu", 7.2)
+        c.setFont("Texte", 7.2)
         c.drawCentredString(A4[0] / 2, 9.4 * mm,
                             "Document engendré par le dépôt : chaque chiffre est relu dans le code à la "
                             "construction (annexe F).")
@@ -562,10 +687,10 @@ class Toile(BaseDocTemplate):
         c.setLineWidth(0.35)
         c.circle(cx, cy, r0 - 1.5 * mm, stroke=1, fill=0)
         c.setFillColor(OR)
-        c.setFont("DejaVuSerif-Bold", 13)
+        c.setFont("Display-Bold", 13)
         c.drawCentredString(cx, cy - 4.6, "C")
         c.setFillColor(GRIS)          # PAPIER sur PAPIER : la légende était invisible à l'impression
-        c.setFont("DejaVu", 5.4)
+        c.setFont("Texte", 5.4)
         c.drawCentredString(cx, cy - r0 - 3.2 * mm, "ESPACE SANTÉ BEAUTÉ")
         c2 = A4[0] / 2 + 13 * mm
         c.setStrokeColor(PIERRE); c.setLineWidth(0.7)
@@ -574,11 +699,11 @@ class Toile(BaseDocTemplate):
         # et la police est réduite jusqu'à tenir — un gabarit qui déborde est un gabarit qui ment
         _largeur_utile = 2 * r0 - 4
         _corps = 6.2
-        while _corps > 4.2 and c.stringWidth("[logo]", "DejaVu", _corps) > _largeur_utile:
+        while _corps > 4.2 and c.stringWidth("[logo]", "Texte", _corps) > _largeur_utile:
             _corps -= 0.2
-        c.setFillColor(GRIS); c.setFont("DejaVu", _corps)
+        c.setFillColor(GRIS); c.setFont("Texte", _corps)
         c.drawCentredString(c2, cy - 2, "[logo]")
-        c.setFont("DejaVu", 5.4)
+        c.setFont("Texte", 5.4)
         c.drawCentredString(c2, cy - r0 - 3.2 * mm, "[établissement]")
         c.restoreState()
 
@@ -590,19 +715,19 @@ class Toile(BaseDocTemplate):
         c.rect(MARGE, A4[1] - 24 * mm, 44 * mm, 0.7 * mm, stroke=0, fill=1)
         c.rect(A4[0] - MARGE - 26 * mm, 14 * mm, 26 * mm, 0.4 * mm, stroke=0, fill=1)
         c.setFillColor(PIERRE)
-        c.setFont("DejaVu", 7.4)
+        c.setFont("Texte", 7.4)
         c.drawString(MARGE, 16.5 * mm, "Cléopâtre — rapport de projet")
         c.setFillColor(PAPIER)
         c.drawRightString(A4[0] - MARGE, 16.5 * mm, f"page {c.getPageNumber()}")
         if getattr(doc, "_roman_courant", ""):
             c.setFillColor(OR)
-            c.setFont("DejaVu-Bold", 8)
+            c.setFont("Texte-Bold", 8)
             c.drawRightString(A4[0] - MARGE, A4[1] - 24.5 * mm, doc._roman_courant)
         c.restoreState()
 
     def _dessiner_corps(self, c: _canvas.Canvas, doc):
         c.saveState()
-        c.setFont("DejaVu", 7.1)
+        c.setFont("Texte", 7.1)
         c.setFillColor(GRIS)
         c.drawString(MARGE, A4[1] - 12.4 * mm, "Cléopâtre — rapport de projet")
         titre = getattr(doc, "_titre_courant", "")
@@ -614,9 +739,9 @@ class Toile(BaseDocTemplate):
         c.setFillColor(OR)
         c.rect(MARGE, 13.4 * mm, 15 * mm, 0.45 * mm, stroke=0, fill=1)
         c.setFillColor(GRIS)
-        c.setFont("DejaVu", 7.4)
+        c.setFont("Texte", 7.4)
         c.drawString(MARGE, 10.8 * mm, "Rapport de projet — [établissement à rappeler]")
-        c.setFont("DejaVu-Bold", 8.2)
+        c.setFont("Texte-Bold", 8.2)
         c.setFillColor(ENCRE)
         c.drawRightString(A4[0] - MARGE, 10.6 * mm, str(c.getPageNumber()))
         c.restoreState()

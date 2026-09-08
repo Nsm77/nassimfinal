@@ -216,152 +216,152 @@
  },
  "annexe.B": {
   "niveau": 1,
-  "page": 80,
+  "page": 81,
   "titre": "6.2 Annexe B — Le modèle de données, table par table"
  },
  "annexe.C": {
   "niveau": 1,
-  "page": 88,
+  "page": 90,
   "titre": "6.3 Annexe C — Catalogue, parcours, inventaire des routes"
  },
  "annexe.D": {
   "niveau": 1,
-  "page": 94,
+  "page": 95,
   "titre": "6.4 Annexe D — Les vingt-quatre récits du backlog"
  },
  "annexe.D.US-01": {
   "niveau": 2,
-  "page": 94,
+  "page": 95,
   "titre": "6.4 US-01 — Créer un compte client"
  },
  "annexe.D.US-02": {
   "niveau": 2,
-  "page": 94,
+  "page": 95,
   "titre": "6.4 US-02 — Se connecter et sortir"
  },
  "annexe.D.US-03": {
   "niveau": 2,
-  "page": 95,
+  "page": 96,
   "titre": "6.4 US-03 — Modifier son profil et son mot de passe"
  },
  "annexe.D.US-04": {
   "niveau": 2,
-  "page": 95,
+  "page": 96,
   "titre": "6.4 US-04 — Gérer ses adresses de livraison"
  },
  "annexe.D.US-05": {
   "niveau": 2,
-  "page": 95,
+  "page": 96,
   "titre": "6.4 US-05 — Parcourir le catalogue par univers"
  },
  "annexe.D.US-06": {
   "niveau": 2,
-  "page": 96,
+  "page": 97,
   "titre": "6.4 US-06 — Chercher un produit"
  },
  "annexe.D.US-07": {
   "niveau": 2,
-  "page": 96,
+  "page": 97,
   "titre": "6.4 US-07 — Voir une fiche produit complète"
  },
  "annexe.D.US-08": {
   "niveau": 2,
-  "page": 97,
+  "page": 98,
   "titre": "6.4 US-08 — Filtrer par besoin de peau"
  },
  "annexe.D.US-09": {
   "niveau": 2,
-  "page": 97,
+  "page": 98,
   "titre": "6.4 US-09 — Découvrir les marques et leur histoire"
  },
  "annexe.D.US-10": {
   "niveau": 2,
-  "page": 97,
+  "page": 98,
   "titre": "6.4 US-10 — Ajouter au panier sans compte"
  },
  "annexe.D.US-11": {
   "niveau": 2,
-  "page": 98,
+  "page": 99,
   "titre": "6.4 US-11 — Passer commande sans casser le stock"
  },
  "annexe.D.US-12": {
   "niveau": 2,
-  "page": 98,
+  "page": 99,
   "titre": "6.4 US-12 — Appliquer un code promo"
  },
  "annexe.D.US-13": {
   "niveau": 2,
-  "page": 99,
+  "page": 100,
   "titre": "6.4 US-13 — Payer à la livraison ou par virement"
  },
  "annexe.D.US-14": {
   "niveau": 2,
-  "page": 99,
+  "page": 100,
   "titre": "6.4 US-14 — Ne pas commander deux fois par erreur"
  },
  "annexe.D.US-15": {
   "niveau": 2,
-  "page": 99,
+  "page": 100,
   "titre": "6.4 US-15 — Suivre son colis sans compte"
  },
  "annexe.D.US-16": {
   "niveau": 2,
-  "page": 100,
+  "page": 101,
   "titre": "6.4 US-16 — Annuler tant que c'est possible"
  },
  "annexe.D.US-17": {
   "niveau": 2,
-  "page": 100,
+  "page": 101,
   "titre": "6.4 US-17 — Demander un retour après livraison"
  },
  "annexe.D.US-18": {
   "niveau": 2,
-  "page": 101,
+  "page": 102,
   "titre": "6.4 US-18 — Laisser un avis modéré"
  },
  "annexe.D.US-19": {
   "niveau": 2,
-  "page": 101,
+  "page": 102,
   "titre": "6.4 US-19 — Gérer le catalogue depuis l'administration"
  },
  "annexe.D.US-20": {
   "niveau": 2,
-  "page": 101,
+  "page": 102,
   "titre": "6.4 US-20 — Ajuster un stock avec journal"
  },
  "annexe.D.US-21": {
   "niveau": 2,
-  "page": 102,
+  "page": 103,
   "titre": "6.4 US-21 — Faire avancer une commande d'un clic"
  },
  "annexe.D.US-22": {
   "niveau": 2,
-  "page": 102,
+  "page": 103,
   "titre": "6.4 US-22 — Répondre au support et exporter"
  },
  "annexe.D.US-23": {
   "niveau": 2,
-  "page": 103,
+  "page": 104,
   "titre": "6.4 US-23 — Produire un rapport reproductible"
  },
  "annexe.D.US-24": {
   "niveau": 2,
-  "page": 103,
+  "page": 104,
   "titre": "6.4 US-24 — Tenir la soutenance sans réseau"
  },
  "annexe.E": {
   "niveau": 1,
-  "page": 104,
+  "page": 105,
   "titre": "6.5 Annexe E — Protocoles de vérification et commandes"
  },
  "annexe.F": {
   "niveau": 1,
-  "page": 107,
+  "page": 108,
   "titre": "6.6 Annexe F — Traçabilité : récit, section, figure, preuve"
  },
  "annexeA.echelle": {
   "niveau": 2,
-  "page": 88,
+  "page": 89,
   "titre": "6.2 L'échelle typographique du document"
  },
  "annexeA.glossaire": {
@@ -371,52 +371,52 @@
  },
  "annexeA.territoire": {
   "niveau": 2,
-  "page": 79,
+  "page": 80,
   "titre": "6.1 Territoire couvert par la livraison"
  },
  "annexeB.dico": {
   "niveau": 2,
-  "page": 81,
+  "page": 82,
   "titre": "6.2 Dictionnaire des colonnes"
  },
  "annexeB.index": {
   "niveau": 2,
-  "page": 86,
+  "page": 87,
   "titre": "6.2 Inventaire des index"
  },
  "annexeC.catalogue_complet": {
   "niveau": 2,
-  "page": 91,
+  "page": 92,
   "titre": "6.3 Catalogue complet"
  },
  "annexeC.rayons": {
   "niveau": 2,
-  "page": 93,
+  "page": 94,
   "titre": "6.3 Le plan de rayon complet"
  },
  "annexeE.invariants": {
   "niveau": 2,
-  "page": 104,
+  "page": 105,
   "titre": "6.5 Les vingt-cinq invariants et leur exécutant"
  },
  "annexeE.sialors": {
   "niveau": 2,
-  "page": 106,
+  "page": 107,
   "titre": "6.5 Dix règles de conduite SI/ALORS"
  },
  "annexeE.stop": {
   "niveau": 2,
-  "page": 107,
+  "page": 108,
   "titre": "6.5 Règles d'arrêt"
  },
  "annexeE.zod": {
   "niveau": 2,
-  "page": 106,
+  "page": 107,
   "titre": "6.5 Les schémas de validation des frontières"
  },
  "annexeF.deck": {
   "niveau": 2,
-  "page": 109,
+  "page": 110,
   "titre": "6.6 Correspondance avec le diaporama"
  },
  "annexes": {
@@ -701,7 +701,7 @@
  },
  "fig.fig54": {
   "niveau": 3,
-  "page": 109,
+  "page": 110,
   "titre": "Figure 61 — Correspondance rapport ↔ deck : 30 glissades, zéro orpheline"
  },
  "fig.figR1": {
@@ -781,7 +781,7 @@
  },
  "partie.III": {
   "niveau": 0,
-  "page": 32,
+  "page": 33,
   "titre": "III · Conception : besoins, cas d'usage, modèles"
  },
  "partie.IV": {
@@ -796,17 +796,17 @@
  },
  "quatrieme": {
   "niveau": 1,
-  "page": 112,
+  "page": 113,
   "titre": "Quatrième de couverture"
  },
  "resume.en": {
   "niveau": 1,
-  "page": 111,
+  "page": 112,
   "titre": "Abstract"
  },
  "resume.fr": {
   "niveau": 1,
-  "page": 111,
+  "page": 112,
   "titre": "Résumé"
  },
  "sommaire": {
@@ -941,7 +941,7 @@
  },
  "tab.annexeA.echelle_liste": {
   "niveau": 3,
-  "page": 88,
+  "page": 89,
   "titre": "Tableau 35 — L'échelle employée par le moteur de composition"
  },
  "tab.annexeA.glossaire": {
@@ -956,197 +956,197 @@
  },
  "tab.annexeB.colonnes": {
   "niveau": 3,
-  "page": 81,
+  "page": 82,
   "titre": "Tableau 33 — Les 202 colonnes du modèle, une par ligne"
  },
  "tab.annexeB.enums": {
   "niveau": 3,
-  "page": 81,
+  "page": 82,
   "titre": "Tableau 32 — Les dix enums du schéma"
  },
  "tab.annexeB.index_liste": {
   "niveau": 3,
-  "page": 86,
+  "page": 87,
   "titre": "Tableau 34 — Les 50 index déclarés"
  },
  "tab.annexeB.tables": {
   "niveau": 3,
-  "page": 80,
+  "page": 81,
   "titre": "Tableau 31 — Les 24 tables, telles qu'écrites"
  },
  "tab.annexeC.api": {
   "niveau": 3,
-  "page": 90,
+  "page": 91,
   "titre": "Tableau 38 — Les 5 points d'entrée de l'API"
  },
  "tab.annexeC.catalogue": {
   "niveau": 3,
-  "page": 89,
+  "page": 90,
   "titre": "Tableau 36 — Le catalogue, mesuré"
  },
  "tab.annexeC.produits": {
   "niveau": 3,
-  "page": 91,
+  "page": 92,
   "titre": "Tableau 39 — Les 81 références du catalogue"
  },
  "tab.annexeC.rayons_liste": {
   "niveau": 3,
-  "page": 93,
+  "page": 94,
   "titre": "Tableau 40 — Le plan de rayon, univers par univers"
  },
  "tab.annexeC.routes": {
   "niveau": 3,
-  "page": 89,
+  "page": 90,
   "titre": "Tableau 37 — Les 43 pages, route par route"
  },
  "tab.annexeD.US-01": {
   "niveau": 3,
-  "page": 94,
+  "page": 95,
   "titre": "Tableau 41 — Fiche US-01"
  },
  "tab.annexeD.US-02": {
   "niveau": 3,
-  "page": 94,
+  "page": 95,
   "titre": "Tableau 42 — Fiche US-02"
  },
  "tab.annexeD.US-03": {
   "niveau": 3,
-  "page": 95,
+  "page": 96,
   "titre": "Tableau 43 — Fiche US-03"
  },
  "tab.annexeD.US-04": {
   "niveau": 3,
-  "page": 95,
+  "page": 96,
   "titre": "Tableau 44 — Fiche US-04"
  },
  "tab.annexeD.US-05": {
   "niveau": 3,
-  "page": 96,
+  "page": 97,
   "titre": "Tableau 45 — Fiche US-05"
  },
  "tab.annexeD.US-06": {
   "niveau": 3,
-  "page": 96,
+  "page": 97,
   "titre": "Tableau 46 — Fiche US-06"
  },
  "tab.annexeD.US-07": {
   "niveau": 3,
-  "page": 96,
+  "page": 97,
   "titre": "Tableau 47 — Fiche US-07"
  },
  "tab.annexeD.US-08": {
   "niveau": 3,
-  "page": 97,
+  "page": 98,
   "titre": "Tableau 48 — Fiche US-08"
  },
  "tab.annexeD.US-09": {
   "niveau": 3,
-  "page": 97,
+  "page": 98,
   "titre": "Tableau 49 — Fiche US-09"
  },
  "tab.annexeD.US-10": {
   "niveau": 3,
-  "page": 98,
+  "page": 99,
   "titre": "Tableau 50 — Fiche US-10"
  },
  "tab.annexeD.US-11": {
   "niveau": 3,
-  "page": 98,
+  "page": 99,
   "titre": "Tableau 51 — Fiche US-11"
  },
  "tab.annexeD.US-12": {
   "niveau": 3,
-  "page": 98,
+  "page": 99,
   "titre": "Tableau 52 — Fiche US-12"
  },
  "tab.annexeD.US-13": {
   "niveau": 3,
-  "page": 99,
+  "page": 100,
   "titre": "Tableau 53 — Fiche US-13"
  },
  "tab.annexeD.US-14": {
   "niveau": 3,
-  "page": 99,
+  "page": 100,
   "titre": "Tableau 54 — Fiche US-14"
  },
  "tab.annexeD.US-15": {
   "niveau": 3,
-  "page": 100,
+  "page": 101,
   "titre": "Tableau 55 — Fiche US-15"
  },
  "tab.annexeD.US-16": {
   "niveau": 3,
-  "page": 100,
+  "page": 101,
   "titre": "Tableau 56 — Fiche US-16"
  },
  "tab.annexeD.US-17": {
   "niveau": 3,
-  "page": 100,
+  "page": 101,
   "titre": "Tableau 57 — Fiche US-17"
  },
  "tab.annexeD.US-18": {
   "niveau": 3,
-  "page": 101,
+  "page": 102,
   "titre": "Tableau 58 — Fiche US-18"
  },
  "tab.annexeD.US-19": {
   "niveau": 3,
-  "page": 101,
+  "page": 102,
   "titre": "Tableau 59 — Fiche US-19"
  },
  "tab.annexeD.US-20": {
   "niveau": 3,
-  "page": 102,
+  "page": 103,
   "titre": "Tableau 60 — Fiche US-20"
  },
  "tab.annexeD.US-21": {
   "niveau": 3,
-  "page": 102,
+  "page": 103,
   "titre": "Tableau 61 — Fiche US-21"
  },
  "tab.annexeD.US-22": {
   "niveau": 3,
-  "page": 102,
+  "page": 103,
   "titre": "Tableau 62 — Fiche US-22"
  },
  "tab.annexeD.US-23": {
   "niveau": 3,
-  "page": 103,
+  "page": 104,
   "titre": "Tableau 63 — Fiche US-23"
  },
  "tab.annexeD.US-24": {
   "niveau": 3,
-  "page": 103,
+  "page": 104,
   "titre": "Tableau 64 — Fiche US-24"
  },
  "tab.annexeE.commandes": {
   "niveau": 3,
-  "page": 104,
+  "page": 105,
   "titre": "Tableau 65 — Les sept commandes du kit"
  },
  "tab.annexeE.inv": {
   "niveau": 3,
-  "page": 104,
+  "page": 105,
   "titre": "Tableau 66 — Les vingt-cinq invariants du kit"
  },
  "tab.annexeE.si_alors": {
   "niveau": 3,
-  "page": 106,
+  "page": 107,
   "titre": "Tableau 67 — Les dix règles SI/ALORS du §7"
  },
  "tab.annexeE.zod_liste": {
   "niveau": 3,
-  "page": 106,
+  "page": 107,
   "titre": "Tableau 68 — Les 15 schémas, avec leur ligne de définition"
  },
  "tab.annexeF.deck": {
   "niveau": 3,
-  "page": 109,
+  "page": 110,
   "titre": "Tableau 70 — Récit par récit : section de texte et glissade"
  },
  "tab.annexeF.trace": {
   "niveau": 3,
-  "page": 107,
+  "page": 108,
   "titre": "Tableau 69 — Traçabilité des vingt-quatre récits"
  },
  "tab.bibliographie.sources": {

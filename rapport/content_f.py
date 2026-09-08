@@ -34,6 +34,14 @@ def _schemas_zod() -> dict[str, int]:
 
 SCHEMAS_ZOD = _schemas_zod()
 
+import doc as _doc
+
+_doc.installer_polices()
+_SUBSTITUTION = _doc.etat_polices.get("substitution")
+POLICE_DISPLAY = ("Newsreader" if not _SUBSTITUTION else "DejaVu Serif — substitution")
+POLICE_DISPLAY_BOLD = POLICE_DISPLAY + (", semi" if not _SUBSTITUTION else "-Bold — substitution")
+POLICE_TEXTE = ("Manrope" if not _SUBSTITUTION else "DejaVu Sans — substitution")
+
 AUDIT = Path(__file__).resolve().parent.parent / "audit"
 
 # Contrastes calculés depuis les six valeurs du kit, par la formule WCAG 2.x.
@@ -211,18 +219,18 @@ def fabriquer(F):
 
     F.sous("L'échelle typographique du document", cle="annexeA.echelle")
     ECHELLE = [
-        ("Couverture — titre", "DejaVuSerif", "26 / 30", "or sur encre"),
-        ("Intercalaire — numéro", "DejaVuSerif-Bold", "34 / 36", "or"),
-        ("Intercalaire — titre", "DejaVuSerif", "17 / 21", "papier"),
-        ("Titre de section", "DejaVuSerif-Bold", "13,5 / 16", "encre"),
-        ("Sous-titre", "DejaVuSerif-Bold", "10,8 / 13", "encre"),
-        ("Chapeau", "DejaVu", "9,4 / 13,4", "encre, retrait gauche"),
-        ("Corps", "DejaVu", "9,1 / 12,8", "encre, justifié"),
-        ("Liste", "DejaVu", "8,9 / 12,4", "puce or"),
-        ("Légende de planche", "DejaVu", "7,6 / 10,2", "gris"),
-        ("Tableau", "DejaVu", "7,1 / 9,2", "encre"),
-        ("Extrait de code", "DejaVuSansMono", "6,7 / 8,9", "fond papier, filet"),
-        ("Sommaire", "DejaVu", "8,3 / 11,4", "lien cliquable"),
+        ("Couverture — titre", POLICE_DISPLAY, "34 / 38", "encre sur ivoire"),
+        ("Intercalaire — numéro", POLICE_DISPLAY, "92 / 94", "champagne"),
+        ("Intercalaire — titre", POLICE_DISPLAY, "30 / 33,5", "papier"),
+        ("Titre de section", POLICE_DISPLAY_BOLD, "19,5 / 23,2", "encre"),
+        ("Sous-titre", POLICE_DISPLAY, "14,6 / 18,2", "encre"),
+        ("Chapeau", POLICE_TEXTE, "9,4 / 13,4", "encre, retrait gauche"),
+        ("Corps", POLICE_TEXTE, "9,6 / 14,1", "encre, justifié"),
+        ("Liste", POLICE_TEXTE, "8,9 / 12,4", "puce champagne"),
+        ("Légende de planche", POLICE_TEXTE, "7,6 / 10,2", "gris"),
+        ("Tableau", POLICE_TEXTE, "7,1 / 9,2", "encre"),
+        ("Verbatim", "DejaVu Sans Mono", "7,1 / 9,4", "seule fonte exclue de la loi d'emprunt"),
+        ("Sommaire", POLICE_TEXTE, "8,3 / 11,4", "lien cliquable"),
     ]
     F.tableau(["Emploi", "Famille", "Corps / interlignage (pt)", "Particularité"],
               [[a, b_, c_, d] for a, b_, c_, d in ECHELLE],
